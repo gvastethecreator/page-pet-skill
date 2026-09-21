@@ -25,6 +25,7 @@ const required = [
   "SKILLS/page-pet/runtime/page-pet.js",
   "SKILLS/page-pet/index.html",
   "SKILLS/page-pet/site.css",
+  "SKILLS/page-pet/site.js",
   "SKILLS/page-pet/playground/index.html",
   "SKILLS/page-pet/references/generation.md",
   "SKILLS/page-pet/references/alignment.md",
@@ -44,7 +45,7 @@ const catalog = JSON.parse(fs.readFileSync(path.join(skill, "assets", "catalog.j
 if (!Array.isArray(catalog) || catalog.length === 0) fail("catalog.json must list packs");
 for (const entry of catalog) {
   const packDir = path.join(skill, "assets", path.dirname(entry.replace(/^\.\//, "")));
-  for (const file of ["manifest.json", "mascot.webp", "gaze-review.json", "build-report.json"]) {
+  for (const file of ["manifest.json", "mascot.webp", "thumb.webp", "gaze-review.json", "build-report.json"]) {
     const full = path.join(packDir, file);
     if (!fs.existsSync(full)) fail(`missing ${path.relative(root, full)}`);
   }
