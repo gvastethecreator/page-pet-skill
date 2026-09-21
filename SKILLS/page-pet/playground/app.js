@@ -20,8 +20,7 @@ const motionPresets = {
 };
 const defaults = { size: 320, x: 50, y: 53, surface: 'paper', tracking: true, idle: true, paused: false, guides: false, onion: false, placement: 'free', neck: 0, ...motionPresets.soft, clickReaction: 'cycle', bodyPose: 'auto' };
 let settings = { ...defaults }, selected = null, kind = 'gaze', reactionPage = 0;
-let collectionPage = 0;
-const collectionPageSize = 12;
+const dockStack = [];
 const labels = { blink: 'Blink', happy: 'Happy', love: 'Love', surprised: 'Surprise', sleep: 'Sleep', laugh: 'Laugh', wink: 'Wink', kiss: 'Kiss', shrug: 'Shrug', offer: 'Offer', hug: 'Hug', shy: 'Shy', dance: 'Dance', idle: 'Idle', think: 'Think', wave: 'Wave', celebrate: 'Celebrate' };
 let noticeTimer;
 const notice = text => {
@@ -119,13 +118,31 @@ function thumbnail(pack, frame) {
   return canvas;
 }
 
+function syncCollectionScroll() {
+  const scroller = $('#collection');
+  const overflow = scroller.scrollWidth > scroller.clientWidth + 8;
+  $('#collection-pager').hidden = !overflow;
+  $('#collection-prev').disabled = scroller.scrollLeft <= 2;
+  $('#collection-next').disabled = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 2;
+}
+
+function revealActivePet() {
+  const scroller = $('#collection');
+  const active = scroller.querySelector('.collection-card.active');
+  if (!active) return;
+  const start = active.offsetLeft - 8;
+  const end = start + active.offsetWidth + 16;
+  if (start < scroller.scrollLeft) scroller.scrollLeft = Math.max(0, start);
+  else if (end > scroller.scrollLeft + scroller.clientWidth) scroller.scrollLeft = end - scroller.clientWidth;
+}
+
 function collection() {
   $('#collection').replaceChildren();
   $('#collection-count').textContent = String(packs.length).padStart(2, '0');
-  $('#collection-pager').hidden = true;
   for (const pack of packs) {
     const button = document.createElement('button');
     button.className = `collection-card${pack === selected ? ' active' : ''}`;
+    button.title = pack.manifest.name;
     button.setAttribute('aria-label', `Select ${pack.manifest.name}`);
     button.setAttribute('aria-pressed', pack === selected);
     const art = document.createElement('div'); art.className = 'collection-art';
@@ -139,6 +156,7 @@ function collection() {
     meta.append(title); button.append(art, meta);
     button.addEventListener('click', () => selectPack(pack)); $('#collection').append(button);
   }
+  requestAnimationFrame(() => { revealActivePet(); syncCollectionScroll(); });
 }
 
 const loader = $('#loader');
@@ -225,7 +243,6 @@ async function loadPack(pack) {
 
 function selectPack(pack) {
   selected = pack;
-  collectionPage = Math.floor(packs.indexOf(pack) / collectionPageSize);
   reactionPage = 0;
   $('#stage-name').textContent = `${pack.manifest.name.toUpperCase()} / ${String(packs.indexOf(pack) + 1).padStart(3, '0')}`;
   mascot.setAttribute('label', `${pack.manifest.name}: click to react. Use the arrow keys to move it.`);
@@ -264,8 +281,15 @@ function selectPack(pack) {
   collection(); gallery(); applySettings();
 }
 
-$('#collection-prev').addEventListener('click', () => { collectionPage--; collection(); });
-$('#collection-next').addEventListener('click', () => { collectionPage++; collection(); });
+function scrollCollection(direction) {
+  const scroller = $('#collection');
+  const amount = Math.max(180, Math.round(scroller.clientWidth * 0.8));
+  scroller.scrollBy({ left: direction * amount, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+}
+$('#collection-prev').addEventListener('click', () => scrollCollection(-1));
+$('#collection-next').addEventListener('click', () => scrollCollection(1));
+$('#collection').addEventListener('scroll', syncCollectionScroll, { passive: true });
+new ResizeObserver(syncCollectionScroll).observe($('#collection'));
 
 function gallery() {
   $('#poses').replaceChildren();
@@ -476,13 +500,36 @@ for (const [id,key] of [['click-reaction','clickReaction'],['body-pose','bodyPos
 }
 $('#try-reaction').addEventListener('click', () => { mascot.react($('#reaction-preview').value); updateMode(); });
 $('#try-motion').addEventListener('click', () => { mascot.react($('#reaction-preview').value); updateMode(); });
-function toggleDock(button, panel, otherButton, otherPanel) {
-  const open = panel.classList.toggle('open');
+function setDock(button, panel, open) {
+  const was = panel.classList.contains('open');
+  panel.classList.toggle('open', open);
   button.setAttribute('aria-expanded', String(open));
-  if (open) { otherPanel.classList.remove('open'); otherButton.setAttribute('aria-expanded', 'false'); }
+  const index = dockStack.indexOf(panel);
+  if (open && !was) dockStack.push(panel);
+  if (!open && index !== -1) dockStack.splice(index, 1);
+  if (!open && was) button.focus();
 }
-$('#open-poses').addEventListener('click', () => toggleDock($('#open-poses'), $('.pose-section'), $('#open-settings'), $('.inspector')));
-$('#open-settings').addEventListener('click', () => toggleDock($('#open-settings'), $('.inspector'), $('#open-poses'), $('.pose-section')));
+function toggleDock(button, panel) {
+  setDock(button, panel, !panel.classList.contains('open'));
+}
+$('#open-poses').addEventListener('click', () => toggleDock($('#open-poses'), $('.pose-section')));
+$('#open-settings').addEventListener('click', () => toggleDock($('#open-settings'), $('.inspector')));
+$('#close-poses').addEventListener('click', () => setDock($('#open-poses'), $('.pose-section'), false));
+$('#close-settings').addEventListener('click', () => setDock($('#open-settings'), $('.inspector'), false));
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape' || event.defaultPrevented || document.querySelector('dialog[open]')) return;
+  const panel = dockStack.at(-1);
+  if (!panel) return;
+  event.preventDefault();
+  setDock(panel.classList.contains('inspector') ? $('#open-settings') : $('#open-poses'), panel, false);
+});
+for (const dialog of document.querySelectorAll('dialog')) {
+  dialog.addEventListener('click', event => {
+    const rect = dialog.getBoundingClientRect();
+    const inside = event.clientX >= rect.left && event.clientX <= rect.right && event.clientY >= rect.top && event.clientY <= rect.bottom;
+    if (!inside) dialog.close();
+  });
+}
 document.querySelectorAll('[data-panel]').forEach(button => button.addEventListener('click', () => {
   document.querySelectorAll('[data-panel]').forEach(tab => {
     const active = tab === button; tab.classList.toggle('active', active); tab.setAttribute('aria-pressed', active);

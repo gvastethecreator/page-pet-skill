@@ -14,21 +14,8 @@
   </header>
   <main class="studio">
     <section class="workbench" aria-label="Pet playground">
-      <aside class="library panel">
-        <div class="panel-heading"><h2>Collection</h2><span id="collection-count" class="count">01</span></div>
-        <div id="collection" class="collection"></div>
-        <nav id="collection-pager" class="pose-pager" aria-label="Pet pages" hidden><button id="collection-prev" aria-label="Previous pets">←</button><span id="collection-page" aria-live="polite"></span><button id="collection-next" aria-label="More pets">→</button></nav>
-    <section class="pose-section">
-      <div class="panel-heading"><h2>Poses</h2><span id="pose-count" hidden></span></div>
-      <div class="pose-tabs" role="group" aria-label="Pose type"><button data-kind="gaze" class="active" aria-pressed="true">Gaze <span id="gaze-count">—</span></button><button data-kind="reaction" aria-pressed="false">Reactions <span id="reaction-count">—</span></button></div>
-      <div id="poses" class="pose-gallery"></div>
-      <nav id="pose-pager" class="pose-pager" aria-label="Reaction pages" hidden><button id="pose-prev" aria-label="Previous reactions">←</button><span id="pose-page" aria-live="polite"></span><button id="pose-next" aria-label="More reactions">→</button></nav>
-    </section>
-
-
-      </aside>
       <section class="stage-panel">
-        <div class="stage-toolbar"><div class="live-label"><i></i> SCENE <span id="mode-label">Follows pointer</span></div><div class="stage-tools"><button id="open-poses" class="button secondary" type="button" aria-expanded="false">Poses</button><button id="open-settings" class="button secondary" type="button" aria-expanded="false">Settings</button><button id="reset" class="icon-button" title="Reset settings" aria-label="Reset settings">↺</button></div></div>
+        <div class="stage-toolbar"><div class="live-label"><i></i> SCENE <span id="mode-label">Follows pointer</span></div><div class="stage-tools"><button id="open-poses" class="button secondary" type="button" aria-expanded="false" aria-controls="pose-panel">Poses</button><button id="open-settings" class="button secondary" type="button" aria-expanded="false" aria-controls="settings-panel">Settings</button><button id="reset" class="icon-button" title="Reset settings" aria-label="Reset settings">↺</button></div></div>
         <div id="stage" class="stage" data-surface="paper">
           <div class="stage-corner top-left"></div><div class="stage-corner bottom-right"></div>
           <div class="stage-top"><span id="stage-name">MOKLO / 001</span><span></span></div>
@@ -43,8 +30,18 @@
         </div>
         <div class="stage-footer"><div class="surfaces" aria-label="Scene background"><button data-surface="paper" class="swatch paper active" aria-label="Clay background" aria-pressed="true"></button><button data-surface="lilac" class="swatch lilac" aria-label="Lavender background" aria-pressed="false"></button><button data-surface="night" class="swatch night" aria-label="Dark background" aria-pressed="false"></button><button data-surface="alpha" class="swatch alpha" aria-label="Show transparency" aria-pressed="false"></button></div><span id="frame-status">Loading…</span><button id="export-png" class="button small">Export PNG</button></div>
       </section>
-      <aside class="inspector panel">
-        <div class="panel-heading"><h2>Settings</h2><button id="live" class="text-button">Go live</button></div>
+      <aside class="library panel">
+        <div class="panel-heading"><h2>Collection</h2><div class="heading-actions"><span id="collection-count" class="count">01</span><nav id="collection-pager" class="strip-pager" aria-label="More pets in the collection" hidden><button id="collection-prev" type="button" aria-label="Previous pets">←</button><button id="collection-next" type="button" aria-label="More pets">→</button></nav></div></div>
+        <div id="collection" class="collection" aria-label="Collection"></div>
+      </aside>
+      <section id="pose-panel" class="pose-section">
+        <div class="panel-heading"><h2>Poses</h2><div class="heading-actions"><span id="pose-count" hidden></span><button id="close-poses" class="icon-button close-button" type="button" aria-label="Close poses">×</button></div></div>
+        <div class="pose-tabs" role="group" aria-label="Pose type"><button data-kind="gaze" class="active" aria-pressed="true">Gaze <span id="gaze-count">—</span></button><button data-kind="reaction" aria-pressed="false">Reactions <span id="reaction-count">—</span></button></div>
+        <div id="poses" class="pose-gallery"></div>
+        <nav id="pose-pager" class="pose-pager" aria-label="Reaction pages" hidden><button id="pose-prev" type="button" aria-label="Previous reactions">←</button><span id="pose-page" aria-live="polite"></span><button id="pose-next" type="button" aria-label="More reactions">→</button></nav>
+      </section>
+      <aside id="settings-panel" class="inspector panel">
+        <div class="panel-heading"><h2>Settings</h2><div class="heading-actions"><button id="live" class="text-button" type="button">Go live</button><button id="close-settings" class="icon-button close-button" type="button" aria-label="Close settings">×</button></div></div>
         <div class="inspector-tabs" role="group" aria-label="Settings panels"><button data-panel="character" class="active" aria-pressed="true">Character</button><button data-panel="motion" aria-pressed="false">Motion</button><button data-panel="scene" aria-pressed="false">Scene</button></div>
         <div id="character-controls" class="inspector-content">
           <div class="control-section"><div class="label-row"><label for="size">Size</label><output id="size-value" for="size">260 px</output></div><input id="size" type="range" min="100" max="360" value="260" step="10"></div>
@@ -81,28 +78,34 @@
     <div id="notice" role="status" aria-live="polite"></div>
   </main>
   <dialog id="integration-dialog" aria-labelledby="integration-title">
-    <div class="panel-heading"><h2 id="integration-title">Embed on your page</h2><button id="close-integration" class="icon-button" aria-label="Close embed">×</button></div>
-    <p>Copy the runtime and the pack into your project.</p>
-    <div class="code-card"><pre id="embed-code"></pre><button id="copy-code" class="button primary">Copy code</button></div>
+    <div class="panel-heading"><h2 id="integration-title">Embed on your page</h2><button id="close-integration" class="icon-button close-button" type="button" aria-label="Close embed">×</button></div>
+    <div class="dialog-body">
+      <p>Copy the runtime and the pack into your project.</p>
+      <div class="code-card"><pre id="embed-code"></pre><button id="copy-code" class="button primary">Copy code</button></div>
+    </div>
   </dialog>
 
   <dialog id="workflow-dialog" aria-labelledby="workflow-title">
-    <div class="panel-heading"><h2 id="workflow-title">From reference to pet</h2><button id="close-workflow" class="icon-button" aria-label="Close skill flow">×</button></div>
-    <ol class="workflow-steps">
-      <li><strong>Lock identity</strong><span>Reference, palette, and a complete-character pilot.</span></li>
-      <li><strong>Generate</strong><span>5 gaze strips and 2 reaction sheets. Same reference.</span></li>
-      <li><strong>Level and align</strong><span>Color by material, reviewed cuts, stable scale and feet.</span></li>
-      <li><strong>Review here</strong><span>25 directions, 12 reactions, alpha, color, and a compare against the neutral pose.</span></li>
-      <li><strong>Publish and embed</strong><span>A current visual record before the catalog accepts the pack.</span></li>
-    </ol>
-    <p>The agent generates and prepares the files. This playground imports, compares, and checks packs. It does not generate images or approve art.</p>
-    <div class="workflow-links"><a href="../SKILL.md" target="_blank">Open the skill</a><a href="../references/color.md" target="_blank">Open color notes</a><a href="../references/troubleshooting.md" target="_blank">Open flow corrections</a></div>
+    <div class="panel-heading"><h2 id="workflow-title">From reference to pet</h2><button id="close-workflow" class="icon-button close-button" type="button" aria-label="Close skill flow">×</button></div>
+    <div class="dialog-body">
+      <ol class="workflow-steps">
+        <li><strong>Lock identity</strong><span>Reference, palette, and a complete-character pilot.</span></li>
+        <li><strong>Generate</strong><span>5 gaze strips and 2 reaction sheets. Same reference.</span></li>
+        <li><strong>Level and align</strong><span>Color by material, reviewed cuts, stable scale and feet.</span></li>
+        <li><strong>Review here</strong><span>25 directions, 12 reactions, alpha, color, and a compare against the neutral pose.</span></li>
+        <li><strong>Publish and embed</strong><span>A current visual record before the catalog accepts the pack.</span></li>
+      </ol>
+      <p>The agent generates and prepares the files. This playground imports, compares, and checks packs. It does not generate images or approve art.</p>
+      <div class="workflow-links"><a href="../SKILL.md" target="_blank">Open the skill</a><a href="../references/color.md" target="_blank">Open color notes</a><a href="../references/troubleshooting.md" target="_blank">Open flow corrections</a></div>
+    </div>
   </dialog>
   <dialog id="review-dialog" aria-labelledby="review-title">
-    <div class="panel-heading"><h2 id="review-title">Review pack</h2><button id="close-review" class="icon-button" aria-label="Close review">×</button></div>
-    <div id="review-results" role="status" aria-live="polite"></div>
-    <p>These checks do not judge anatomy, gaze, or color. Also import <code>gaze-review.json</code> to see if the record still matches these files. Review color leveling with its before-and-after comparison.</p>
-    <div class="review-actions"><button id="compare-neutral" class="button secondary">Compare neutral pose</button><button id="download-review" class="button primary" disabled>Save diagnosis</button></div>
+    <div class="panel-heading"><h2 id="review-title">Review pack</h2><button id="close-review" class="icon-button close-button" type="button" aria-label="Close review">×</button></div>
+    <div class="dialog-body">
+      <div id="review-results" role="status" aria-live="polite"></div>
+      <p>These checks do not judge anatomy, gaze, or color. Also import <code>gaze-review.json</code> to see if the record still matches these files. Review color leveling with its before-and-after comparison.</p>
+      <div class="review-actions"><button id="compare-neutral" class="button secondary">Compare neutral pose</button><button id="download-review" class="button primary" disabled>Save diagnosis</button></div>
+    </div>
   </dialog>
 
   <script type="module" src="./app.js"></script>
