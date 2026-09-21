@@ -12,6 +12,8 @@ The [VS Code tasks](.vscode/tasks.json) run these commands with the workspace ro
 
 Python builders need Pillow. Masked color leveling needs NumPy. Connected-component isolation needs NumPy and SciPy. The runtime and playground do not install npm packages; GSAP is vendored under `runtime/vendor/gsap/`.
 
+The GitHub Pages site is `SKILLS/page-pet/` (landing, playground, runtime, and catalog). Preview it with `python ./SKILLS/page-pet/scripts/serve.py`. Deploy uses `.github/workflows/pages.yml` on push to `main`. The first enablement is Settings → Pages → Source: GitHub Actions.
+
 ## Preserve the contracts
 
 - New packs are one complete character per pose: 25 gaze views and 12 reactions in a transparent atlas.

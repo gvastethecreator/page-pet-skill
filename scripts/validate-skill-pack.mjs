@@ -23,6 +23,8 @@ const required = [
   "SKILLS/page-pet/agents/openai.yaml",
   "SKILLS/page-pet/assets/catalog.json",
   "SKILLS/page-pet/runtime/page-pet.js",
+  "SKILLS/page-pet/index.html",
+  "SKILLS/page-pet/site.css",
   "SKILLS/page-pet/playground/index.html",
   "SKILLS/page-pet/references/generation.md",
   "SKILLS/page-pet/references/alignment.md",

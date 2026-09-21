@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Page Pet is a Codex skill for transparent full-character pets with gaze tracking, reactions, and a local playground.">
+  <meta name="color-scheme" content="dark">
+  <title>Page Pet</title>
+  <link rel="stylesheet" href="./site.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">p.</span>page pet</a>
+    <nav aria-label="Primary">
+      <a href="./playground/">Playground</a>
+      <a href="https://github.com/gvastethecreator/page-pet-skill">GitHub</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Codex skill · complete-character atlas</p>
+        <h1>Gaze, reactions, and a transparent sprite.</h1>
+        <p>Each pose is one full-character drawing. The runtime picks the nearest gaze cell as the pointer moves, then plays a drawn reaction on click. Open the playground or install the skill.</p>
+        <div class="actions">
+          <a class="button primary" href="./playground/">Open the playground</a>
+          <a class="button" href="https://github.com/gvastethecreator/page-pet-skill">Read the source</a>
+        </div>
+      </div>
+      <figure class="hero-stage">
+        <page-pet src="./assets/moklo-single/manifest.json" size="220" label="Moklo: click to react"></page-pet>
+        <figcaption>Moklo · 25 gaze views · 12 reactions · lossless WebP</figcaption>
+      </figure>
+    </section>
+    <section class="facts" aria-label="What ships">
+      <div><strong>23</strong><span>reviewed pets</span></div>
+      <div><strong>25 + 12</strong><span>gaze views and reactions</span></div>
+      <div><strong>WebP</strong><span>lossless atlas</span></div>
+      <div><strong>0</strong><span>API keys or CDN</span></div>
+    </section>
+    <section class="install">
+      <h2>Install</h2>
+      <pre><code>npx skills add gvastethecreator/page-pet-skill --skill page-pet</code></pre>
+      <p>Local playground from a clone:</p>
+      <pre><code>python ./SKILLS/page-pet/scripts/serve.py</code></pre>
+      <p>Then open <a href="http://127.0.0.1:4177/playground/">http://127.0.0.1:4177/playground/</a>. The server binds to loopback. This GitHub Pages site is the same static files without that server.</p>
+    </section>
+    <section class="limits">
+      <h2>Limits</h2>
+      <ul>
+        <li>Playground chrome is Spanish. Public docs are American English.</li>
+        <li>New art uses Codex's built-in image tool. This site does not generate images.</li>
+        <li>Frame counts and hashes are technical gates. They do not approve art.</li>
+        <li>GitHub Pages cannot run the Python builders.</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p><a href="https://github.com/gvastethecreator/page-pet-skill/blob/main/LICENSE">MIT</a> · <a href="./playground/">Playground</a> · <a href="https://github.com/gvastethecreator/page-pet-skill">Source</a></p>
+    <p><a href="https://github.com/sponsors/gvastethecreator">GitHub Sponsors</a> · <a href="https://ko-fi.com/gvaste">Ko-fi</a></p>
+  </footer>
+  <script type="module" src="./runtime/page-pet.js"></script>
+</body>
+</html>

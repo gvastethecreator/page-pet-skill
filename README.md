@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="https://github.com/gvastethecreator/page-pet-skill/actions/workflows/ci.yml"><img alt="CI status" src="https://shieldcn.dev/github/ci/gvastethecreator/page-pet-skill.svg?workflow=CI&branch=main&variant=secondary&size=xs" /></a>
+  <a href="https://gvastethecreator.github.io/page-pet-skill/"><img alt="Project site" src="https://shieldcn.dev/badge/site-playground-7652a7.svg?logo=githubpages&variant=branded&size=xs" /></a>
   <a href="https://www.python.org/"><img alt="Python 3" src="https://shieldcn.dev/badge/Python-3-3776ab.svg?logo=python&variant=secondary&size=xs" /></a>
   <a href="https://skills.sh/gvastethecreator/page-pet-skill/page-pet"><img alt="Skills CLI" src="https://shieldcn.dev/badge/install-Skills%20CLI-343434.svg?variant=secondary&size=xs" /></a>
   <a href="LICENSE"><img alt="MIT license" src="https://shieldcn.dev/github/license/gvastethecreator/page-pet-skill.svg?variant=secondary&size=xs" /></a>
@@ -18,7 +19,7 @@ Transparent full-character page pets with gaze tracking, reactions, and a local 
 
 Install the Codex skill, generate 25 complete-character gaze views and 12 reactions into one transparent atlas, then preview the pack in the packaged playground. The runtime is a custom element you copy into a host page. New art uses Codex's built-in image tool. Cropping, packing, motion, and the playground run locally with no API key, CDN, remote font, telemetry, or npm install.
 
-[Skill workflow](SKILLS/page-pet/SKILL.md) · [Generation](SKILLS/page-pet/references/generation.md) · [Alignment](SKILLS/page-pet/references/alignment.md) · [Integration](SKILLS/page-pet/references/integration.md) · [Contributing](CONTRIBUTING.md) · [Sponsor](https://github.com/sponsors/gvastethecreator) · [Ko-fi](https://ko-fi.com/gvaste)
+[Live site](https://gvastethecreator.github.io/page-pet-skill/) · [Playground](https://gvastethecreator.github.io/page-pet-skill/playground/) · [Skill workflow](SKILLS/page-pet/SKILL.md) · [Generation](SKILLS/page-pet/references/generation.md) · [Alignment](SKILLS/page-pet/references/alignment.md) · [Integration](SKILLS/page-pet/references/integration.md) · [Contributing](CONTRIBUTING.md) · [Sponsor](https://github.com/sponsors/gvastethecreator) · [Ko-fi](https://ko-fi.com/gvaste)
 
 ## Quick start
 
@@ -34,7 +35,7 @@ Serve the playground from the repository root:
 python ./SKILLS/page-pet/scripts/serve.py
 ```
 
-Open http://127.0.0.1:4177/playground/. The server binds to loopback.
+Open http://127.0.0.1:4177/ for the landing and http://127.0.0.1:4177/playground/ for the collection. The server binds to loopback. GitHub Pages serves the same static files at https://gvastethecreator.github.io/page-pet-skill/. Push to `main` deploys `SKILLS/page-pet/` through `.github/workflows/pages.yml`.
 
 The collection has 23 reviewed pets. Each pack is one lossless `mascot.webp` atlas (3200×5120) with 640px cells: 25 gaze positions and 12 reactions. Default pack: `assets/moklo-single`. Pose export from the playground remains a transparent PNG.
 
