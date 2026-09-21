@@ -12,7 +12,7 @@
     <div class="header-actions"><button id="open-workflow" class="button secondary">Skill flow</button><button id="open-review" class="button secondary">Review pack</button><button id="open-integration" class="button secondary">Embed</button><button id="import-button" class="button secondary">Import</button></div>
     <input id="import-files" type="file" accept=".json,.png,.webp,.avif" multiple hidden>
   </header>
-  <main>
+  <main class="studio">
     <section class="workbench" aria-label="Pet playground">
       <aside class="library panel">
         <div class="panel-heading"><h2>Collection</h2><span id="collection-count" class="count">01</span></div>
@@ -28,11 +28,16 @@
 
       </aside>
       <section class="stage-panel">
-        <div class="stage-toolbar"><div class="live-label"><i></i> SCENE <span id="mode-label">Follows pointer</span></div><button id="reset" class="icon-button" title="Reset settings" aria-label="Reset settings">↺</button></div>
+        <div class="stage-toolbar"><div class="live-label"><i></i> SCENE <span id="mode-label">Follows pointer</span></div><div class="stage-tools"><button id="open-poses" class="button secondary" type="button" aria-expanded="false">Poses</button><button id="open-settings" class="button secondary" type="button" aria-expanded="false">Settings</button><button id="reset" class="icon-button" title="Reset settings" aria-label="Reset settings">↺</button></div></div>
         <div id="stage" class="stage" data-surface="paper">
           <div class="stage-corner top-left"></div><div class="stage-corner bottom-right"></div>
           <div class="stage-top"><span id="stage-name">MOKLO / 001</span><span></span></div>
           <div class="stage-watermark" aria-hidden="true"></div>
+          <div id="loader" class="loader" hidden>
+            <img id="loader-ghost" alt="" width="220" height="220">
+            <img id="loader-fill" alt="" width="220" height="220">
+            <p id="loader-readout">Loading</p>
+          </div>
           <div id="mascot-position"><page-pet id="mascot" size="260" draggable label="Moklo: click to react. Use the arrow keys to move it."></page-pet><canvas id="neutral-overlay" aria-hidden="true" hidden></canvas><div id="anchor-guides" aria-hidden="true" hidden></div></div>
           <div class="stage-hint"><span class="hint-dot"></span> Drag to move</div>
         </div>

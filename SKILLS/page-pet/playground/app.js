@@ -122,26 +122,104 @@ function thumbnail(pack, frame) {
 function collection() {
   $('#collection').replaceChildren();
   $('#collection-count').textContent = String(packs.length).padStart(2, '0');
-  const pages = Math.max(1, Math.ceil(packs.length / collectionPageSize));
-  collectionPage = Math.max(0, Math.min(collectionPage, pages - 1));
-  $('#collection-pager').hidden = pages === 1;
-  $('#collection-page').textContent = `${collectionPage + 1} / ${pages}`;
-  $('#collection-prev').disabled = collectionPage === 0;
-  $('#collection-next').disabled = collectionPage === pages - 1;
-  for (const pack of packs.slice(collectionPage * collectionPageSize, (collectionPage + 1) * collectionPageSize)) {
+  $('#collection-pager').hidden = true;
+  for (const pack of packs) {
     const button = document.createElement('button');
     button.className = `collection-card${pack === selected ? ' active' : ''}`;
     button.setAttribute('aria-label', `Select ${pack.manifest.name}`);
     button.setAttribute('aria-pressed', pack === selected);
     const art = document.createElement('div'); art.className = 'collection-art';
-    art.append(thumbnail(pack, pack.manifest.frames.find(f => f.id === pack.manifest.neutral)));
-    if (pack === selected) { const check = document.createElement('span'); check.className = 'collection-check'; check.textContent = '✓'; art.append(check); }
+    if (pack.thumb) {
+      const image = document.createElement('img');
+      image.src = pack.thumb; image.alt = ''; image.width = 72; image.height = 72;
+      art.append(image);
+    } else if (pack.images) art.append(thumbnail(pack, pack.manifest.frames.find(f => f.id === pack.manifest.neutral)));
     const meta = document.createElement('div'); meta.className = 'collection-meta';
     const title = document.createElement('strong'); title.textContent = pack.manifest.name;
-    const sub = document.createElement('small'); sub.textContent = pack.imported ? 'Imported · this session' : pack.manifest.layers ? 'Sprites · body + head' : 'Complete sprite per pose'; title.append(sub);
-    const count = document.createElement('span'); count.textContent = pack.imported ? 'This session' : pack.manifest.layers ? '2 layers' : `${pack.manifest.frames.length} poses`;
-    meta.append(title, count); button.append(art, meta);
+    meta.append(title); button.append(art, meta);
     button.addEventListener('click', () => selectPack(pack)); $('#collection').append(button);
+  }
+}
+
+const loader = $('#loader');
+let loadSerial = 0;
+let loadAbort = null;
+
+function showLoader(pack, received, total) {
+  stage.dataset.loading = 'true';
+  loader.hidden = false;
+  const src = pack.thumb || '';
+  if ($('#loader-ghost').getAttribute('src') !== src) {
+    $('#loader-ghost').src = src;
+    $('#loader-fill').src = src;
+  }
+  const ratio = total > 0 ? Math.min(1, received / total) : 0;
+  $('#loader-fill').style.setProperty('--load', `${Math.round(ratio * 100)}%`);
+  $('#loader-readout').textContent = total
+    ? `${pack.manifest.name} · ${(received / 1e6).toFixed(1)} / ${(total / 1e6).toFixed(1)} MB`
+    : received ? `${pack.manifest.name} · ${(received / 1e6).toFixed(1)} MB` : `Loading ${pack.manifest.name}`;
+}
+
+function hideLoader() {
+  delete stage.dataset.loading;
+  loader.hidden = true;
+}
+
+async function fetchBlob(url, signal, onProgress) {
+  const response = await fetch(url, { signal });
+  if (!response.ok || !response.body) throw new Error(`HTTP ${response.status}`);
+  const total = Number(response.headers.get('content-length')) || 0;
+  const reader = response.body.getReader();
+  const chunks = [];
+  let received = 0;
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    chunks.push(value);
+    received += value.byteLength;
+    onProgress(received, total);
+  }
+  return new Blob(chunks, { type: response.headers.get('content-type') || '' });
+}
+
+async function loadPack(pack) {
+  const serial = ++loadSerial;
+  loadAbort?.abort();
+  const abort = new AbortController();
+  loadAbort = abort;
+  try {
+    const names = sheetNames(pack.manifest);
+    const parts = names.map(() => ({ got: 0, total: 0 }));
+    const report = () => {
+      if (serial !== loadSerial) return;
+      const got = parts.reduce((sum, part) => sum + part.got, 0);
+      const total = parts.every(part => part.total) ? parts.reduce((sum, part) => sum + part.total, 0) : 0;
+      showLoader(pack, got, total);
+    };
+    report();
+    const images = new Map();
+    const sheetHashes = {};
+    for (let index = 0; index < names.length; index += 1) {
+      const name = names[index];
+      const blob = await fetchBlob(new URL(name, pack.base), abort.signal, (got, total) => {
+        parts[index].got = got;
+        parts[index].total = total;
+        report();
+      });
+      sheetHashes[name] = await hashBytes(await blob.arrayBuffer());
+      const imageUrl = URL.createObjectURL(blob);
+      try { images.set(name, await decodeImage(imageUrl)); }
+      finally { URL.revokeObjectURL(imageUrl); }
+    }
+    if (serial !== loadSerial) return;
+    validateImages(pack.manifest, images);
+    pack.images = images;
+    pack.sheetHashes = sheetHashes;
+    if (selected === pack) selectPack(pack);
+  } catch (error) {
+    if (error.name === 'AbortError' || serial !== loadSerial) return;
+    hideLoader();
+    notice(`Unable to load ${pack.manifest.name}. Select it again.`);
   }
 }
 
@@ -149,13 +227,16 @@ function selectPack(pack) {
   selected = pack;
   collectionPage = Math.floor(packs.indexOf(pack) / collectionPageSize);
   reactionPage = 0;
+  $('#stage-name').textContent = `${pack.manifest.name.toUpperCase()} / ${String(packs.indexOf(pack) + 1).padStart(3, '0')}`;
+  mascot.setAttribute('label', `${pack.manifest.name}: click to react. Use the arrow keys to move it.`);
+  collection();
+  if (!pack.images) { showLoader(pack, 0, 0); loadPack(pack); return; }
+  hideLoader();
   mascot.setPack(pack.manifest, pack.images);
   const neutral = pack.manifest.frames.find(f => f.id === pack.manifest.neutral);
   const overlay = $('#neutral-overlay');
   overlay.width = overlay.height = neutral.rect[2];
   drawPose(overlay.getContext('2d'), pack.manifest, pack.images, neutral, overlay.width);
-  mascot.setAttribute('label', `${pack.manifest.name}: click to react. Use the arrow keys to move it.`);
-  $('#stage-name').textContent = `${pack.manifest.name.toUpperCase()} / ${String(packs.indexOf(pack) + 1).padStart(3, '0')}`;
   const gaze = pack.manifest.frames.filter(f => f.kind === 'gaze').length;
   const reactions = pack.manifest.frames.filter(f => f.kind === 'reaction');
   $('#gaze-count').textContent = gaze; $('#reaction-count').textContent = reactions.length;
@@ -345,17 +426,7 @@ try {
     if (!result.ok) throw new Error(`Pack: HTTP ${result.status}`);
     const manifestBytes = await result.arrayBuffer();
     const manifest = validateManifest(JSON.parse(new TextDecoder().decode(manifestBytes)));
-    const sheetHashes = {};
-    const images = new Map(await Promise.all(sheetNames(manifest).map(async name => {
-      const response = await fetch(new URL(name, url));
-      if (!response.ok) throw new Error(`${name}: HTTP ${response.status}`);
-      const blob = await response.blob();
-      sheetHashes[name] = await hashBytes(await blob.arrayBuffer());
-      const imageUrl = URL.createObjectURL(blob);
-      try { return [name, await decodeImage(imageUrl)]; }
-      finally { URL.revokeObjectURL(imageUrl); }
-    })));
-    validateImages(manifest, images); packs.push({ manifest, images, sheetHashes, slug: new URL('.', url).pathname.split('/').filter(Boolean).at(-1), readFile: async (name, optional = false) => {
+    packs.push({ manifest, manifestBytes, images: null, sheetHashes: null, slug: new URL('.', url).pathname.split('/').filter(Boolean).at(-1), thumb: new URL('thumb.webp', url).href, base: url, readFile: async (name, optional = false) => {
       if (name === 'manifest.json') return manifestBytes;
       const response = await fetch(new URL(name, url));
       if (optional && response.status === 404) return null;
@@ -405,6 +476,13 @@ for (const [id,key] of [['click-reaction','clickReaction'],['body-pose','bodyPos
 }
 $('#try-reaction').addEventListener('click', () => { mascot.react($('#reaction-preview').value); updateMode(); });
 $('#try-motion').addEventListener('click', () => { mascot.react($('#reaction-preview').value); updateMode(); });
+function toggleDock(button, panel, otherButton, otherPanel) {
+  const open = panel.classList.toggle('open');
+  button.setAttribute('aria-expanded', String(open));
+  if (open) { otherPanel.classList.remove('open'); otherButton.setAttribute('aria-expanded', 'false'); }
+}
+$('#open-poses').addEventListener('click', () => toggleDock($('#open-poses'), $('.pose-section'), $('#open-settings'), $('.inspector')));
+$('#open-settings').addEventListener('click', () => toggleDock($('#open-settings'), $('.inspector'), $('#open-poses'), $('.pose-section')));
 document.querySelectorAll('[data-panel]').forEach(button => button.addEventListener('click', () => {
   document.querySelectorAll('[data-panel]').forEach(tab => {
     const active = tab === button; tab.classList.toggle('active', active); tab.setAttribute('aria-pressed', active);
