@@ -22,13 +22,13 @@ const defaults = { size: 320, x: 50, y: 53, surface: 'paper', tracking: true, id
 let settings = { ...defaults }, selected = null, kind = 'gaze', reactionPage = 0;
 let collectionPage = 0;
 const collectionPageSize = 12;
-const labels = { blink: 'Parpadeo', happy: 'Feliz', love: 'Cariño', surprised: 'Sorpresa', sleep: 'Sueño', laugh: 'Risa', wink: 'Guiño', kiss: 'Beso', shrug: 'Duda', offer: 'Ofrecer', hug: 'Abrazo', shy: 'Timidez', dance: 'Baile', idle: 'Reposo', think: 'Pensar', wave: 'Saludo', celebrate: 'Fiesta' };
+const labels = { blink: 'Blink', happy: 'Happy', love: 'Love', surprised: 'Surprise', sleep: 'Sleep', laugh: 'Laugh', wink: 'Wink', kiss: 'Kiss', shrug: 'Shrug', offer: 'Offer', hug: 'Hug', shy: 'Shy', dance: 'Dance', idle: 'Idle', think: 'Think', wave: 'Wave', celebrate: 'Celebrate' };
 let noticeTimer;
 const notice = text => {
   clearTimeout(noticeTimer); $('#notice').textContent = text;
   noticeTimer = setTimeout(() => { $('#notice').textContent = ''; }, 5000);
 };
-Object.assign(labels, { worried: 'Preocupado', annoyed: 'Molesto', smug: 'Pícaro', confused: 'Confundido', excited: 'Emoción', point: 'Señalar', clap: 'Aplauso', proud: 'Orgullo', stretch: 'Estirar', shush: 'Al pecho', rest: 'Calma', calm: 'Calma' });
+Object.assign(labels, { worried: 'Worried', annoyed: 'Annoyed', smug: 'Smug', confused: 'Confused', excited: 'Excited', point: 'Point', clap: 'Clap', proud: 'Proud', stretch: 'Stretch', shush: 'Shush', rest: 'Rest', calm: 'Calm' });
 try {
   const saved = JSON.parse(localStorage.getItem('mascot-atelier-settings'));
   if (saved) {
@@ -41,7 +41,7 @@ try {
 } catch { /* Storage is optional. The live editor still works. */ }
 
 function save() {
-  try { localStorage.setItem('mascot-atelier-settings', JSON.stringify(settings)); } catch { notice('Los ajustes funcionan en esta sesión; el almacenamiento local no está disponible.'); }
+  try { localStorage.setItem('mascot-atelier-settings', JSON.stringify(settings)); } catch { notice('Settings work for this session. Local storage is unavailable.'); }
 }
 
 function applySettings() {
@@ -95,9 +95,9 @@ function applyPosition() {
 }
 
 function updateMode() {
-  $('#mode-label').textContent = settings.paused ? 'En pausa' : mascot.locked ? 'Pose fija'
-    : matchMedia('(prefers-reduced-motion: reduce)').matches ? 'Movimiento reducido'
-      : settings.tracking ? selected?.manifest.layers ? 'Dos capas · en vivo' : 'Sigue tu cursor' : 'En reposo';
+  $('#mode-label').textContent = settings.paused ? 'Paused' : mascot.locked ? 'Held pose'
+    : matchMedia('(prefers-reduced-motion: reduce)').matches ? 'Reduced motion'
+      : settings.tracking ? selected?.manifest.layers ? 'Two layers · live' : 'Follows pointer' : 'Idle';
 }
 
 function updateCode() {
@@ -131,15 +131,15 @@ function collection() {
   for (const pack of packs.slice(collectionPage * collectionPageSize, (collectionPage + 1) * collectionPageSize)) {
     const button = document.createElement('button');
     button.className = `collection-card${pack === selected ? ' active' : ''}`;
-    button.setAttribute('aria-label', `Seleccionar ${pack.manifest.name}`);
+    button.setAttribute('aria-label', `Select ${pack.manifest.name}`);
     button.setAttribute('aria-pressed', pack === selected);
     const art = document.createElement('div'); art.className = 'collection-art';
     art.append(thumbnail(pack, pack.manifest.frames.find(f => f.id === pack.manifest.neutral)));
     if (pack === selected) { const check = document.createElement('span'); check.className = 'collection-check'; check.textContent = '✓'; art.append(check); }
     const meta = document.createElement('div'); meta.className = 'collection-meta';
     const title = document.createElement('strong'); title.textContent = pack.manifest.name;
-    const sub = document.createElement('small'); sub.textContent = pack.imported ? 'Importado · esta sesión' : pack.manifest.layers ? 'Sprites · cuerpo + cabeza' : 'Sprite completo por pose'; title.append(sub);
-    const count = document.createElement('span'); count.textContent = pack.imported ? 'Esta sesión' : pack.manifest.layers ? '2 capas' : `${pack.manifest.frames.length} poses`;
+    const sub = document.createElement('small'); sub.textContent = pack.imported ? 'Imported · this session' : pack.manifest.layers ? 'Sprites · body + head' : 'Complete sprite per pose'; title.append(sub);
+    const count = document.createElement('span'); count.textContent = pack.imported ? 'This session' : pack.manifest.layers ? '2 layers' : `${pack.manifest.frames.length} poses`;
     meta.append(title, count); button.append(art, meta);
     button.addEventListener('click', () => selectPack(pack)); $('#collection').append(button);
   }
@@ -154,14 +154,14 @@ function selectPack(pack) {
   const overlay = $('#neutral-overlay');
   overlay.width = overlay.height = neutral.rect[2];
   drawPose(overlay.getContext('2d'), pack.manifest, pack.images, neutral, overlay.width);
-  mascot.setAttribute('label', `${pack.manifest.name}: pulsa para reaccionar. Usa las flechas para moverlo.`);
+  mascot.setAttribute('label', `${pack.manifest.name}: click to react. Use the arrow keys to move it.`);
   $('#stage-name').textContent = `${pack.manifest.name.toUpperCase()} / ${String(packs.indexOf(pack) + 1).padStart(3, '0')}`;
   const gaze = pack.manifest.frames.filter(f => f.kind === 'gaze').length;
   const reactions = pack.manifest.frames.filter(f => f.kind === 'reaction');
   $('#gaze-count').textContent = gaze; $('#reaction-count').textContent = reactions.length;
-  $('#pose-count').textContent = pack.manifest.layers ? `${gaze} giros de cabeza · 2 capas de sprites.` : `${gaze} miradas. ${reactions.length} expresiones.`;
+  $('#pose-count').textContent = pack.manifest.layers ? `${gaze} head turns · 2 sprite layers.` : `${gaze} gaze views. ${reactions.length} reactions.`;
   document.querySelector('[data-kind="reaction"]').hidden = false;
-  document.querySelector('[data-kind="gaze"]').firstChild.textContent = 'Miradas ';
+  document.querySelector('[data-kind="gaze"]').firstChild.textContent = 'Gaze ';
   const hasIdle = pack.manifest.frames.some(f => ['blink', 'sleep'].includes(f.id));
   $('#idle').disabled = !hasIdle;
   $('#idle').closest('label').style.display = hasIdle ? '' : 'none';
@@ -169,14 +169,14 @@ function selectPack(pack) {
   for (const layer of ['body', 'head']) { $(`#show-${layer}`).checked = true; mascot.removeAttribute(`data-hide-${layer}`); }
   $('#neck-control').hidden = !pack.manifest.layers; $('#body-control').hidden = !pack.manifest.layers;
   $('#neck').min = mascot.neckRange[0]; $('#neck').max = mascot.neckRange[1];
-  $('#click-reaction').replaceChildren(new Option('Variar reacción', 'cycle'), new Option('Sin reacción', 'off'));
+  $('#click-reaction').replaceChildren(new Option('Cycle reactions', 'cycle'), new Option('No reaction', 'off'));
   $('#reaction-preview').replaceChildren();
   for (const frame of reactions) {
     const label = labels[frame.id] || frame.id;
     $('#reaction-preview').add(new Option(label, frame.id));
     if (!['blink','sleep'].includes(frame.id)) $('#click-reaction').add(new Option(label, frame.id));
   }
-  $('#body-pose').replaceChildren(new Option('Automática', 'auto'));
+  $('#body-pose').replaceChildren(new Option('Automatic', 'auto'));
   for (const body of pack.manifest.layers?.bodyFrames || []) $('#body-pose').add(new Option(labels[body.id.replace('body-', '')] || body.id, body.id));
   if (![...$('#body-pose').options].some(o => o.value === settings.bodyPose)) settings.bodyPose = 'auto';
   if (![...$('#click-reaction').options].some(o => o.value === settings.clickReaction)) settings.clickReaction = 'cycle';
@@ -203,8 +203,8 @@ function gallery() {
   for (const frame of pageFrames) {
     const button = document.createElement('button'); button.className = 'pose-card'; button.dataset.frame = frame.id;
     const label = frame.kind === 'gaze' ? gazeLabel(frame.gaze) : labels[frame.id] || frame.id;
-    button.title = frame.kind === 'gaze' ? `Cabeza: x=${frame.gaze[0]}, y=${frame.gaze[1]}` : frame.id;
-    button.setAttribute('aria-label', `Ver pose ${label}`);
+    button.title = frame.kind === 'gaze' ? `Head: x=${frame.gaze[0]}, y=${frame.gaze[1]}` : frame.id;
+    button.setAttribute('aria-label', `View pose ${label}`);
     const caption = document.createElement('span'); caption.textContent = label;
     button.append(thumbnail(selected, frame), caption);
     button.addEventListener('click', () => { mascot.pose(frame.id); updateMode(); });
@@ -213,12 +213,12 @@ function gallery() {
 }
 
 function gazeLabel([x, y]) {
-  const horizontal = x === 0 ? 'Centro' : `${Math.abs(x) < .75 ? 'Leve ' : ''}${x < 0 ? 'izquierda' : 'derecha'}`;
-  return y === 0 ? horizontal : `${Math.abs(y) < .75 ? 'Leve ' : ''}${y < 0 ? 'arriba' : 'abajo'} · ${horizontal.toLowerCase()}`;
+  const horizontal = x === 0 ? 'Center' : `${Math.abs(x) < .75 ? 'Slight ' : ''}${x < 0 ? 'left' : 'right'}`;
+  return y === 0 ? horizontal : `${Math.abs(y) < .75 ? 'Slight ' : ''}${y < 0 ? 'up' : 'down'} · ${horizontal.toLowerCase()}`;
 }
 
 function download(blob, name) {
-  if (!blob) { notice('No se pudo generar el archivo.'); return; }
+  if (!blob) { notice('Unable to create the file.'); return; }
   const url = URL.createObjectURL(blob), anchor = document.createElement('a');
   anchor.href = url; anchor.download = name; anchor.click();
   setTimeout(() => URL.revokeObjectURL(url), 10000);
@@ -227,7 +227,7 @@ function download(blob, name) {
 for (const layer of ['body', 'head']) $(`#show-${layer}`).addEventListener('change', event => {
   mascot.toggleAttribute(`data-hide-${layer}`, !event.target.checked);
 });
-const rowNames = ['Arriba', 'Centro', 'Abajo'], colNames = ['izquierda', 'medio izquierda', 'centro', 'medio derecha', 'derecha'];
+const rowNames = ['Top', 'Center', 'Bottom'], colNames = ['left', 'mid-left', 'center', 'mid-right', 'right'];
 for (let y = 0; y < 3; y++) for (let x = 0; x < 5; x++) {
   const option = document.createElement('option'); option.value = `${x},${y}`;
   option.textContent = `${rowNames[y]} · ${colNames[x]}`; $('#placement').append(option);
@@ -270,7 +270,7 @@ mascot.addEventListener('page-pet-move', event => {
 });
 mascot.addEventListener('page-pet-frame', event => {
   updateMode();
-  $('#frame-status').textContent = selected?.manifest.layers ? `Cuerpo: ${event.detail.body} · ${event.detail.id}` : event.detail.id;
+  $('#frame-status').textContent = selected?.manifest.layers ? `Body: ${event.detail.body} · ${event.detail.id}` : event.detail.id;
   document.querySelectorAll('.pose-card').forEach(button => {
     const active = button.dataset.frame === event.detail.id || button.dataset.frame === event.detail.reaction;
     button.classList.toggle('active', active); button.setAttribute('aria-pressed', active);
@@ -278,37 +278,37 @@ mascot.addEventListener('page-pet-frame', event => {
 });
 mascot.addEventListener('page-pet-error', event => notice(event.detail.message));
 $('#live').addEventListener('click', () => { mascot.unlock(); settings.paused = false; applySettings(); save(); });
-$('#reset').addEventListener('click', () => { settings = { ...defaults }; mascot.unlock(); applySettings(); save(); notice('Ajustes restablecidos. Tu colección sigue aquí.'); });
+$('#reset').addEventListener('click', () => { settings = { ...defaults }; mascot.unlock(); applySettings(); save(); notice('Settings reset. The collection is still here.'); });
 $('#export-png').addEventListener('click', async () => {
   if (!selected) return;
   const frame = mascot.currentFrame.id;
-  download(await mascot.toBlob(), `${frame}.png`); notice(`PNG transparente exportado: ${frame}.`);
+  download(await mascot.toBlob(), `${frame}.png`); notice(`Exported transparent PNG: ${frame}.`);
 });
 $('#export-settings').addEventListener('click', () => {
   if (!selected) return;
   const exported = { version: 1, mascot: selected.manifest.name, ...settings };
   if (!selected.manifest.layers) { delete exported.neck; delete exported.bodyPose; }
   download(new Blob([JSON.stringify(exported, null, 2)], { type: 'application/json' }), 'mascot-settings.json');
-  notice('Configuración guardada. Los PNG permanecen en el pack de la mascota.');
+  notice('Settings saved. The pack files stay in the pet folder.');
 });
 $('#copy-code').addEventListener('click', async () => {
-  try { await navigator.clipboard.writeText($('#embed-code').textContent); notice('Código copiado. Copia también la carpeta runtime y el pack a tu proyecto.'); }
-  catch { notice('No se pudo acceder al portapapeles. Selecciona y copia el código del panel.'); }
+  try { await navigator.clipboard.writeText($('#embed-code').textContent); notice('Code copied. Also copy the runtime folder and the pack into your project.'); }
+  catch { notice('Unable to use the clipboard. Select the code and copy it.'); }
 });
 $('#import-button').addEventListener('click', () => $('#import-files').click());
 $('#import-files').addEventListener('change', async event => {
   const files = [...event.target.files], urls = [];
   try {
-    if (new Set(files.map(f => f.name)).size !== files.length) throw new Error('Importa un solo pack: hay nombres de archivo repetidos.');
+    if (new Set(files.map(f => f.name)).size !== files.length) throw new Error('Import one pack. File names must be unique.');
     const source = files.find(f => f.name === 'manifest.json');
-    if (!source) throw new Error('Selecciona manifest.json y sus PNG juntos.');
+    if (!source) throw new Error('Select manifest.json and every sheet together.');
     if (files.some(f => f.size > 32 * 1024 * 1024) || files.reduce((sum, f) => sum + f.size, 0) > 128 * 1024 * 1024)
-      throw new Error('El pack supera el límite de importación: 32 MB por archivo, 128 MB en total.');
+      throw new Error('Pack is too large. Keep each file under 32 MB and the set under 128 MB.');
     const manifest = validateManifest(JSON.parse(await source.text()));
     const images = new Map();
     for (const name of sheetNames(manifest)) {
       const file = files.find(f => f.name === name);
-      if (!file) throw new Error(`Falta ${name}. Selecciona todos los archivos del pack juntos.`);
+      if (!file) throw new Error(`Missing ${name}. Select every file in the pack together.`);
       const url = URL.createObjectURL(file); urls.push(url); images.set(name, await decodeImage(url));
     }
     validateImages(manifest, images);
@@ -319,15 +319,15 @@ $('#import-files').addEventListener('change', async event => {
       const pixels = ctx.getImageData(0, 0, 64, 64).data;
       let clear = 0, solid = 0;
       for (let i = 3; i < pixels.length; i += 4) { if (pixels[i] === 0) clear++; if (pixels[i] > 128) solid++; }
-      if (clear < 328 || solid < 32) throw new Error(`${frame.id}: necesita un personaje visible y transparencia real.`);
+      if (clear < 328 || solid < 32) throw new Error(`${frame.id}: needs a visible character and real transparency.`);
     }
     const pack = { manifest, images, imported: true, readFile: async (name, optional = false) => {
       const file = files.find(f => f.name === name);
-      if (!file && !optional) throw new Error(`Falta ${name}`);
+      if (!file && !optional) throw new Error(`Missing ${name}`);
       return file ? file.arrayBuffer() : null;
     } }; packs.push(pack); selectPack(pack);
-    notice(`${manifest.name} importado. Disponible durante esta sesión; conserva sus archivos.`);
-  } catch (error) { notice(`No se importó el pack: ${error.message}`); }
+    notice(`${manifest.name} imported. It stays for this session. Keep its files.`);
+  } catch (error) { notice(`Unable to import the pack: ${error.message}`); }
   finally { urls.forEach(url => URL.revokeObjectURL(url)); event.target.value = ''; }
 });
 const motion = matchMedia('(prefers-reduced-motion: reduce)');
@@ -337,10 +337,10 @@ new ResizeObserver(applySettings).observe(stage);
 applySettings();
 try {
   const response = await fetch('../assets/catalog.json');
-  if (!response.ok) throw new Error(`Catálogo: HTTP ${response.status}`);
+  if (!response.ok) throw new Error(`Catalog request failed: HTTP ${response.status}`);
   for (const entry of await response.json()) {
     const url = new URL(entry, response.url);
-    if (url.origin !== location.origin) throw new Error('El catálogo solo admite packs locales.');
+    if (url.origin !== location.origin) throw new Error('The catalog only loads packs from this site.');
     const result = await fetch(url);
     if (!result.ok) throw new Error(`Pack: HTTP ${result.status}`);
     const manifestBytes = await result.arrayBuffer();
@@ -363,9 +363,9 @@ try {
       return response.arrayBuffer();
     } });
   }
-  if (!packs.length) throw new Error('El catálogo no contiene creaciones. Importa un pack para comenzar.');
+  if (!packs.length) throw new Error('The catalog is empty. Import a pack to start.');
   selectPack(packs[0]);
-} catch (error) { notice(error.message); $('#frame-status').textContent = 'Sin pack'; }
+} catch (error) { notice(error.message); $('#frame-status').textContent = 'No pack'; }
 
 $('#open-integration').addEventListener('click', () => $('#integration-dialog').showModal());
 $('#close-integration').addEventListener('click', () => $('#integration-dialog').close());
@@ -375,12 +375,12 @@ $('#close-workflow').addEventListener('click', () => $('#workflow-dialog').close
 let inspection = null;
 let inspectionRun = 0;
 $('#open-review').addEventListener('click', async () => {
-  if (!selected) return notice('Espera a que termine de cargar el pack.');
+  if (!selected) return notice('Wait for the pack to finish loading.');
   const pack = selected;
   const run = ++inspectionRun;
   inspection = null; $('#download-review').disabled = true;
-  $('#review-title').textContent = `Revisar · ${pack.manifest.name}`;
-  $('#review-results').textContent = 'Midiendo alfa y comprobando archivos…';
+  $('#review-title').textContent = `Review · ${pack.manifest.name}`;
+  $('#review-results').textContent = 'Measuring alpha and checking files…';
   $('#review-dialog').showModal();
   try {
     const result = await inspectPack(pack);
@@ -388,7 +388,7 @@ $('#open-review').addEventListener('click', async () => {
     inspection = result;
     renderInspection($('#review-results'), inspection);
     $('#download-review').disabled = false;
-  } catch (error) { if (run === inspectionRun) $('#review-results').textContent = `No se pudo revisar: ${error.message}`; }
+  } catch (error) { if (run === inspectionRun) $('#review-results').textContent = `Unable to review: ${error.message}`; }
 });
 $('#close-review').addEventListener('click', () => $('#review-dialog').close());
 $('#download-review').addEventListener('click', () => {
@@ -397,7 +397,7 @@ $('#download-review').addEventListener('click', () => {
 $('#compare-neutral').addEventListener('click', () => {
   settings.guides = true; settings.onion = true;
   applySettings(); $('#review-dialog').close();
-  notice('Anclaje y pose neutra visibles. Elige poses para comparar; desactívalos en Escena.');
+  notice('Anchors and the neutral pose are on. Choose poses to compare. Turn them off in Scene.');
 });
 
 for (const [id,key] of [['click-reaction','clickReaction'],['body-pose','bodyPose']]) {

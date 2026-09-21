@@ -74,7 +74,6 @@ Selected extraction and registration processes were adapted from [spritesheet-ex
 
 - Complete-character packs are the live workflow. Historical two-layer manifests still load.
 - Publication requires a completed visual gaze review. Frame counts and hashes do not approve art.
-- Playground chrome is Spanish. Public docs are American English.
 - Source dumps and retired packs stay on the maintainer machine; they are not in git.
 
 ## License

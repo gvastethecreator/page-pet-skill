@@ -65,13 +65,13 @@ The current pack has no `layers` object. Each frame points to a complete sprite 
 }
 ```
 
-The optional `pivot` is a normalized `[x,y]` anchor in each frame; generated packs declare it for guide overlays. Frame IDs must be unique. Each rectangle is `[x,y,width,height]` in source pixels, square, nonempty, and within its decoded PNG. Sheet names are plain local PNG filenames; paths and remote URLs are rejected. Every gaze point is in `[-1,1]²` and unique across all sheets. Neutral must identify a gaze frame. Any number of frames and sheets can be described; runtime cost and image size still increase with asset volume. The builder's grid input allows up to 64 rows/columns per sheet as a resource guard, not a runtime nine-pose limit.
+The optional `pivot` is a normalized `[x,y]` anchor in each frame; generated packs declare it for guide overlays. Frame IDs must be unique. Each rectangle is `[x,y,width,height]` in source pixels, square, nonempty, and within its decoded sheet. Sheet names are plain local `.png`, `.webp`, or `.avif` filenames; paths and remote URLs are rejected. Every gaze point is in `[-1,1]²` and unique across all sheets. Neutral must identify a gaze frame. Any number of frames and sheets can be described; runtime cost and image size still increase with asset volume. The builder's grid input allows up to 64 rows/columns per sheet as a resource guard, not a runtime nine-pose limit.
 
 ## Placement and playground
 
 The playground provides 15 presets (five columns × three rows), plus free normalized x/y positions over the available stage area. Dragging and arrow keys keep the entire element inside the stage. On small screens the displayed size shrinks to fit; exports retain atlas resolution.
 
-The **Anclaje** and **Pose neutra** switches in **Escena** expose root drift while selecting head poses. The gaze gallery keeps a spatial grid and names the intended direction. These overlays never enter PNG exports.
+The **Show anchors** and **Show neutral pose** switches in **Scene** expose root drift while selecting head poses. The gaze gallery keeps a spatial grid and names the intended direction. These overlays never enter PNG exports.
 
 In an application use the page's layout, for example:
 
@@ -85,10 +85,10 @@ In an application use the page's layout, for example:
 
 Choose a location that keeps essential content and controls accessible. Do not automatically attach draggable positioning or a high z-index to all integrations.
 
-The **Carácter** tab exposes size, click behavior, and reaction preview. Neck and body-layer controls appear only for historical layered packs. **Movimiento** contains nine movement controls, Suave/Jelly/Elástico presets, and a reaction preview. **Escena** contains positioning, tracking, pause, and inspection overlays. The desktop layout fits at 1280×720.
+The **Character** tab exposes size, click behavior, and reaction preview. Neck and body-layer controls appear only for historical layered packs. **Motion** contains nine movement controls, Soft/Jelly/Elastic presets, and a reaction preview. **Scene** contains positioning, tracking, pause, and inspection overlays. The desktop layout fits at 1280×720.
 
 Playground settings persist in localStorage. Its configuration export and embed snippet include only controls that apply to the selected pack; complete-character packs omit neck and separate-body settings. Imported packs stay in memory for the current session; the UI states this. To retain a creation, copy its pack into `assets/<id>/` and add `./<id>/manifest.json` to `assets/catalog.json`. Config export records settings only; PNG export captures the current pose. Retain original source sheets and the pack separately.
 
-Import selects `manifest.json` and all referenced PNGs together. Invalid manifests, missing images, out-of-bounds frames, empty cells, and opaque backgrounds are rejected before replacing the active pet. Imported text is inserted as text, never HTML. Import has a 32MB per-file and 128MB total input size guard.
+Import selects `manifest.json` and every referenced sheet together. Invalid manifests, missing images, out-of-bounds frames, empty cells, and opaque backgrounds are rejected before replacing the active pet. Imported text is inserted as text, never HTML. Import has a 32MB per-file and 128MB total input size guard.
 
 Reaction thumbnails use pages of 12 when needed; the full reaction selector remains available. Complete-character packs need no neck calibration.

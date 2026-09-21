@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="color-scheme" content="dark">
@@ -9,95 +9,95 @@
 <body>
   <header class="topbar">
     <a class="brand" href="../"><span class="brand-mark" aria-hidden="true">p.</span>page pet<span class="edition">SKILL PLAYGROUND</span></a>
-    <div class="header-actions"><button id="open-workflow" class="button secondary">Flujo de la skill</button><button id="open-review" class="button secondary">Revisar pack</button><button id="open-integration" class="button secondary">Integrar ↗</button><button id="import-button" class="button secondary">＋ Importar</button></div>
+    <div class="header-actions"><button id="open-workflow" class="button secondary">Skill flow</button><button id="open-review" class="button secondary">Review pack</button><button id="open-integration" class="button secondary">Embed</button><button id="import-button" class="button secondary">Import</button></div>
     <input id="import-files" type="file" accept=".json,.png,.webp,.avif" multiple hidden>
   </header>
   <main>
-    <section class="workbench" aria-label="Playground de mascotas">
+    <section class="workbench" aria-label="Pet playground">
       <aside class="library panel">
-        <div class="panel-heading"><h2>Colección</h2><span id="collection-count" class="count">01</span></div>
+        <div class="panel-heading"><h2>Collection</h2><span id="collection-count" class="count">01</span></div>
         <div id="collection" class="collection"></div>
-        <nav id="collection-pager" class="pose-pager" aria-label="Páginas de mascotas" hidden><button id="collection-prev" aria-label="Mascotas anteriores">←</button><span id="collection-page" aria-live="polite"></span><button id="collection-next" aria-label="Más mascotas">→</button></nav>
+        <nav id="collection-pager" class="pose-pager" aria-label="Pet pages" hidden><button id="collection-prev" aria-label="Previous pets">←</button><span id="collection-page" aria-live="polite"></span><button id="collection-next" aria-label="More pets">→</button></nav>
     <section class="pose-section">
       <div class="panel-heading"><h2>Poses</h2><span id="pose-count" hidden></span></div>
-      <div class="pose-tabs" role="group" aria-label="Tipo de pose"><button data-kind="gaze" class="active" aria-pressed="true">Miradas <span id="gaze-count">—</span></button><button data-kind="reaction" aria-pressed="false">Expresiones <span id="reaction-count">—</span></button></div>
+      <div class="pose-tabs" role="group" aria-label="Pose type"><button data-kind="gaze" class="active" aria-pressed="true">Gaze <span id="gaze-count">—</span></button><button data-kind="reaction" aria-pressed="false">Reactions <span id="reaction-count">—</span></button></div>
       <div id="poses" class="pose-gallery"></div>
-      <nav id="pose-pager" class="pose-pager" aria-label="Páginas de expresiones" hidden><button id="pose-prev" aria-label="Expresiones anteriores">←</button><span id="pose-page" aria-live="polite"></span><button id="pose-next" aria-label="Más expresiones">→</button></nav>
+      <nav id="pose-pager" class="pose-pager" aria-label="Reaction pages" hidden><button id="pose-prev" aria-label="Previous reactions">←</button><span id="pose-page" aria-live="polite"></span><button id="pose-next" aria-label="More reactions">→</button></nav>
     </section>
 
 
       </aside>
       <section class="stage-panel">
-        <div class="stage-toolbar"><div class="live-label"><i></i> ESCENA <span id="mode-label">Sigue tu cursor</span></div><button id="reset" class="icon-button" title="Restablecer ajustes" aria-label="Restablecer ajustes">↺</button></div>
+        <div class="stage-toolbar"><div class="live-label"><i></i> SCENE <span id="mode-label">Follows pointer</span></div><button id="reset" class="icon-button" title="Reset settings" aria-label="Reset settings">↺</button></div>
         <div id="stage" class="stage" data-surface="paper">
           <div class="stage-corner top-left"></div><div class="stage-corner bottom-right"></div>
           <div class="stage-top"><span id="stage-name">MOKLO / 001</span><span></span></div>
           <div class="stage-watermark" aria-hidden="true"></div>
-          <div id="mascot-position"><page-pet id="mascot" size="260" draggable label="Moklo: pulsa para una reacción. Usa las flechas para moverlo."></page-pet><canvas id="neutral-overlay" aria-hidden="true" hidden></canvas><div id="anchor-guides" aria-hidden="true" hidden></div></div>
-          <div class="stage-hint"><span class="hint-dot"></span> Arrastra para mover</div>
+          <div id="mascot-position"><page-pet id="mascot" size="260" draggable label="Moklo: click to react. Use the arrow keys to move it."></page-pet><canvas id="neutral-overlay" aria-hidden="true" hidden></canvas><div id="anchor-guides" aria-hidden="true" hidden></div></div>
+          <div class="stage-hint"><span class="hint-dot"></span> Drag to move</div>
         </div>
-        <div class="stage-footer"><div class="surfaces" aria-label="Fondo de la escena"><button data-surface="paper" class="swatch paper active" aria-label="Fondo arcilla" aria-pressed="true"></button><button data-surface="lilac" class="swatch lilac" aria-label="Fondo lavanda" aria-pressed="false"></button><button data-surface="night" class="swatch night" aria-label="Fondo oscuro" aria-pressed="false"></button><button data-surface="alpha" class="swatch alpha" aria-label="Ver transparencia" aria-pressed="false"></button></div><span id="frame-status">Cargando creación…</span><button id="export-png" class="button small">Exportar PNG ↓</button></div>
+        <div class="stage-footer"><div class="surfaces" aria-label="Scene background"><button data-surface="paper" class="swatch paper active" aria-label="Clay background" aria-pressed="true"></button><button data-surface="lilac" class="swatch lilac" aria-label="Lavender background" aria-pressed="false"></button><button data-surface="night" class="swatch night" aria-label="Dark background" aria-pressed="false"></button><button data-surface="alpha" class="swatch alpha" aria-label="Show transparency" aria-pressed="false"></button></div><span id="frame-status">Loading…</span><button id="export-png" class="button small">Export PNG</button></div>
       </section>
       <aside class="inspector panel">
-        <div class="panel-heading"><h2>Ajustes</h2><button id="live" class="text-button">En vivo ↗</button></div>
-        <div class="inspector-tabs" role="group" aria-label="Panel de ajustes"><button data-panel="character" class="active" aria-pressed="true">Carácter</button><button data-panel="motion" aria-pressed="false">Movimiento</button><button data-panel="scene" aria-pressed="false">Escena</button></div>
+        <div class="panel-heading"><h2>Settings</h2><button id="live" class="text-button">Go live</button></div>
+        <div class="inspector-tabs" role="group" aria-label="Settings panels"><button data-panel="character" class="active" aria-pressed="true">Character</button><button data-panel="motion" aria-pressed="false">Motion</button><button data-panel="scene" aria-pressed="false">Scene</button></div>
         <div id="character-controls" class="inspector-content">
-          <div class="control-section"><div class="label-row"><label for="size">Tamaño</label><output id="size-value" for="size">260 px</output></div><input id="size" type="range" min="100" max="360" value="260" step="10"></div>
-          <div id="neck-control" class="control-section"><div class="label-row"><label for="neck">Altura del cuello</label><output id="neck-value" for="neck">0 px</output></div><input id="neck" type="range" min="-24" max="24" value="0" step="1"></div>
-          <div class="control-section"><div class="label-row"><label for="click-reaction">Al hacer clic</label></div><select id="click-reaction"><option value="cycle">Variar reacción</option><option value="off">Sin reacción</option></select></div>
-          <div id="body-control" class="control-section"><div class="label-row"><label for="body-pose">Postura del cuerpo</label></div><select id="body-pose"><option value="auto">Automática</option></select></div>
-          <div class="control-section"><div class="label-row"><label for="reaction-preview">Probar gesto</label></div><div class="preview-reaction"><select id="reaction-preview"></select><button id="try-reaction" class="icon-button" aria-label="Probar gesto">▷</button></div></div>
+          <div class="control-section"><div class="label-row"><label for="size">Size</label><output id="size-value" for="size">260 px</output></div><input id="size" type="range" min="100" max="360" value="260" step="10"></div>
+          <div id="neck-control" class="control-section"><div class="label-row"><label for="neck">Neck height</label><output id="neck-value" for="neck">0 px</output></div><input id="neck" type="range" min="-24" max="24" value="0" step="1"></div>
+          <div class="control-section"><div class="label-row"><label for="click-reaction">On click</label></div><select id="click-reaction"><option value="cycle">Cycle reactions</option><option value="off">No reaction</option></select></div>
+          <div id="body-control" class="control-section"><div class="label-row"><label for="body-pose">Body pose</label></div><select id="body-pose"><option value="auto">Automatic</option></select></div>
+          <div class="control-section"><div class="label-row"><label for="reaction-preview">Preview reaction</label></div><div class="preview-reaction"><select id="reaction-preview"></select><button id="try-reaction" class="icon-button" aria-label="Preview reaction">▷</button></div></div>
         </div>
         <div id="motion-controls" class="inspector-content" hidden>
-          <div class="control-section"><div class="label-row"><label for="motion-preset">Sensación</label></div><select id="motion-preset"><option value="soft">Suave</option><option value="jelly">Jelly</option><option value="elastic">Elástico</option><option value="custom" disabled>Personalizada</option></select></div>
+          <div class="control-section"><div class="label-row"><label for="motion-preset">Feel</label></div><select id="motion-preset"><option value="soft">Soft</option><option value="jelly">Jelly</option><option value="elastic">Elastic</option><option value="custom" disabled>Custom</option></select></div>
           <div class="motion-grid">
-            <div class="control-section"><div class="label-row"><label for="physics">Intensidad</label><output id="physics-value" for="physics">45 %</output></div><input id="physics" type="range" min="0" max="100" value="45" step="5" title="Intensidad de todo el movimiento. Cero lo desactiva."></div>
-            <div class="control-section"><div class="label-row"><label for="jelly">Jelly</label><output id="jelly-value" for="jelly">65 %</output></div><input id="jelly" type="range" min="0" max="100" value="65" step="5" title="Cuánto se estira y dobla al arrastrar."></div>
-            <div class="control-section"><div class="label-row"><label for="inertia">Inercia</label><output id="inertia-value" for="inertia">35 %</output></div><input id="inertia" type="range" min="0" max="100" value="35" step="5" title="Deslizamiento al soltar. Cero lo deja donde lo soltaste."></div>
-            <div class="control-section"><div class="label-row"><label for="bounce">Rebote</label><output id="bounce-value" for="bounce">40 %</output></div><input id="bounce" type="range" min="0" max="100" value="40" step="5" title="Rebote al soltar, tocar los bordes y terminar un gesto."></div>
-            <div class="control-section"><div class="label-row"><label for="weight">Peso</label><output id="weight-value" for="weight">45 %</output></div><input id="weight" type="range" min="0" max="100" value="45" step="5" title="Más peso da una respuesta más lenta y blanda."></div>
-            <div class="control-section"><div class="label-row"><label for="damping">Freno</label><output id="damping-value" for="damping">55 %</output></div><input id="damping" type="range" min="0" max="100" value="55" step="5" title="Cuánto tarda en dejar de oscilar y deslizarse."></div>
-            <div class="control-section"><div class="label-row"><label for="reactionMotion">Reacciones</label><output id="reactionMotion-value" for="reactionMotion">70 %</output></div><input id="reactionMotion" type="range" min="0" max="100" value="70" step="5" title="Movimiento de los gestos, independiente del arrastre."></div>
-            <div class="control-section"><div class="label-row"><label for="reactionSpeed">Ritmo</label><output id="reactionSpeed-value" for="reactionSpeed">100 %</output></div><input id="reactionSpeed" type="range" min="50" max="150" value="100" step="5" title="Velocidad de los gestos."></div>
-            <div class="control-section"><div class="label-row"><label for="clickResponse">Click local</label><output id="clickResponse-value" for="clickResponse">35 %</output></div><input id="clickResponse" type="range" min="0" max="100" value="35" step="5" title="La reacción nace donde pulsas, con un pequeño impulso según el punto. Cero usa el anclaje normal."></div>
+            <div class="control-section"><div class="label-row"><label for="physics">Intensity</label><output id="physics-value" for="physics">45 %</output></div><input id="physics" type="range" min="0" max="100" value="45" step="5" title="Master motion strength. Zero turns motion off."></div>
+            <div class="control-section"><div class="label-row"><label for="jelly">Jelly</label><output id="jelly-value" for="jelly">65 %</output></div><input id="jelly" type="range" min="0" max="100" value="65" step="5" title="How much the pet stretches and bends while you drag."></div>
+            <div class="control-section"><div class="label-row"><label for="inertia">Inertia</label><output id="inertia-value" for="inertia">35 %</output></div><input id="inertia" type="range" min="0" max="100" value="35" step="5" title="Glide after release. Zero stops where you let go."></div>
+            <div class="control-section"><div class="label-row"><label for="bounce">Bounce</label><output id="bounce-value" for="bounce">40 %</output></div><input id="bounce" type="range" min="0" max="100" value="40" step="5" title="Rebound on release, edges, and the end of a reaction."></div>
+            <div class="control-section"><div class="label-row"><label for="weight">Weight</label><output id="weight-value" for="weight">45 %</output></div><input id="weight" type="range" min="0" max="100" value="45" step="5" title="Higher weight makes the response slower and softer."></div>
+            <div class="control-section"><div class="label-row"><label for="damping">Damping</label><output id="damping-value" for="damping">55 %</output></div><input id="damping" type="range" min="0" max="100" value="55" step="5" title="How soon wobble and glide settle."></div>
+            <div class="control-section"><div class="label-row"><label for="reactionMotion">Reactions</label><output id="reactionMotion-value" for="reactionMotion">70 %</output></div><input id="reactionMotion" type="range" min="0" max="100" value="70" step="5" title="Reaction motion, separate from drag."></div>
+            <div class="control-section"><div class="label-row"><label for="reactionSpeed">Pace</label><output id="reactionSpeed-value" for="reactionSpeed">100 %</output></div><input id="reactionSpeed" type="range" min="50" max="150" value="100" step="5" title="How fast reactions play."></div>
+            <div class="control-section"><div class="label-row"><label for="clickResponse">Click origin</label><output id="clickResponse-value" for="clickResponse">35 %</output></div><input id="clickResponse" type="range" min="0" max="100" value="35" step="5" title="The reaction starts where you click, with a small push from that point. Zero uses the normal anchor."></div>
           </div>
-          <button id="try-motion" class="button motion-preview">Probar reacción</button>
+          <button id="try-motion" class="button motion-preview">Preview reaction</button>
         </div>
         <div id="scene-controls" class="inspector-content" hidden>
-          <div class="control-section"><div class="label-row"><label for="placement">Posición</label><span class="mini-label">15 + libre</span></div><select id="placement"><option value="free">Posición libre</option></select><div class="coordinates"><label>X <input id="position-x" type="range" min="0" max="100" value="50"></label><label>Y <input id="position-y" type="range" min="0" max="100" value="53"></label></div></div>
-          <div class="control-section switches"><label for="tracking">Seguir el cursor<input id="tracking" type="checkbox" role="switch" checked></label><label for="idle">Parpadeo y descanso<input id="idle" type="checkbox" role="switch" checked></label><label for="paused">Pausar movimiento<input id="paused" type="checkbox" role="switch"></label></div>
-          <div class="control-section switches"><label for="guides">Anclaje<input id="guides" type="checkbox" role="switch"></label><label for="onion">Pose neutra<input id="onion" type="checkbox" role="switch"></label></div>
-          <div id="layer-controls" class="control-section switches" hidden><label>Cuerpo<input id="show-body" type="checkbox" role="switch" checked></label><label>Cabeza<input id="show-head" type="checkbox" role="switch" checked></label></div>
+          <div class="control-section"><div class="label-row"><label for="placement">Position</label><span class="mini-label">15 + free</span></div><select id="placement"><option value="free">Free position</option></select><div class="coordinates"><label>X <input id="position-x" type="range" min="0" max="100" value="50"></label><label>Y <input id="position-y" type="range" min="0" max="100" value="53"></label></div></div>
+          <div class="control-section switches"><label for="tracking">Follow the pointer<input id="tracking" type="checkbox" role="switch" checked></label><label for="idle">Blink and rest<input id="idle" type="checkbox" role="switch" checked></label><label for="paused">Pause motion<input id="paused" type="checkbox" role="switch"></label></div>
+          <div class="control-section switches"><label for="guides">Show anchors<input id="guides" type="checkbox" role="switch"></label><label for="onion">Show neutral pose<input id="onion" type="checkbox" role="switch"></label></div>
+          <div id="layer-controls" class="control-section switches" hidden><label>Body<input id="show-body" type="checkbox" role="switch" checked></label><label>Head<input id="show-head" type="checkbox" role="switch" checked></label></div>
         </div>
-        <p id="motion-note" class="motion-note" hidden>Movimiento reducido: sin inercia ni deformación. Puedes arrastrar y elegir poses.</p>
-        <button id="export-settings" class="button primary">Guardar ajustes</button>
+        <p id="motion-note" class="motion-note" hidden>Reduced motion: no inertia or stretch. You can still drag and choose poses.</p>
+        <button id="export-settings" class="button primary">Save settings</button>
       </aside>
     </section>
     <div id="notice" role="status" aria-live="polite"></div>
   </main>
   <dialog id="integration-dialog" aria-labelledby="integration-title">
-    <div class="panel-heading"><h2 id="integration-title">Llévalo a tu web</h2><button id="close-integration" class="icon-button" aria-label="Cerrar integración">×</button></div>
-    <p>Copia el runtime y el pack a tu proyecto.</p>
-    <div class="code-card"><pre id="embed-code"></pre><button id="copy-code" class="button primary">Copiar código</button></div>
+    <div class="panel-heading"><h2 id="integration-title">Embed on your page</h2><button id="close-integration" class="icon-button" aria-label="Close embed">×</button></div>
+    <p>Copy the runtime and the pack into your project.</p>
+    <div class="code-card"><pre id="embed-code"></pre><button id="copy-code" class="button primary">Copy code</button></div>
   </dialog>
 
   <dialog id="workflow-dialog" aria-labelledby="workflow-title">
-    <div class="panel-heading"><h2 id="workflow-title">De referencia a mascota</h2><button id="close-workflow" class="icon-button" aria-label="Cerrar flujo">×</button></div>
+    <div class="panel-heading"><h2 id="workflow-title">From reference to pet</h2><button id="close-workflow" class="icon-button" aria-label="Close skill flow">×</button></div>
     <ol class="workflow-steps">
-      <li><strong>Fijar identidad</strong><span>Referencia, paleta y piloto de cuerpo completo.</span></li>
-      <li><strong>Generar</strong><span>5 tiras de miradas + 2 hojas de expresiones. Misma referencia.</span></li>
-      <li><strong>Nivelar y alinear</strong><span>Color por material, recortes revisados, escala y pies estables.</span></li>
-      <li><strong>Revisar aquí</strong><span>25 direcciones, 12 gestos, alfa, color y comparación con la pose neutra.</span></li>
-      <li><strong>Publicar e integrar</strong><span>Registro visual vigente antes de añadir al catálogo.</span></li>
+      <li><strong>Lock identity</strong><span>Reference, palette, and a complete-character pilot.</span></li>
+      <li><strong>Generate</strong><span>5 gaze strips and 2 reaction sheets. Same reference.</span></li>
+      <li><strong>Level and align</strong><span>Color by material, reviewed cuts, stable scale and feet.</span></li>
+      <li><strong>Review here</strong><span>25 directions, 12 reactions, alpha, color, and a compare against the neutral pose.</span></li>
+      <li><strong>Publish and embed</strong><span>A current visual record before the catalog accepts the pack.</span></li>
     </ol>
-    <p>El agente genera y prepara los archivos. Este playground permite importar, comparar y comprobar packs; no genera imágenes ni aprueba su calidad visual automáticamente.</p>
-    <div class="workflow-links"><a href="../SKILL.md" target="_blank">Skill ↗</a><a href="../references/color.md" target="_blank">Color ↗</a><a href="../references/troubleshooting.md" target="_blank">Correcciones del flujo ↗</a></div>
+    <p>The agent generates and prepares the files. This playground imports, compares, and checks packs. It does not generate images or approve art.</p>
+    <div class="workflow-links"><a href="../SKILL.md" target="_blank">Open the skill</a><a href="../references/color.md" target="_blank">Open color notes</a><a href="../references/troubleshooting.md" target="_blank">Open flow corrections</a></div>
   </dialog>
   <dialog id="review-dialog" aria-labelledby="review-title">
-    <div class="panel-heading"><h2 id="review-title">Revisar pack</h2><button id="close-review" class="icon-button" aria-label="Cerrar revisión">×</button></div>
+    <div class="panel-heading"><h2 id="review-title">Review pack</h2><button id="close-review" class="icon-button" aria-label="Close review">×</button></div>
     <div id="review-results" role="status" aria-live="polite"></div>
-    <p>Los controles técnicos no comprueban anatomía, miradas ni color. Importa también <code>gaze-review.json</code> para comprobar su vigencia. El nivelado de color se revisa con su comparación antes/después.</p>
-    <div class="review-actions"><button id="compare-neutral" class="button secondary">Comparar pose neutra</button><button id="download-review" class="button primary" disabled>Guardar diagnóstico</button></div>
+    <p>These checks do not judge anatomy, gaze, or color. Also import <code>gaze-review.json</code> to see if the record still matches these files. Review color leveling with its before-and-after comparison.</p>
+    <div class="review-actions"><button id="compare-neutral" class="button secondary">Compare neutral pose</button><button id="download-review" class="button primary" disabled>Save diagnosis</button></div>
   </dialog>
 
   <script type="module" src="./app.js"></script>

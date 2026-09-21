@@ -55,11 +55,11 @@ export async function inspectPack(pack) {
 
 export function renderInspection(target, result) {
   const checks = [
-    ['Miradas', result.coverage && !result.duplicateGazes.length, `${result.gazeCount} / 25 · ${result.coverage ? 'cuadrícula completa' : 'cobertura incorrecta'} · ${result.duplicateGazes.length ? 'copias exactas: '+result.duplicateGazes.join(', ') : 'sin copias exactas'}`],
-    ['Expresiones', result.reactionCount === 12, `${result.reactionCount} / 12`],
-    ['Transparencia', !result.alphaFailures.length, result.alphaFailures.length ? result.alphaFailures.join(', ') : 'Alfa real y píxeles visibles en todas las poses'],
-    ['Formato', result.fullCharacter, result.fullCharacter ? 'Un sprite completo por pose' : 'Capas separadas: fuera del flujo actual'],
-    ['Revisión visual', result.visualRecord === 'current', ({current:'Registro vigente, ligado a estos archivos',missing:'Sin registro: revisión pendiente',stale:'Registro obsoleto: cambiaron los archivos',incomplete:'Registro incompleto o con fallos'})[result.visualRecord]],
+    ['Gaze', result.coverage && !result.duplicateGazes.length, `${result.gazeCount} / 25 · ${result.coverage ? 'full grid' : 'coverage is wrong'} · ${result.duplicateGazes.length ? 'exact copies: '+result.duplicateGazes.join(', ') : 'no exact copies'}`],
+    ['Reactions', result.reactionCount === 12, `${result.reactionCount} / 12`],
+    ['Transparency', !result.alphaFailures.length, result.alphaFailures.length ? result.alphaFailures.join(', ') : 'Real alpha and visible pixels in every pose'],
+    ['Format', result.fullCharacter, result.fullCharacter ? 'One complete sprite per pose' : 'Separate layers: outside the current flow'],
+    ['Visual review', result.visualRecord === 'current', ({current:'Current record, bound to these files',missing:'No record: review still required',stale:'Record is stale: the files changed',incomplete:'Record is incomplete or has failures'})[result.visualRecord]],
   ];
   target.replaceChildren();
   for (const [name, pass, detail] of checks) {
