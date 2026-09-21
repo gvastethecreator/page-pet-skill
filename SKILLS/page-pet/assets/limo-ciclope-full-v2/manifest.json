@@ -1,0 +1,518 @@
+{
+  "version": 1,
+  "name": "Limo C\u00edclope",
+  "neutral": "gaze-2-0",
+  "pivot": [
+    0.5,
+    0.9
+  ],
+  "frames": [
+    {
+      "rect": [
+        0,
+        0,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-0-0",
+      "kind": "gaze",
+      "gaze": [
+        -1.0,
+        0
+      ]
+    },
+    {
+      "rect": [
+        640,
+        0,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-1-0",
+      "kind": "gaze",
+      "gaze": [
+        -0.5,
+        0
+      ]
+    },
+    {
+      "rect": [
+        1280,
+        0,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-2-0",
+      "kind": "gaze",
+      "gaze": [
+        0.0,
+        0
+      ]
+    },
+    {
+      "rect": [
+        1920,
+        0,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-3-0",
+      "kind": "gaze",
+      "gaze": [
+        0.5,
+        0
+      ]
+    },
+    {
+      "rect": [
+        2560,
+        0,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-4-0",
+      "kind": "gaze",
+      "gaze": [
+        1.0,
+        0
+      ]
+    },
+    {
+      "rect": [
+        0,
+        640,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-up-0",
+      "kind": "gaze",
+      "gaze": [
+        -1,
+        -1
+      ]
+    },
+    {
+      "rect": [
+        640,
+        640,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-up-1",
+      "kind": "gaze",
+      "gaze": [
+        -0.5,
+        -1
+      ]
+    },
+    {
+      "rect": [
+        1280,
+        640,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-up-2",
+      "kind": "gaze",
+      "gaze": [
+        0,
+        -1
+      ]
+    },
+    {
+      "rect": [
+        1920,
+        640,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-up-3",
+      "kind": "gaze",
+      "gaze": [
+        0.5,
+        -1
+      ]
+    },
+    {
+      "rect": [
+        2560,
+        640,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-up-4",
+      "kind": "gaze",
+      "gaze": [
+        1,
+        -1
+      ]
+    },
+    {
+      "rect": [
+        0,
+        1280,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-slight-up-0",
+      "kind": "gaze",
+      "gaze": [
+        -1,
+        -0.5
+      ]
+    },
+    {
+      "rect": [
+        640,
+        1280,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-slight-up-1",
+      "kind": "gaze",
+      "gaze": [
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "rect": [
+        1280,
+        1280,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-slight-up-2",
+      "kind": "gaze",
+      "gaze": [
+        0,
+        -0.5
+      ]
+    },
+    {
+      "rect": [
+        1920,
+        1280,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-slight-up-3",
+      "kind": "gaze",
+      "gaze": [
+        0.5,
+        -0.5
+      ]
+    },
+    {
+      "rect": [
+        2560,
+        1280,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-slight-up-4",
+      "kind": "gaze",
+      "gaze": [
+        1,
+        -0.5
+      ]
+    },
+    {
+      "rect": [
+        0,
+        1920,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-slight-down-0",
+      "kind": "gaze",
+      "gaze": [
+        -1,
+        0.5
+      ]
+    },
+    {
+      "rect": [
+        640,
+        1920,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-slight-down-1",
+      "kind": "gaze",
+      "gaze": [
+        -0.5,
+        0.5
+      ]
+    },
+    {
+      "rect": [
+        1280,
+        1920,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-slight-down-2",
+      "kind": "gaze",
+      "gaze": [
+        0,
+        0.5
+      ]
+    },
+    {
+      "rect": [
+        1920,
+        1920,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-slight-down-3",
+      "kind": "gaze",
+      "gaze": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "rect": [
+        2560,
+        1920,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-slight-down-4",
+      "kind": "gaze",
+      "gaze": [
+        1,
+        0.5
+      ]
+    },
+    {
+      "rect": [
+        0,
+        2560,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-down-0",
+      "kind": "gaze",
+      "gaze": [
+        -1,
+        1
+      ]
+    },
+    {
+      "rect": [
+        640,
+        2560,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-down-1",
+      "kind": "gaze",
+      "gaze": [
+        -0.5,
+        1
+      ]
+    },
+    {
+      "rect": [
+        1280,
+        2560,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-down-2",
+      "kind": "gaze",
+      "gaze": [
+        0,
+        1
+      ]
+    },
+    {
+      "rect": [
+        1920,
+        2560,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-down-3",
+      "kind": "gaze",
+      "gaze": [
+        0.5,
+        1
+      ]
+    },
+    {
+      "rect": [
+        2560,
+        2560,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "gaze-directions-down-4",
+      "kind": "gaze",
+      "gaze": [
+        1,
+        1
+      ]
+    },
+    {
+      "rect": [
+        0,
+        3200,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "laugh",
+      "kind": "reaction"
+    },
+    {
+      "rect": [
+        640,
+        3200,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "surprised",
+      "kind": "reaction"
+    },
+    {
+      "rect": [
+        1280,
+        3200,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "wink",
+      "kind": "reaction"
+    },
+    {
+      "rect": [
+        1920,
+        3200,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "kiss",
+      "kind": "reaction"
+    },
+    {
+      "rect": [
+        2560,
+        3200,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "blink",
+      "kind": "reaction"
+    },
+    {
+      "rect": [
+        0,
+        3840,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "sleep",
+      "kind": "reaction"
+    },
+    {
+      "rect": [
+        640,
+        3840,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "worried",
+      "kind": "reaction"
+    },
+    {
+      "rect": [
+        1280,
+        3840,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "annoyed",
+      "kind": "reaction"
+    },
+    {
+      "rect": [
+        1920,
+        3840,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "proud",
+      "kind": "reaction"
+    },
+    {
+      "rect": [
+        2560,
+        3840,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "confused",
+      "kind": "reaction"
+    },
+    {
+      "rect": [
+        0,
+        4480,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "excited",
+      "kind": "reaction"
+    },
+    {
+      "rect": [
+        640,
+        4480,
+        640,
+        640
+      ],
+      "sheet": "mascot.webp",
+      "id": "calm",
+      "kind": "reaction"
+    }
+  ]
+}

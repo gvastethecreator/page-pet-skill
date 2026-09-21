@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "f087196166420d8b95111bc74f37f1dc24170a530fb733cb5dc90c32bb8bbc4a",
+    "sheets": {
+      "mascot.webp": "754f18fce171e9b8e6c97af3ef2c95f4812c3f2ace0046c3c621d6344453946a"
+    }
+  },
+  "reviewer": "Codex visual inspection of source overlays, final target grid and live 320px render, 2026-09-21",
+  "neighborContinuity": "pass",
+  "runtimeTracking": "pass",
+  "frames": {
+    "gaze-0-0": {
+      "expected": [
+        -1.0,
+        0
+      ],
+      "observed": [
+        -1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth turn onto the left edge of the purple sphere. Eye and mouth on the middle band."
+    },
+    "gaze-1-0": {
+      "expected": [
+        -0.5,
+        0
+      ],
+      "observed": [
+        -0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth shift left with a broader visible eye than profile. Eye and mouth on the middle band."
+    },
+    "gaze-2-0": {
+      "expected": [
+        0.0,
+        0
+      ],
+      "observed": [
+        0.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth centered on the sphere. Eye and mouth on the middle band."
+    },
+    "gaze-3-0": {
+      "expected": [
+        0.5,
+        0
+      ],
+      "observed": [
+        0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth shift right with a broader visible eye than profile. Eye and mouth on the middle band."
+    },
+    "gaze-4-0": {
+      "expected": [
+        1.0,
+        0
+      ],
+      "observed": [
+        1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth turn onto the right edge of the purple sphere. Eye and mouth on the middle band."
+    },
+    "gaze-directions-up-0": {
+      "expected": [
+        -1,
+        -1
+      ],
+      "observed": [
+        -1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth turn onto the left edge of the purple sphere. Eye and mouth high on the curved surface, underside exposed."
+    },
+    "gaze-directions-up-1": {
+      "expected": [
+        -0.5,
+        -1
+      ],
+      "observed": [
+        -0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth shift left with a broader visible eye than profile. Eye and mouth high on the curved surface, underside exposed."
+    },
+    "gaze-directions-up-2": {
+      "expected": [
+        0,
+        -1
+      ],
+      "observed": [
+        0,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth centered on the sphere. Eye and mouth high on the curved surface, underside exposed."
+    },
+    "gaze-directions-up-3": {
+      "expected": [
+        0.5,
+        -1
+      ],
+      "observed": [
+        0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth shift right with a broader visible eye than profile. Eye and mouth high on the curved surface, underside exposed."
+    },
+    "gaze-directions-up-4": {
+      "expected": [
+        1,
+        -1
+      ],
+      "observed": [
+        1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth turn onto the right edge of the purple sphere. Eye and mouth high on the curved surface, underside exposed."
+    },
+    "gaze-directions-slight-up-0": {
+      "expected": [
+        -1,
+        -0.5
+      ],
+      "observed": [
+        -1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth turn onto the left edge of the purple sphere. Eye and mouth moderately above center."
+    },
+    "gaze-directions-slight-up-1": {
+      "expected": [
+        -0.5,
+        -0.5
+      ],
+      "observed": [
+        -0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth shift left with a broader visible eye than profile. Eye and mouth moderately above center."
+    },
+    "gaze-directions-slight-up-2": {
+      "expected": [
+        0,
+        -0.5
+      ],
+      "observed": [
+        0,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth centered on the sphere. Eye and mouth moderately above center."
+    },
+    "gaze-directions-slight-up-3": {
+      "expected": [
+        0.5,
+        -0.5
+      ],
+      "observed": [
+        0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth shift right with a broader visible eye than profile. Eye and mouth moderately above center."
+    },
+    "gaze-directions-slight-up-4": {
+      "expected": [
+        1,
+        -0.5
+      ],
+      "observed": [
+        1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth turn onto the right edge of the purple sphere. Eye and mouth moderately above center."
+    },
+    "gaze-directions-slight-down-0": {
+      "expected": [
+        -1,
+        0.5
+      ],
+      "observed": [
+        -1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth turn onto the left edge of the purple sphere. Eye and mouth below center with more upper veins."
+    },
+    "gaze-directions-slight-down-1": {
+      "expected": [
+        -0.5,
+        0.5
+      ],
+      "observed": [
+        -0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth shift left with a broader visible eye than profile. Eye and mouth below center with more upper veins."
+    },
+    "gaze-directions-slight-down-2": {
+      "expected": [
+        0,
+        0.5
+      ],
+      "observed": [
+        0,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth centered on the sphere. Eye and mouth below center with more upper veins."
+    },
+    "gaze-directions-slight-down-3": {
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "observed": [
+        0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth shift right with a broader visible eye than profile. Eye and mouth below center with more upper veins."
+    },
+    "gaze-directions-slight-down-4": {
+      "expected": [
+        1,
+        0.5
+      ],
+      "observed": [
+        1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth turn onto the right edge of the purple sphere. Eye and mouth below center with more upper veins."
+    },
+    "gaze-directions-down-0": {
+      "expected": [
+        -1,
+        1
+      ],
+      "observed": [
+        -1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth turn onto the left edge of the purple sphere. Eye and mouth near the lower surface, large veined crown visible."
+    },
+    "gaze-directions-down-1": {
+      "expected": [
+        -0.5,
+        1
+      ],
+      "observed": [
+        -0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth shift left with a broader visible eye than profile. Eye and mouth near the lower surface, large veined crown visible."
+    },
+    "gaze-directions-down-2": {
+      "expected": [
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth centered on the sphere. Eye and mouth near the lower surface, large veined crown visible."
+    },
+    "gaze-directions-down-3": {
+      "expected": [
+        0.5,
+        1
+      ],
+      "observed": [
+        0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth shift right with a broader visible eye than profile. Eye and mouth near the lower surface, large veined crown visible."
+    },
+    "gaze-directions-down-4": {
+      "expected": [
+        1,
+        1
+      ],
+      "observed": [
+        1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Iris and mouth turn onto the right edge of the purple sphere. Eye and mouth near the lower surface, large veined crown visible."
+    }
+  }
+}

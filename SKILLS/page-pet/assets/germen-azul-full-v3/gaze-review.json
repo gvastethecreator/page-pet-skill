@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "6d21b351d4f940eb043d5ac9b0dfef5c822fdac75b228a8a334748d5caf16edf",
+    "sheets": {
+      "mascot.webp": "c5dde9747d13a31df12c68e39a88006275b4cd7452b43f33c7c586027d230771"
+    }
+  },
+  "reviewer": "Codex visual review, 2026-09-21; native source overlays and final sorted 5x5 contact",
+  "neighborContinuity": "pass",
+  "runtimeTracking": "pass",
+  "frames": {
+    "gaze-0-0": {
+      "expected": [
+        -1.0,
+        0
+      ],
+      "observed": [
+        -1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Open mouth and eye occlusion track yaw. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-1-0": {
+      "expected": [
+        -0.5,
+        0
+      ],
+      "observed": [
+        -0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Open mouth and eye occlusion track yaw. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-2-0": {
+      "expected": [
+        0.0,
+        0
+      ],
+      "observed": [
+        0.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "centered front; Open mouth and eye occlusion track yaw. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-3-0": {
+      "expected": [
+        0.5,
+        0
+      ],
+      "observed": [
+        0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Open mouth and eye occlusion track yaw. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-4-0": {
+      "expected": [
+        1.0,
+        0
+      ],
+      "observed": [
+        1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Open mouth and eye occlusion track yaw. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-directions-up-0": {
+      "expected": [
+        -1,
+        -1
+      ],
+      "observed": [
+        -1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Open mouth and eye occlusion track yaw. strong upward tilt; Face shifts up on spherical body, chin visible."
+    },
+    "gaze-directions-up-1": {
+      "expected": [
+        -0.5,
+        -1
+      ],
+      "observed": [
+        -0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Open mouth and eye occlusion track yaw. strong upward tilt; Face shifts up on spherical body, chin visible."
+    },
+    "gaze-directions-up-2": {
+      "expected": [
+        0,
+        -1
+      ],
+      "observed": [
+        0,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "centered front; Open mouth and eye occlusion track yaw. strong upward tilt; Face shifts up on spherical body, chin visible."
+    },
+    "gaze-directions-up-3": {
+      "expected": [
+        0.5,
+        -1
+      ],
+      "observed": [
+        0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Open mouth and eye occlusion track yaw. strong upward tilt; Face shifts up on spherical body, chin visible."
+    },
+    "gaze-directions-up-4": {
+      "expected": [
+        1,
+        -1
+      ],
+      "observed": [
+        1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Open mouth and eye occlusion track yaw. strong upward tilt; Face shifts up on spherical body, chin visible."
+    },
+    "gaze-directions-up-mid-0": {
+      "expected": [
+        -1,
+        -0.5
+      ],
+      "observed": [
+        -1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Open mouth and eye occlusion track yaw. slight upward tilt; Face shifts up on spherical body, chin visible."
+    },
+    "gaze-directions-up-mid-1": {
+      "expected": [
+        -0.5,
+        -0.5
+      ],
+      "observed": [
+        -0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Open mouth and eye occlusion track yaw. slight upward tilt; Face shifts up on spherical body, chin visible."
+    },
+    "gaze-directions-up-mid-2": {
+      "expected": [
+        0,
+        -0.5
+      ],
+      "observed": [
+        0,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "centered front; Open mouth and eye occlusion track yaw. slight upward tilt; Face shifts up on spherical body, chin visible."
+    },
+    "gaze-directions-up-mid-3": {
+      "expected": [
+        0.5,
+        -0.5
+      ],
+      "observed": [
+        0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Open mouth and eye occlusion track yaw. slight upward tilt; Face shifts up on spherical body, chin visible."
+    },
+    "gaze-directions-up-mid-4": {
+      "expected": [
+        1,
+        -0.5
+      ],
+      "observed": [
+        1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Open mouth and eye occlusion track yaw. slight upward tilt; Face shifts up on spherical body, chin visible."
+    },
+    "gaze-directions-down-mid-0": {
+      "expected": [
+        -1,
+        0.5
+      ],
+      "observed": [
+        -1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Open mouth and eye occlusion track yaw. slight downward tilt; Crown spikes dominate above lowered face."
+    },
+    "gaze-directions-down-mid-1": {
+      "expected": [
+        -0.5,
+        0.5
+      ],
+      "observed": [
+        -0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Open mouth and eye occlusion track yaw. slight downward tilt; Crown spikes dominate above lowered face."
+    },
+    "gaze-directions-down-mid-2": {
+      "expected": [
+        0,
+        0.5
+      ],
+      "observed": [
+        0,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "centered front; Open mouth and eye occlusion track yaw. slight downward tilt; Crown spikes dominate above lowered face."
+    },
+    "gaze-directions-down-mid-3": {
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "observed": [
+        0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Open mouth and eye occlusion track yaw. slight downward tilt; Crown spikes dominate above lowered face."
+    },
+    "gaze-directions-down-mid-4": {
+      "expected": [
+        1,
+        0.5
+      ],
+      "observed": [
+        1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Open mouth and eye occlusion track yaw. slight downward tilt; Crown spikes dominate above lowered face."
+    },
+    "gaze-directions-down-0": {
+      "expected": [
+        -1,
+        1
+      ],
+      "observed": [
+        -1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Open mouth and eye occlusion track yaw. strong downward tilt; Crown spikes dominate above lowered face."
+    },
+    "gaze-directions-down-1": {
+      "expected": [
+        -0.5,
+        1
+      ],
+      "observed": [
+        -0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Open mouth and eye occlusion track yaw. strong downward tilt; Crown spikes dominate above lowered face."
+    },
+    "gaze-directions-down-2": {
+      "expected": [
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "evidence": "centered front; Open mouth and eye occlusion track yaw. strong downward tilt; Crown spikes dominate above lowered face."
+    },
+    "gaze-directions-down-3": {
+      "expected": [
+        0.5,
+        1
+      ],
+      "observed": [
+        0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Open mouth and eye occlusion track yaw. strong downward tilt; Crown spikes dominate above lowered face."
+    },
+    "gaze-directions-down-4": {
+      "expected": [
+        1,
+        1
+      ],
+      "observed": [
+        1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Open mouth and eye occlusion track yaw. strong downward tilt; Crown spikes dominate above lowered face."
+    }
+  },
+  "runtimeEvidence": "Imported corrected pack or selected unchanged pack in local playground; 25 physical mouse target positions matched 25 displayed gaze labels at 1280x720."
+}

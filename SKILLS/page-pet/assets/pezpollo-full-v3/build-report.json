@@ -1,0 +1,1495 @@
+{
+  "sourceLayoutSha256": "54a5414347d97c1185ae5e6aef5ce9a128c6b72fa4e4b25aaf3334f71881388b",
+  "sourceLayoutHashes": {
+    "primary": "54a5414347d97c1185ae5e6aef5ce9a128c6b72fa4e4b25aaf3334f71881388b",
+    "directions-up": "26a82b22af1d09c3f57cf26a1bafaa015839a45c98c3f43b35ed745ac2c94e5a",
+    "directions-up-mid": "a4e1be8f29ac6f7896f3a2eb70b1ececbe19932c8e28864a83d6a535d5048a80",
+    "directions-down-mid": "02ed6792acb5eef1758b43122e3bc9e20a05931964c8f6299f160d63440991ef",
+    "directions-down": "a4b84a0373dc688f350ae49b9b267f6b0640281c3ec673a0813a0c2b3c8c76b8",
+    "reactions-extra": "71ca7bdcbe58c5bcb5f80804067d09fcc6c2b40bb23aa36fda184477ba8bdbbc"
+  },
+  "sourceHashes": {
+    "directions": "77635a5f89b0421acde8067060416265ff13ac555669f83e59ba097a93f7cca8",
+    "directions-up": "0e2cad61003515d406b04e8295054c6b0c47b449ffb5562b413dc2e2dbd295f9",
+    "directions-up-mid": "5ee88cc6cfe9305b1e4db3b220aa1ad51c1723c613e156312972a04af20cbad3",
+    "directions-down-mid": "58e02f21e5ebfee702c6fcb464f125841529a232dca9a28d4e655085cbc96a62",
+    "directions-down": "ac6ec328bd40ebc15d57e983856e0f499f7946343b4c5987b4a9975955d5a029",
+    "reactions": "472985677ddf3c11b36ca88464bd2aed0d26ec1786d5a9991b7d124e641fb13d",
+    "reactions-extra": "fbe453110fdc7e8a4b88e359d37184a8b1462d7b5ac39a81d0b79ad60dd55db6"
+  },
+  "referenceSha256": "306b7533b1635033f8af0aef2dfb326d7d18d1daac74a57a835a039eca9f6dbf",
+  "sourceProvenanceSha256": "24799d8661ba6b423519c691e9f93c03338937e069936766658c4016e68dd1cc",
+  "anchor": "lower-body-bottom",
+  "scalePolicy": "neutral-height-and-reaction-full-height-v1",
+  "targetAnchor": [
+    320.0,
+    576
+  ],
+  "frameSemantics": "variants",
+  "packedAtlasSize": [
+    3200,
+    5120
+  ],
+  "occupancy": 0.65,
+  "torsoColorSamples": {},
+  "torsoColorLimit": null,
+  "frames": {
+    "directions": [
+      {
+        "cell": 0,
+        "sourceBox": [
+          0,
+          0,
+          546,
+          724
+        ],
+        "sourceBounds": [
+          83,
+          86,
+          456,
+          648
+        ],
+        "sourceAnchor": [
+          287.02038097416226,
+          648
+        ],
+        "scale": 0.733686,
+        "outputBounds": [
+          170,
+          164,
+          444,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.007,
+          0.0
+        ],
+        "bodyWidth": 118,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 1,
+        "sourceBox": [
+          546,
+          0,
+          1066,
+          724
+        ],
+        "sourceBounds": [
+          91,
+          83,
+          478,
+          650
+        ],
+        "sourceAnchor": [
+          276.5521303154913,
+          650
+        ],
+        "scale": 0.733686,
+        "outputBounds": [
+          184,
+          160,
+          468,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.079,
+          0.0
+        ],
+        "bodyWidth": 221,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 2,
+        "sourceBox": [
+          1066,
+          0,
+          1640,
+          724
+        ],
+        "sourceBounds": [
+          44,
+          82,
+          518,
+          649
+        ],
+        "sourceAnchor": [
+          281.4450789037702,
+          649
+        ],
+        "scale": 0.733686,
+        "outputBounds": [
+          146,
+          160,
+          494,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.005,
+          0.0
+        ],
+        "bodyWidth": 258,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 3,
+        "sourceBox": [
+          1640,
+          0,
+          2161,
+          724
+        ],
+        "sourceBounds": [
+          57,
+          84,
+          443,
+          649
+        ],
+        "sourceAnchor": [
+          257.5216633114591,
+          649
+        ],
+        "scale": 0.733686,
+        "outputBounds": [
+          173,
+          161,
+          456,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.072,
+          0.0
+        ],
+        "bodyWidth": 218,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 4,
+        "sourceBox": [
+          2161,
+          0,
+          2695,
+          724
+        ],
+        "sourceBounds": [
+          80,
+          86,
+          451,
+          648
+        ],
+        "sourceAnchor": [
+          250.42634357431845,
+          648
+        ],
+        "scale": 0.733686,
+        "outputBounds": [
+          195,
+          164,
+          467,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.008,
+          0.0
+        ],
+        "bodyWidth": 117,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      }
+    ],
+    "directions-up": [
+      {
+        "cell": 0,
+        "sourceBox": [
+          0,
+          0,
+          485,
+          724
+        ],
+        "sourceBounds": [
+          71,
+          57,
+          414,
+          663
+        ],
+        "sourceAnchor": [
+          230.6402632980279,
+          663
+        ],
+        "scale": 0.756534,
+        "outputBounds": [
+          199,
+          117,
+          458,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.082,
+          0.0
+        ],
+        "bodyWidth": 116,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 1,
+        "sourceBox": [
+          485,
+          0,
+          977,
+          724
+        ],
+        "sourceBounds": [
+          72,
+          60,
+          458,
+          663
+        ],
+        "sourceAnchor": [
+          259.42705555965654,
+          663
+        ],
+        "scale": 0.756534,
+        "outputBounds": [
+          178,
+          120,
+          470,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.034,
+          0.0
+        ],
+        "bodyWidth": 219,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 2,
+        "sourceBox": [
+          977,
+          0,
+          1487,
+          724
+        ],
+        "sourceBounds": [
+          36,
+          55,
+          469,
+          661
+        ],
+        "sourceAnchor": [
+          252.4085727418388,
+          661
+        ],
+        "scale": 0.756534,
+        "outputBounds": [
+          156,
+          117,
+          484,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.014,
+          0.0
+        ],
+        "bodyWidth": 260,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 3,
+        "sourceBox": [
+          1487,
+          0,
+          1981,
+          724
+        ],
+        "sourceBounds": [
+          42,
+          59,
+          429,
+          664
+        ],
+        "sourceAnchor": [
+          240.70418342281286,
+          664
+        ],
+        "scale": 0.756534,
+        "outputBounds": [
+          170,
+          119,
+          462,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.02,
+          0.0
+        ],
+        "bodyWidth": 219,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 4,
+        "sourceBox": [
+          1981,
+          0,
+          2455,
+          724
+        ],
+        "sourceBounds": [
+          66,
+          57,
+          409,
+          663
+        ],
+        "sourceAnchor": [
+          249.5806753004314,
+          663
+        ],
+        "scale": 0.756534,
+        "outputBounds": [
+          181,
+          117,
+          441,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.089,
+          0.0
+        ],
+        "bodyWidth": 116,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      }
+    ],
+    "directions-up-mid": [
+      {
+        "cell": 0,
+        "sourceBox": [
+          0,
+          0,
+          518,
+          724
+        ],
+        "sourceBounds": [
+          66,
+          75,
+          445,
+          648
+        ],
+        "sourceAnchor": [
+          248.83844001401303,
+          648
+        ],
+        "scale": 0.723968,
+        "outputBounds": [
+          187,
+          161,
+          462,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.069,
+          0.0
+        ],
+        "bodyWidth": 113,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 1,
+        "sourceBox": [
+          518,
+          0,
+          1025,
+          724
+        ],
+        "sourceBounds": [
+          75,
+          75,
+          459,
+          649
+        ],
+        "sourceAnchor": [
+          257.8142569514042,
+          649
+        ],
+        "scale": 0.723968,
+        "outputBounds": [
+          187,
+          160,
+          466,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.192,
+          0.0
+        ],
+        "bodyWidth": 219,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 2,
+        "sourceBox": [
+          1025,
+          0,
+          1593,
+          724
+        ],
+        "sourceBounds": [
+          50,
+          73,
+          521,
+          649
+        ],
+        "sourceAnchor": [
+          285.18548184050377,
+          649
+        ],
+        "scale": 0.723968,
+        "outputBounds": [
+          149,
+          159,
+          490,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.023,
+          0.0
+        ],
+        "bodyWidth": 256,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 3,
+        "sourceBox": [
+          1593,
+          0,
+          2097,
+          724
+        ],
+        "sourceBounds": [
+          49,
+          74,
+          433,
+          649
+        ],
+        "sourceAnchor": [
+          249.37963998720386,
+          649
+        ],
+        "scale": 0.723968,
+        "outputBounds": [
+          175,
+          160,
+          453,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.214,
+          0.0
+        ],
+        "bodyWidth": 219,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 4,
+        "sourceBox": [
+          2097,
+          0,
+          2620,
+          724
+        ],
+        "sourceBounds": [
+          73,
+          75,
+          452,
+          648
+        ],
+        "sourceAnchor": [
+          269.31411996038247,
+          648
+        ],
+        "scale": 0.723968,
+        "outputBounds": [
+          178,
+          161,
+          453,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.071,
+          0.0
+        ],
+        "bodyWidth": 113,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      }
+    ],
+    "directions-down-mid": [
+      {
+        "cell": 0,
+        "sourceBox": [
+          0,
+          0,
+          522,
+          724
+        ],
+        "sourceBounds": [
+          71,
+          76,
+          449,
+          651
+        ],
+        "sourceAnchor": [
+          272.42668387905957,
+          651
+        ],
+        "scale": 0.721579,
+        "outputBounds": [
+          175,
+          161,
+          447,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.049,
+          0.0
+        ],
+        "bodyWidth": 120,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 1,
+        "sourceBox": [
+          522,
+          0,
+          1027,
+          724
+        ],
+        "sourceBounds": [
+          75,
+          76,
+          458,
+          651
+        ],
+        "sourceAnchor": [
+          257.80225361818407,
+          651
+        ],
+        "scale": 0.721579,
+        "outputBounds": [
+          188,
+          161,
+          464,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.231,
+          0.0
+        ],
+        "bodyWidth": 219,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 2,
+        "sourceBox": [
+          1027,
+          0,
+          1592,
+          724
+        ],
+        "sourceBounds": [
+          48,
+          77,
+          515,
+          652
+        ],
+        "sourceAnchor": [
+          280.735916391613,
+          652
+        ],
+        "scale": 0.721579,
+        "outputBounds": [
+          152,
+          161,
+          489,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.016,
+          0.0
+        ],
+        "bodyWidth": 257,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 3,
+        "sourceBox": [
+          1592,
+          0,
+          2096,
+          724
+        ],
+        "sourceBounds": [
+          52,
+          77,
+          433,
+          652
+        ],
+        "sourceAnchor": [
+          250.3423548497151,
+          652
+        ],
+        "scale": 0.721579,
+        "outputBounds": [
+          177,
+          161,
+          452,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.267,
+          0.0
+        ],
+        "bodyWidth": 219,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 4,
+        "sourceBox": [
+          2096,
+          0,
+          2620,
+          724
+        ],
+        "sourceBounds": [
+          72,
+          76,
+          449,
+          651
+        ],
+        "sourceAnchor": [
+          248.68970111553048,
+          651
+        ],
+        "scale": 0.721579,
+        "outputBounds": [
+          193,
+          161,
+          465,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.048,
+          0.0
+        ],
+        "bodyWidth": 120,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      }
+    ],
+    "directions-down": [
+      {
+        "cell": 0,
+        "sourceBox": [
+          0,
+          0,
+          520,
+          724
+        ],
+        "sourceBounds": [
+          79,
+          85,
+          438,
+          652
+        ],
+        "sourceAnchor": [
+          268.756591092618,
+          652
+        ],
+        "scale": 0.736156,
+        "outputBounds": [
+          180,
+          158,
+          445,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.025,
+          0.0
+        ],
+        "bodyWidth": 115,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 1,
+        "sourceBox": [
+          520,
+          0,
+          1027,
+          724
+        ],
+        "sourceBounds": [
+          84,
+          80,
+          466,
+          653
+        ],
+        "sourceAnchor": [
+          270.03227901492863,
+          653
+        ],
+        "scale": 0.736156,
+        "outputBounds": [
+          183,
+          155,
+          464,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.024,
+          0.0
+        ],
+        "bodyWidth": 220,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 2,
+        "sourceBox": [
+          1027,
+          0,
+          1587,
+          724
+        ],
+        "sourceBounds": [
+          42,
+          81,
+          508,
+          653
+        ],
+        "sourceAnchor": [
+          274.8763584842095,
+          653
+        ],
+        "scale": 0.736156,
+        "outputBounds": [
+          149,
+          155,
+          492,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.013,
+          0.0
+        ],
+        "bodyWidth": 263,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 3,
+        "sourceBox": [
+          1587,
+          0,
+          2093,
+          724
+        ],
+        "sourceBounds": [
+          54,
+          81,
+          435,
+          653
+        ],
+        "sourceAnchor": [
+          248.69302188963871,
+          653
+        ],
+        "scale": 0.736156,
+        "outputBounds": [
+          176,
+          155,
+          457,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.027,
+          0.0
+        ],
+        "bodyWidth": 219,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 4,
+        "sourceBox": [
+          2093,
+          0,
+          2605,
+          724
+        ],
+        "sourceBounds": [
+          73,
+          85,
+          431,
+          652
+        ],
+        "sourceAnchor": [
+          243.0616402003195,
+          652
+        ],
+        "scale": 0.736156,
+        "outputBounds": [
+          195,
+          158,
+          459,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.012,
+          0.0
+        ],
+        "bodyWidth": 115,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      }
+    ],
+    "reactions": [
+      {
+        "cell": 0,
+        "sourceBox": [
+          0,
+          0,
+          523,
+          494
+        ],
+        "sourceBounds": [
+          135,
+          30,
+          462,
+          472
+        ],
+        "sourceAnchor": [
+          294.47502041900395,
+          472
+        ],
+        "scale": 0.941176,
+        "outputBounds": [
+          170,
+          160,
+          477,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.006,
+          0.0
+        ],
+        "bodyWidth": 236,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 1,
+        "sourceBox": [
+          523,
+          0,
+          1023,
+          492
+        ],
+        "sourceBounds": [
+          55,
+          30,
+          449,
+          470
+        ],
+        "sourceAnchor": [
+          248.66924526282645,
+          470
+        ],
+        "scale": 0.945455,
+        "outputBounds": [
+          137,
+          160,
+          510,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.013,
+          0.0
+        ],
+        "bodyWidth": 248,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 2,
+        "sourceBox": [
+          1023,
+          0,
+          1536,
+          500
+        ],
+        "sourceBounds": [
+          53,
+          31,
+          394,
+          473
+        ],
+        "sourceAnchor": [
+          242.84821441871125,
+          473
+        ],
+        "scale": 0.941176,
+        "outputBounds": [
+          142,
+          160,
+          462,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.04,
+          0.0
+        ],
+        "bodyWidth": 237,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 3,
+        "sourceBox": [
+          0,
+          494,
+          523,
+          1024
+        ],
+        "sourceBounds": [
+          130,
+          23,
+          469,
+          471
+        ],
+        "sourceAnchor": [
+          297.08555617012206,
+          471
+        ],
+        "scale": 0.928571,
+        "outputBounds": [
+          165,
+          160,
+          480,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.001,
+          0.0
+        ],
+        "bodyWidth": 231,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 4,
+        "sourceBox": [
+          523,
+          492,
+          1023,
+          1024
+        ],
+        "sourceBounds": [
+          71,
+          24,
+          425,
+          471
+        ],
+        "sourceAnchor": [
+          251.0487387875327,
+          471
+        ],
+        "scale": 0.930649,
+        "outputBounds": [
+          152,
+          160,
+          482,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.026,
+          0.0
+        ],
+        "bodyWidth": 251,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 5,
+        "sourceBox": [
+          1023,
+          500,
+          1536,
+          1024
+        ],
+        "sourceBounds": [
+          66,
+          29,
+          395,
+          460
+        ],
+        "sourceAnchor": [
+          229.38908982332234,
+          460
+        ],
+        "scale": 0.965197,
+        "outputBounds": [
+          163,
+          160,
+          480,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.01,
+          0.0
+        ],
+        "bodyWidth": 240,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      }
+    ],
+    "reactions-extra": [
+      {
+        "cell": 0,
+        "sourceBox": [
+          0,
+          0,
+          528,
+          494
+        ],
+        "sourceBounds": [
+          139,
+          34,
+          436,
+          475
+        ],
+        "sourceAnchor": [
+          289.42300643774655,
+          475
+        ],
+        "scale": 0.943311,
+        "outputBounds": [
+          178,
+          160,
+          459,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.012,
+          0.0
+        ],
+        "bodyWidth": 230,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 1,
+        "sourceBox": [
+          528,
+          0,
+          1003,
+          490
+        ],
+        "sourceBounds": [
+          76,
+          29,
+          400,
+          476
+        ],
+        "sourceAnchor": [
+          238.14601509322492,
+          476
+        ],
+        "scale": 0.930649,
+        "outputBounds": [
+          169,
+          160,
+          471,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.019,
+          0.0
+        ],
+        "bodyWidth": 252,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 2,
+        "sourceBox": [
+          1003,
+          0,
+          1536,
+          494
+        ],
+        "sourceBounds": [
+          44,
+          27,
+          424,
+          476
+        ],
+        "sourceAnchor": [
+          243.39245628066433,
+          476
+        ],
+        "scale": 0.926503,
+        "outputBounds": [
+          136,
+          160,
+          488,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.017,
+          0.0
+        ],
+        "bodyWidth": 238,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 3,
+        "sourceBox": [
+          0,
+          494,
+          528,
+          1024
+        ],
+        "sourceBounds": [
+          147,
+          20,
+          472,
+          471
+        ],
+        "sourceAnchor": [
+          305.3020204429178,
+          471
+        ],
+        "scale": 0.922395,
+        "outputBounds": [
+          174,
+          160,
+          473,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          -0.002,
+          0.0
+        ],
+        "bodyWidth": 237,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 4,
+        "sourceBox": [
+          528,
+          490,
+          1003,
+          1024
+        ],
+        "sourceBounds": [
+          57,
+          16,
+          433,
+          475
+        ],
+        "sourceAnchor": [
+          240.6888882927585,
+          475
+        ],
+        "scale": 0.906318,
+        "outputBounds": [
+          153,
+          160,
+          495,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.004,
+          0.0
+        ],
+        "bodyWidth": 247,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      },
+      {
+        "cell": 5,
+        "sourceBox": [
+          1003,
+          494,
+          1536,
+          1024
+        ],
+        "sourceBounds": [
+          68,
+          19,
+          409,
+          471
+        ],
+        "sourceAnchor": [
+          239.81377020892833,
+          471
+        ],
+        "scale": 0.920354,
+        "outputBounds": [
+          161,
+          160,
+          476,
+          576
+        ],
+        "targetAnchor": [
+          320.0,
+          576
+        ],
+        "anchorDrift": [
+          0.018,
+          0.0
+        ],
+        "bodyWidth": 240,
+        "sourceHeadWidth": null,
+        "outputHeadWidth": null,
+        "referenceHeadWidth": null,
+        "minimumMargin": 64.0
+      }
+    ]
+  }
+}

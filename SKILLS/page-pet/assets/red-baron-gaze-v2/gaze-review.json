@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "d3f3b800be7f4e66a20515625a2493002c38b4e4702cdd1dbf6fc2e358f0265c",
+    "sheets": {
+      "mascot.webp": "65f9cadd0b12b9ebad4627cfdfac70ae5568531da39ee3e086055fe88da038ca"
+    }
+  },
+  "reviewer": "Codex visual review, 2026-09-21; native source overlays and final sorted 5x5 contact",
+  "neighborContinuity": "pass",
+  "runtimeTracking": "pass",
+  "frames": {
+    "gaze-0-0": {
+      "expected": [
+        -1.0,
+        0
+      ],
+      "observed": [
+        -1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Long nose projects toward target and far eye is occluded. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-1-0": {
+      "expected": [
+        -0.5,
+        0
+      ],
+      "observed": [
+        -0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Long nose projects toward target and far eye is occluded. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-2-0": {
+      "expected": [
+        0.0,
+        0
+      ],
+      "observed": [
+        0.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "centered front; Long nose projects toward target and far eye is occluded. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-3-0": {
+      "expected": [
+        0.5,
+        0
+      ],
+      "observed": [
+        0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Long nose projects toward target and far eye is occluded. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-4-0": {
+      "expected": [
+        1.0,
+        0
+      ],
+      "observed": [
+        1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Long nose projects toward target and far eye is occluded. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-directions-up-0": {
+      "expected": [
+        -1,
+        -1
+      ],
+      "observed": [
+        -1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Long nose projects toward target and far eye is occluded. strong upward tilt; Nose raised exposing chin folds."
+    },
+    "gaze-directions-up-1": {
+      "expected": [
+        -0.5,
+        -1
+      ],
+      "observed": [
+        -0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Long nose projects toward target and far eye is occluded. strong upward tilt; Nose raised exposing chin folds."
+    },
+    "gaze-directions-up-2": {
+      "expected": [
+        0,
+        -1
+      ],
+      "observed": [
+        0,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "centered front; Long nose projects toward target and far eye is occluded. strong upward tilt; Nose raised exposing chin folds."
+    },
+    "gaze-directions-up-3": {
+      "expected": [
+        0.5,
+        -1
+      ],
+      "observed": [
+        0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Long nose projects toward target and far eye is occluded. strong upward tilt; Nose raised exposing chin folds."
+    },
+    "gaze-directions-up-4": {
+      "expected": [
+        1,
+        -1
+      ],
+      "observed": [
+        1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Long nose projects toward target and far eye is occluded. strong upward tilt; Nose raised exposing chin folds."
+    },
+    "gaze-directions-up-mid-0": {
+      "expected": [
+        -1,
+        -0.5
+      ],
+      "observed": [
+        -1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Long nose projects toward target and far eye is occluded. slight upward tilt; Nose raised exposing chin folds."
+    },
+    "gaze-directions-up-mid-1": {
+      "expected": [
+        -0.5,
+        -0.5
+      ],
+      "observed": [
+        -0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Long nose projects toward target and far eye is occluded. slight upward tilt; Nose raised exposing chin folds."
+    },
+    "gaze-directions-up-mid-2": {
+      "expected": [
+        0,
+        -0.5
+      ],
+      "observed": [
+        0,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "centered front; Long nose projects toward target and far eye is occluded. slight upward tilt; Nose raised exposing chin folds."
+    },
+    "gaze-directions-up-mid-3": {
+      "expected": [
+        0.5,
+        -0.5
+      ],
+      "observed": [
+        0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Long nose projects toward target and far eye is occluded. slight upward tilt; Nose raised exposing chin folds."
+    },
+    "gaze-directions-up-mid-4": {
+      "expected": [
+        1,
+        -0.5
+      ],
+      "observed": [
+        1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Long nose projects toward target and far eye is occluded. slight upward tilt; Nose raised exposing chin folds."
+    },
+    "gaze-directions-down-mid-0": {
+      "expected": [
+        -1,
+        0.5
+      ],
+      "observed": [
+        -1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Long nose projects toward target and far eye is occluded. slight downward tilt; Nose hangs below brow with crown and forehead exposed."
+    },
+    "gaze-directions-down-mid-1": {
+      "expected": [
+        -0.5,
+        0.5
+      ],
+      "observed": [
+        -0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Long nose projects toward target and far eye is occluded. slight downward tilt; Nose hangs below brow with crown and forehead exposed."
+    },
+    "gaze-directions-down-mid-2": {
+      "expected": [
+        0,
+        0.5
+      ],
+      "observed": [
+        0,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "centered front; Long nose projects toward target and far eye is occluded. slight downward tilt; Nose hangs below brow with crown and forehead exposed."
+    },
+    "gaze-directions-down-mid-3": {
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "observed": [
+        0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Long nose projects toward target and far eye is occluded. slight downward tilt; Nose hangs below brow with crown and forehead exposed."
+    },
+    "gaze-directions-down-mid-4": {
+      "expected": [
+        1,
+        0.5
+      ],
+      "observed": [
+        1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Long nose projects toward target and far eye is occluded. slight downward tilt; Nose hangs below brow with crown and forehead exposed."
+    },
+    "gaze-directions-down-0": {
+      "expected": [
+        -1,
+        1
+      ],
+      "observed": [
+        -1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Long nose projects toward target and far eye is occluded. strong downward tilt; Nose hangs below brow with crown and forehead exposed."
+    },
+    "gaze-directions-down-1": {
+      "expected": [
+        -0.5,
+        1
+      ],
+      "observed": [
+        -0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Long nose projects toward target and far eye is occluded. strong downward tilt; Nose hangs below brow with crown and forehead exposed."
+    },
+    "gaze-directions-down-2": {
+      "expected": [
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "evidence": "centered front; Long nose projects toward target and far eye is occluded. strong downward tilt; Nose hangs below brow with crown and forehead exposed."
+    },
+    "gaze-directions-down-3": {
+      "expected": [
+        0.5,
+        1
+      ],
+      "observed": [
+        0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Long nose projects toward target and far eye is occluded. strong downward tilt; Nose hangs below brow with crown and forehead exposed."
+    },
+    "gaze-directions-down-4": {
+      "expected": [
+        1,
+        1
+      ],
+      "observed": [
+        1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Long nose projects toward target and far eye is occluded. strong downward tilt; Nose hangs below brow with crown and forehead exposed."
+    }
+  },
+  "runtimeEvidence": "Imported corrected pack or selected unchanged pack in local playground; 25 physical mouse target positions matched 25 displayed gaze labels at 1280x720."
+}

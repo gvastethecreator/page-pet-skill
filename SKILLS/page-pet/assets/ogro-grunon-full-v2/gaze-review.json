@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "df67935e0e7fd9db69d51d3c675845c8cd7d0464948dac64700613e00ccb395a",
+    "sheets": {
+      "mascot.webp": "e370c38229feb731312d543305cd0a6d2d7703ebb17cd1a8252f9205ad5afceb"
+    }
+  },
+  "reviewer": "Codex visual inspection of source overlays, final target grid and live 320px render, 2026-09-21",
+  "neighborContinuity": "pass",
+  "runtimeTracking": "pass",
+  "frames": {
+    "gaze-0-0": {
+      "expected": [
+        -1.0,
+        0
+      ],
+      "observed": [
+        -1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Face points left with back volume to the right. Stern face at level."
+    },
+    "gaze-1-0": {
+      "expected": [
+        -0.5,
+        0
+      ],
+      "observed": [
+        -0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible in left three-quarter. Stern face at level."
+    },
+    "gaze-2-0": {
+      "expected": [
+        0.0,
+        0
+      ],
+      "observed": [
+        0.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Balanced orange eyes above crossed arms. Stern face at level."
+    },
+    "gaze-3-0": {
+      "expected": [
+        0.5,
+        0
+      ],
+      "observed": [
+        0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible in right three-quarter. Stern face at level."
+    },
+    "gaze-4-0": {
+      "expected": [
+        1.0,
+        0
+      ],
+      "observed": [
+        1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Face points right with back volume to the left. Stern face at level."
+    },
+    "gaze-directions-up-0": {
+      "expected": [
+        -1,
+        -1
+      ],
+      "observed": [
+        -1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Face points left with back volume to the right. Chin raised and forehead receding."
+    },
+    "gaze-directions-up-1": {
+      "expected": [
+        -0.5,
+        -1
+      ],
+      "observed": [
+        -0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible in left three-quarter. Chin raised and forehead receding."
+    },
+    "gaze-directions-up-2": {
+      "expected": [
+        0,
+        -1
+      ],
+      "observed": [
+        0,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Balanced orange eyes above crossed arms. Chin raised and forehead receding."
+    },
+    "gaze-directions-up-3": {
+      "expected": [
+        0.5,
+        -1
+      ],
+      "observed": [
+        0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible in right three-quarter. Chin raised and forehead receding."
+    },
+    "gaze-directions-up-4": {
+      "expected": [
+        1,
+        -1
+      ],
+      "observed": [
+        1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Face points right with back volume to the left. Chin raised and forehead receding."
+    },
+    "gaze-directions-slight-up-0": {
+      "expected": [
+        -1,
+        -0.5
+      ],
+      "observed": [
+        -1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Face points left with back volume to the right. Mild chin lift."
+    },
+    "gaze-directions-slight-up-1": {
+      "expected": [
+        -0.5,
+        -0.5
+      ],
+      "observed": [
+        -0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible in left three-quarter. Mild chin lift."
+    },
+    "gaze-directions-slight-up-2": {
+      "expected": [
+        0,
+        -0.5
+      ],
+      "observed": [
+        0,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Balanced orange eyes above crossed arms. Mild chin lift."
+    },
+    "gaze-directions-slight-up-3": {
+      "expected": [
+        0.5,
+        -0.5
+      ],
+      "observed": [
+        0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible in right three-quarter. Mild chin lift."
+    },
+    "gaze-directions-slight-up-4": {
+      "expected": [
+        1,
+        -0.5
+      ],
+      "observed": [
+        1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Face points right with back volume to the left. Mild chin lift."
+    },
+    "gaze-directions-slight-down-0": {
+      "expected": [
+        -1,
+        0.5
+      ],
+      "observed": [
+        -1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Face points left with back volume to the right. More crown visible as face leans forward."
+    },
+    "gaze-directions-slight-down-1": {
+      "expected": [
+        -0.5,
+        0.5
+      ],
+      "observed": [
+        -0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible in left three-quarter. More crown visible as face leans forward."
+    },
+    "gaze-directions-slight-down-2": {
+      "expected": [
+        0,
+        0.5
+      ],
+      "observed": [
+        0,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Balanced orange eyes above crossed arms. More crown visible as face leans forward."
+    },
+    "gaze-directions-slight-down-3": {
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "observed": [
+        0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible in right three-quarter. More crown visible as face leans forward."
+    },
+    "gaze-directions-slight-down-4": {
+      "expected": [
+        1,
+        0.5
+      ],
+      "observed": [
+        1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Face points right with back volume to the left. More crown visible as face leans forward."
+    },
+    "gaze-directions-down-0": {
+      "expected": [
+        -1,
+        1
+      ],
+      "observed": [
+        -1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Face points left with back volume to the right. Face bows toward crossed arms with broad crown."
+    },
+    "gaze-directions-down-1": {
+      "expected": [
+        -0.5,
+        1
+      ],
+      "observed": [
+        -0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible in left three-quarter. Face bows toward crossed arms with broad crown."
+    },
+    "gaze-directions-down-2": {
+      "expected": [
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Balanced orange eyes above crossed arms. Face bows toward crossed arms with broad crown."
+    },
+    "gaze-directions-down-3": {
+      "expected": [
+        0.5,
+        1
+      ],
+      "observed": [
+        0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible in right three-quarter. Face bows toward crossed arms with broad crown."
+    },
+    "gaze-directions-down-4": {
+      "expected": [
+        1,
+        1
+      ],
+      "observed": [
+        1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Face points right with back volume to the left. Face bows toward crossed arms with broad crown."
+    }
+  }
+}

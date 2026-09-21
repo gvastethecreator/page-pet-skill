@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "bbf8a8badc9e43d0629ef2cd397cfa305b9f86759e84ec9986a0fced405b4711",
+    "sheets": {
+      "mascot.webp": "97ed869587652e5a2cb2e1f532f7d6b843e6d2df1bd06dbbf464e80eacbdcdbc"
+    }
+  },
+  "reviewer": "Codex visual inspection of source overlays, final target grid and live 320px render, 2026-09-21",
+  "neighborContinuity": "pass",
+  "runtimeTracking": "pass",
+  "frames": {
+    "gaze-0-0": {
+      "expected": [
+        -1.0,
+        0
+      ],
+      "observed": [
+        -1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Pink angular nose points left; side panel on right. Level block without broad horizontal top plane."
+    },
+    "gaze-1-0": {
+      "expected": [
+        -0.5,
+        0
+      ],
+      "observed": [
+        -0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Wider face in left three-quarter. Level block without broad horizontal top plane."
+    },
+    "gaze-2-0": {
+      "expected": [
+        0.0,
+        0
+      ],
+      "observed": [
+        0.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Pink nose centered above tie and belt. Level block without broad horizontal top plane."
+    },
+    "gaze-3-0": {
+      "expected": [
+        0.5,
+        0
+      ],
+      "observed": [
+        0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Wider face in right three-quarter. Level block without broad horizontal top plane."
+    },
+    "gaze-4-0": {
+      "expected": [
+        1.0,
+        0
+      ],
+      "observed": [
+        1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Pink angular nose points right; side panel on left. Level block without broad horizontal top plane."
+    },
+    "gaze-directions-up-0": {
+      "expected": [
+        -1,
+        -1
+      ],
+      "observed": [
+        -1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Pink angular nose points left; side panel on right. Belt slab underside and raised nose/chin visible."
+    },
+    "gaze-directions-up-1": {
+      "expected": [
+        -0.5,
+        -1
+      ],
+      "observed": [
+        -0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Wider face in left three-quarter. Belt slab underside and raised nose/chin visible."
+    },
+    "gaze-directions-up-2": {
+      "expected": [
+        0,
+        -1
+      ],
+      "observed": [
+        0,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Pink nose centered above tie and belt. Belt slab underside and raised nose/chin visible."
+    },
+    "gaze-directions-up-3": {
+      "expected": [
+        0.5,
+        -1
+      ],
+      "observed": [
+        0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Wider face in right three-quarter. Belt slab underside and raised nose/chin visible."
+    },
+    "gaze-directions-up-4": {
+      "expected": [
+        1,
+        -1
+      ],
+      "observed": [
+        1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Pink angular nose points right; side panel on left. Belt slab underside and raised nose/chin visible."
+    },
+    "gaze-directions-slight-up-0": {
+      "expected": [
+        -1,
+        -0.5
+      ],
+      "observed": [
+        -1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Pink angular nose points left; side panel on right. Mild upward tilt."
+    },
+    "gaze-directions-slight-up-1": {
+      "expected": [
+        -0.5,
+        -0.5
+      ],
+      "observed": [
+        -0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Wider face in left three-quarter. Mild upward tilt."
+    },
+    "gaze-directions-slight-up-2": {
+      "expected": [
+        0,
+        -0.5
+      ],
+      "observed": [
+        0,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Pink nose centered above tie and belt. Mild upward tilt."
+    },
+    "gaze-directions-slight-up-3": {
+      "expected": [
+        0.5,
+        -0.5
+      ],
+      "observed": [
+        0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Wider face in right three-quarter. Mild upward tilt."
+    },
+    "gaze-directions-slight-up-4": {
+      "expected": [
+        1,
+        -0.5
+      ],
+      "observed": [
+        1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Pink angular nose points right; side panel on left. Mild upward tilt."
+    },
+    "gaze-directions-slight-down-0": {
+      "expected": [
+        -1,
+        0.5
+      ],
+      "observed": [
+        -1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Pink angular nose points left; side panel on right. Thin rectangular top surface visible."
+    },
+    "gaze-directions-slight-down-1": {
+      "expected": [
+        -0.5,
+        0.5
+      ],
+      "observed": [
+        -0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Wider face in left three-quarter. Thin rectangular top surface visible."
+    },
+    "gaze-directions-slight-down-2": {
+      "expected": [
+        0,
+        0.5
+      ],
+      "observed": [
+        0,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Pink nose centered above tie and belt. Thin rectangular top surface visible."
+    },
+    "gaze-directions-slight-down-3": {
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "observed": [
+        0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Wider face in right three-quarter. Thin rectangular top surface visible."
+    },
+    "gaze-directions-slight-down-4": {
+      "expected": [
+        1,
+        0.5
+      ],
+      "observed": [
+        1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Pink angular nose points right; side panel on left. Thin rectangular top surface visible."
+    },
+    "gaze-directions-down-0": {
+      "expected": [
+        -1,
+        1
+      ],
+      "observed": [
+        -1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Pink angular nose points left; side panel on right. Broad top surface above lowered nose."
+    },
+    "gaze-directions-down-1": {
+      "expected": [
+        -0.5,
+        1
+      ],
+      "observed": [
+        -0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Wider face in left three-quarter. Broad top surface above lowered nose."
+    },
+    "gaze-directions-down-2": {
+      "expected": [
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Pink nose centered above tie and belt. Broad top surface above lowered nose."
+    },
+    "gaze-directions-down-3": {
+      "expected": [
+        0.5,
+        1
+      ],
+      "observed": [
+        0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Wider face in right three-quarter. Broad top surface above lowered nose."
+    },
+    "gaze-directions-down-4": {
+      "expected": [
+        1,
+        1
+      ],
+      "observed": [
+        1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Pink angular nose points right; side panel on left. Broad top surface above lowered nose."
+    }
+  }
+}

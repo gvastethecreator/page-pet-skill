@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "784785589ddb3daf9980f6cb329ec65ce737553dcc0e0793e6c0205357852de2",
+    "sheets": {
+      "mascot.webp": "ded63f354d4c8ce83308f27d0caa35cbab75bb8b5c1e3cdc14541b79bb1a0cf2"
+    }
+  },
+  "reviewer": "Codex visual inspection of source overlays, final target grid and live 320px render, 2026-09-21",
+  "neighborContinuity": "pass",
+  "runtimeTracking": "pass",
+  "frames": {
+    "gaze-0-0": {
+      "expected": [
+        -1.0,
+        0
+      ],
+      "observed": [
+        -1,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Left near-profile with one dominant projecting left eye; body and wings trail right. Eyes level on forward surface; mouth below aligned eye pair."
+    },
+    "gaze-1-0": {
+      "expected": [
+        -0.5,
+        0
+      ],
+      "observed": [
+        -0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible on left-facing front, far eye foreshortened. Eyes level on forward surface; mouth below aligned eye pair."
+    },
+    "gaze-2-0": {
+      "expected": [
+        0.0,
+        0
+      ],
+      "observed": [
+        0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Symmetric two frontal eyes and centered mouth. Eyes level on forward surface; mouth below aligned eye pair."
+    },
+    "gaze-3-0": {
+      "expected": [
+        0.5,
+        0
+      ],
+      "observed": [
+        0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Both eyes on right-facing front, far eye foreshortened. Eyes level on forward surface; mouth below aligned eye pair."
+    },
+    "gaze-4-0": {
+      "expected": [
+        1.0,
+        0
+      ],
+      "observed": [
+        1,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Right near-profile with one dominant right eye; wings trail left. Eyes level on forward surface; mouth below aligned eye pair."
+    },
+    "gaze-directions-up-0": {
+      "expected": [
+        -1,
+        -1
+      ],
+      "observed": [
+        -1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Left near-profile with one dominant projecting left eye; body and wings trail right. Front eye/mouth surface raised toward crown, lifted chin and pupils at upper whites."
+    },
+    "gaze-directions-up-1": {
+      "expected": [
+        -0.5,
+        -1
+      ],
+      "observed": [
+        -0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible on left-facing front, far eye foreshortened. Front eye/mouth surface raised toward crown, lifted chin and pupils at upper whites."
+    },
+    "gaze-directions-up-2": {
+      "expected": [
+        0,
+        -1
+      ],
+      "observed": [
+        0,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Symmetric two frontal eyes and centered mouth. Front eye/mouth surface raised toward crown, lifted chin and pupils at upper whites."
+    },
+    "gaze-directions-up-3": {
+      "expected": [
+        0.5,
+        -1
+      ],
+      "observed": [
+        0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Both eyes on right-facing front, far eye foreshortened. Front eye/mouth surface raised toward crown, lifted chin and pupils at upper whites."
+    },
+    "gaze-directions-up-4": {
+      "expected": [
+        1,
+        -1
+      ],
+      "observed": [
+        1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Right near-profile with one dominant right eye; wings trail left. Front eye/mouth surface raised toward crown, lifted chin and pupils at upper whites."
+    },
+    "gaze-directions-slight-up-0": {
+      "expected": [
+        -1,
+        -0.5
+      ],
+      "observed": [
+        -1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Left near-profile with one dominant projecting left eye; body and wings trail right. Front surface slightly raised and pupils moderately high."
+    },
+    "gaze-directions-slight-up-1": {
+      "expected": [
+        -0.5,
+        -0.5
+      ],
+      "observed": [
+        -0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible on left-facing front, far eye foreshortened. Front surface slightly raised and pupils moderately high."
+    },
+    "gaze-directions-slight-up-2": {
+      "expected": [
+        0,
+        -0.5
+      ],
+      "observed": [
+        0,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Symmetric two frontal eyes and centered mouth. Front surface slightly raised and pupils moderately high."
+    },
+    "gaze-directions-slight-up-3": {
+      "expected": [
+        0.5,
+        -0.5
+      ],
+      "observed": [
+        0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Both eyes on right-facing front, far eye foreshortened. Front surface slightly raised and pupils moderately high."
+    },
+    "gaze-directions-slight-up-4": {
+      "expected": [
+        1,
+        -0.5
+      ],
+      "observed": [
+        1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Right near-profile with one dominant right eye; wings trail left. Front surface slightly raised and pupils moderately high."
+    },
+    "gaze-directions-slight-down-0": {
+      "expected": [
+        -1,
+        0.5
+      ],
+      "observed": [
+        -1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Left near-profile with one dominant projecting left eye; body and wings trail right. Eye surface lowered slightly, more crown above brows and lowered pupils."
+    },
+    "gaze-directions-slight-down-1": {
+      "expected": [
+        -0.5,
+        0.5
+      ],
+      "observed": [
+        -0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible on left-facing front, far eye foreshortened. Eye surface lowered slightly, more crown above brows and lowered pupils."
+    },
+    "gaze-directions-slight-down-2": {
+      "expected": [
+        0,
+        0.5
+      ],
+      "observed": [
+        0,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Symmetric two frontal eyes and centered mouth. Eye surface lowered slightly, more crown above brows and lowered pupils."
+    },
+    "gaze-directions-slight-down-3": {
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "observed": [
+        0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Both eyes on right-facing front, far eye foreshortened. Eye surface lowered slightly, more crown above brows and lowered pupils."
+    },
+    "gaze-directions-slight-down-4": {
+      "expected": [
+        1,
+        0.5
+      ],
+      "observed": [
+        1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Right near-profile with one dominant right eye; wings trail left. Eye surface lowered slightly, more crown above brows and lowered pupils."
+    },
+    "gaze-directions-down-0": {
+      "expected": [
+        -1,
+        1
+      ],
+      "observed": [
+        -1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Left near-profile with one dominant projecting left eye; body and wings trail right. Eye surface rolled strongly down, large crown, eyes and mouth near lower silhouette."
+    },
+    "gaze-directions-down-1": {
+      "expected": [
+        -0.5,
+        1
+      ],
+      "observed": [
+        -0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Both eyes visible on left-facing front, far eye foreshortened. Eye surface rolled strongly down, large crown, eyes and mouth near lower silhouette."
+    },
+    "gaze-directions-down-2": {
+      "expected": [
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Symmetric two frontal eyes and centered mouth. Eye surface rolled strongly down, large crown, eyes and mouth near lower silhouette."
+    },
+    "gaze-directions-down-3": {
+      "expected": [
+        0.5,
+        1
+      ],
+      "observed": [
+        0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Both eyes on right-facing front, far eye foreshortened. Eye surface rolled strongly down, large crown, eyes and mouth near lower silhouette."
+    },
+    "gaze-directions-down-4": {
+      "expected": [
+        1,
+        1
+      ],
+      "observed": [
+        1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Right near-profile with one dominant right eye; wings trail left. Eye surface rolled strongly down, large crown, eyes and mouth near lower silhouette."
+    }
+  }
+}

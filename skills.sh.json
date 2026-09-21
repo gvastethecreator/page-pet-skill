@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Creative Tools",
+      "description": "Transparent page pets, complete-character atlases, gaze tracking, and a local playground.",
+      "skills": [
+        "page-pet"
+      ]
+    }
+  ]
+}

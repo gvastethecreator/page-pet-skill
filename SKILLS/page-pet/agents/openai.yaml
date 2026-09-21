@@ -1,0 +1,5 @@
+interface:
+  display_name: "Page Pet"
+  short_description: "Transparent page pets and a local playground"
+  brand_color: "#7652A7"
+  default_prompt: "Use $page-pet to create a complete-character page pet with 25 gaze views and 12 reactions in one transparent atlas; preview it in the local playground."

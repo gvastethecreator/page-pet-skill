@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "00d6d65343e17f50068a6458221f6a20b3d36db458fc3cc1c3f8950443cb43ca",
+    "sheets": {
+      "mascot.webp": "a6c695f1534c21346737e3e2d3b3faed438ca2a270866f52a1be340393b75231"
+    }
+  },
+  "reviewer": "Codex visual review, 2026-09-21; native source overlays and final sorted 5x5 contact",
+  "neighborContinuity": "pass",
+  "runtimeTracking": "pass",
+  "frames": {
+    "gaze-0-0": {
+      "expected": [
+        -1.0,
+        0
+      ],
+      "observed": [
+        -1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Muzzle projects toward target with far eye foreshortened. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-1-0": {
+      "expected": [
+        -0.5,
+        0
+      ],
+      "observed": [
+        -0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Muzzle projects toward target with far eye foreshortened. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-2-0": {
+      "expected": [
+        0.0,
+        0
+      ],
+      "observed": [
+        0.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "centered front; Muzzle projects toward target with far eye foreshortened. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-3-0": {
+      "expected": [
+        0.5,
+        0
+      ],
+      "observed": [
+        0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Muzzle projects toward target with far eye foreshortened. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-4-0": {
+      "expected": [
+        1.0,
+        0
+      ],
+      "observed": [
+        1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Muzzle projects toward target with far eye foreshortened. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-directions-up-0": {
+      "expected": [
+        -1,
+        -1
+      ],
+      "observed": [
+        -1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Muzzle projects toward target with far eye foreshortened. strong upward tilt; Muzzle raised and chin exposed."
+    },
+    "gaze-directions-up-1": {
+      "expected": [
+        -0.5,
+        -1
+      ],
+      "observed": [
+        -0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Muzzle projects toward target with far eye foreshortened. strong upward tilt; Muzzle raised and chin exposed."
+    },
+    "gaze-directions-up-2": {
+      "expected": [
+        0,
+        -1
+      ],
+      "observed": [
+        0,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "centered front; Muzzle projects toward target with far eye foreshortened. strong upward tilt; Muzzle raised and chin exposed."
+    },
+    "gaze-directions-up-3": {
+      "expected": [
+        0.5,
+        -1
+      ],
+      "observed": [
+        0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Muzzle projects toward target with far eye foreshortened. strong upward tilt; Muzzle raised and chin exposed."
+    },
+    "gaze-directions-up-4": {
+      "expected": [
+        1,
+        -1
+      ],
+      "observed": [
+        1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Muzzle projects toward target with far eye foreshortened. strong upward tilt; Muzzle raised and chin exposed."
+    },
+    "gaze-directions-up-mid-0": {
+      "expected": [
+        -1,
+        -0.5
+      ],
+      "observed": [
+        -1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Muzzle projects toward target with far eye foreshortened. slight upward tilt; Muzzle raised and chin exposed."
+    },
+    "gaze-directions-up-mid-1": {
+      "expected": [
+        -0.5,
+        -0.5
+      ],
+      "observed": [
+        -0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Muzzle projects toward target with far eye foreshortened. slight upward tilt; Muzzle raised and chin exposed."
+    },
+    "gaze-directions-up-mid-2": {
+      "expected": [
+        0,
+        -0.5
+      ],
+      "observed": [
+        0,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "centered front; Muzzle projects toward target with far eye foreshortened. slight upward tilt; Muzzle raised and chin exposed."
+    },
+    "gaze-directions-up-mid-3": {
+      "expected": [
+        0.5,
+        -0.5
+      ],
+      "observed": [
+        0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Muzzle projects toward target with far eye foreshortened. slight upward tilt; Muzzle raised and chin exposed."
+    },
+    "gaze-directions-up-mid-4": {
+      "expected": [
+        1,
+        -0.5
+      ],
+      "observed": [
+        1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Muzzle projects toward target with far eye foreshortened. slight upward tilt; Muzzle raised and chin exposed."
+    },
+    "gaze-directions-down-mid-0": {
+      "expected": [
+        -1,
+        0.5
+      ],
+      "observed": [
+        -1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Muzzle projects toward target with far eye foreshortened. slight downward tilt; Muzzle lowered beneath enlarged visible crown."
+    },
+    "gaze-directions-down-mid-1": {
+      "expected": [
+        -0.5,
+        0.5
+      ],
+      "observed": [
+        -0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Muzzle projects toward target with far eye foreshortened. slight downward tilt; Muzzle lowered beneath enlarged visible crown."
+    },
+    "gaze-directions-down-mid-2": {
+      "expected": [
+        0,
+        0.5
+      ],
+      "observed": [
+        0,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "centered front; Muzzle projects toward target with far eye foreshortened. slight downward tilt; Muzzle lowered beneath enlarged visible crown."
+    },
+    "gaze-directions-down-mid-3": {
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "observed": [
+        0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Muzzle projects toward target with far eye foreshortened. slight downward tilt; Muzzle lowered beneath enlarged visible crown."
+    },
+    "gaze-directions-down-mid-4": {
+      "expected": [
+        1,
+        0.5
+      ],
+      "observed": [
+        1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Muzzle projects toward target with far eye foreshortened. slight downward tilt; Muzzle lowered beneath enlarged visible crown."
+    },
+    "gaze-directions-down-0": {
+      "expected": [
+        -1,
+        1
+      ],
+      "observed": [
+        -1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Muzzle projects toward target with far eye foreshortened. strong downward tilt; Muzzle lowered beneath enlarged visible crown."
+    },
+    "gaze-directions-down-1": {
+      "expected": [
+        -0.5,
+        1
+      ],
+      "observed": [
+        -0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Muzzle projects toward target with far eye foreshortened. strong downward tilt; Muzzle lowered beneath enlarged visible crown."
+    },
+    "gaze-directions-down-2": {
+      "expected": [
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "evidence": "centered front; Muzzle projects toward target with far eye foreshortened. strong downward tilt; Muzzle lowered beneath enlarged visible crown."
+    },
+    "gaze-directions-down-3": {
+      "expected": [
+        0.5,
+        1
+      ],
+      "observed": [
+        0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Muzzle projects toward target with far eye foreshortened. strong downward tilt; Muzzle lowered beneath enlarged visible crown."
+    },
+    "gaze-directions-down-4": {
+      "expected": [
+        1,
+        1
+      ],
+      "observed": [
+        1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Muzzle projects toward target with far eye foreshortened. strong downward tilt; Muzzle lowered beneath enlarged visible crown."
+    }
+  },
+  "runtimeEvidence": "Imported corrected pack or selected unchanged pack in local playground; 25 physical mouse target positions matched 25 displayed gaze labels at 1280x720."
+}

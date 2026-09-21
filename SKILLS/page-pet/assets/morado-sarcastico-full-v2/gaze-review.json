@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "2d073c9877ef27abaee1a1d6ef5c2dc2d098a0c0795f30b7b27939793e258856",
+    "sheets": {
+      "mascot.webp": "fd947f989b72fc9c0977ffa44749fb61772fcde6e40e27ba3fe806bd51c02369"
+    }
+  },
+  "reviewer": "Codex visual inspection of source overlays, final target grid and live 320px render, 2026-09-21",
+  "neighborContinuity": "pass",
+  "runtimeTracking": "pass",
+  "frames": {
+    "gaze-0-0": {
+      "expected": [
+        -1.0,
+        0
+      ],
+      "observed": [
+        -1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Smile and eye compressed toward left edge. Level face; central pupils no longer look sideways."
+    },
+    "gaze-1-0": {
+      "expected": [
+        -0.5,
+        0
+      ],
+      "observed": [
+        -0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Both eyes and smile directed left three-quarter. Level face; central pupils no longer look sideways."
+    },
+    "gaze-2-0": {
+      "expected": [
+        0.0,
+        0
+      ],
+      "observed": [
+        0.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Regenerated central view has front-facing pupils and balanced smile. Level face; central pupils no longer look sideways."
+    },
+    "gaze-3-0": {
+      "expected": [
+        0.5,
+        0
+      ],
+      "observed": [
+        0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Both eyes and smile directed right three-quarter. Level face; central pupils no longer look sideways."
+    },
+    "gaze-4-0": {
+      "expected": [
+        1.0,
+        0
+      ],
+      "observed": [
+        1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Smile and eye compressed toward right edge. Level face; central pupils no longer look sideways."
+    },
+    "gaze-directions-up-0": {
+      "expected": [
+        -1,
+        -1
+      ],
+      "observed": [
+        -1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Smile and eye compressed toward left edge. Chin lifted and pupils up."
+    },
+    "gaze-directions-up-1": {
+      "expected": [
+        -0.5,
+        -1
+      ],
+      "observed": [
+        -0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Both eyes and smile directed left three-quarter. Chin lifted and pupils up."
+    },
+    "gaze-directions-up-2": {
+      "expected": [
+        0,
+        -1
+      ],
+      "observed": [
+        0,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Regenerated central view has front-facing pupils and balanced smile. Chin lifted and pupils up."
+    },
+    "gaze-directions-up-3": {
+      "expected": [
+        0.5,
+        -1
+      ],
+      "observed": [
+        0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Both eyes and smile directed right three-quarter. Chin lifted and pupils up."
+    },
+    "gaze-directions-up-4": {
+      "expected": [
+        1,
+        -1
+      ],
+      "observed": [
+        1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Smile and eye compressed toward right edge. Chin lifted and pupils up."
+    },
+    "gaze-directions-slight-up-0": {
+      "expected": [
+        -1,
+        -0.5
+      ],
+      "observed": [
+        -1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Smile and eye compressed toward left edge. Milder chin lift than upper row."
+    },
+    "gaze-directions-slight-up-1": {
+      "expected": [
+        -0.5,
+        -0.5
+      ],
+      "observed": [
+        -0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Both eyes and smile directed left three-quarter. Milder chin lift than upper row."
+    },
+    "gaze-directions-slight-up-2": {
+      "expected": [
+        0,
+        -0.5
+      ],
+      "observed": [
+        0,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Regenerated central view has front-facing pupils and balanced smile. Milder chin lift than upper row."
+    },
+    "gaze-directions-slight-up-3": {
+      "expected": [
+        0.5,
+        -0.5
+      ],
+      "observed": [
+        0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Both eyes and smile directed right three-quarter. Milder chin lift than upper row."
+    },
+    "gaze-directions-slight-up-4": {
+      "expected": [
+        1,
+        -0.5
+      ],
+      "observed": [
+        1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Smile and eye compressed toward right edge. Milder chin lift than upper row."
+    },
+    "gaze-directions-slight-down-0": {
+      "expected": [
+        -1,
+        0.5
+      ],
+      "observed": [
+        -1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Smile and eye compressed toward left edge. Oval crown more visible with lowered face."
+    },
+    "gaze-directions-slight-down-1": {
+      "expected": [
+        -0.5,
+        0.5
+      ],
+      "observed": [
+        -0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Both eyes and smile directed left three-quarter. Oval crown more visible with lowered face."
+    },
+    "gaze-directions-slight-down-2": {
+      "expected": [
+        0,
+        0.5
+      ],
+      "observed": [
+        0,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Regenerated central view has front-facing pupils and balanced smile. Oval crown more visible with lowered face."
+    },
+    "gaze-directions-slight-down-3": {
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "observed": [
+        0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Both eyes and smile directed right three-quarter. Oval crown more visible with lowered face."
+    },
+    "gaze-directions-slight-down-4": {
+      "expected": [
+        1,
+        0.5
+      ],
+      "observed": [
+        1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Smile and eye compressed toward right edge. Oval crown more visible with lowered face."
+    },
+    "gaze-directions-down-0": {
+      "expected": [
+        -1,
+        1
+      ],
+      "observed": [
+        -1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Smile and eye compressed toward left edge. Broad crown and bowed face."
+    },
+    "gaze-directions-down-1": {
+      "expected": [
+        -0.5,
+        1
+      ],
+      "observed": [
+        -0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Both eyes and smile directed left three-quarter. Broad crown and bowed face."
+    },
+    "gaze-directions-down-2": {
+      "expected": [
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Regenerated central view has front-facing pupils and balanced smile. Broad crown and bowed face."
+    },
+    "gaze-directions-down-3": {
+      "expected": [
+        0.5,
+        1
+      ],
+      "observed": [
+        0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Both eyes and smile directed right three-quarter. Broad crown and bowed face."
+    },
+    "gaze-directions-down-4": {
+      "expected": [
+        1,
+        1
+      ],
+      "observed": [
+        1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Smile and eye compressed toward right edge. Broad crown and bowed face."
+    }
+  }
+}

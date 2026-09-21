@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "0a91766ec3bea1a253df075662cbede42aa4a5091920fed946088d0a8db51d5b",
+    "sheets": {
+      "mascot.webp": "4036e30d982c71434f3260fd71c91788ca642f3d8781bb1f0fbfdc3a1bb3c81a"
+    }
+  },
+  "reviewer": "Codex visual review, 2026-09-21; native source overlays and final sorted 5x5 contact",
+  "neighborContinuity": "pass",
+  "runtimeTracking": "pass",
+  "frames": {
+    "gaze-0-0": {
+      "expected": [
+        -1.0,
+        0
+      ],
+      "observed": [
+        -1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Green screen faces target, rear casing faces away. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-1-0": {
+      "expected": [
+        -0.5,
+        0
+      ],
+      "observed": [
+        -0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Green screen faces target, rear casing faces away. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-2-0": {
+      "expected": [
+        0.0,
+        0
+      ],
+      "observed": [
+        0.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "centered front; Green screen faces target, rear casing faces away. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-3-0": {
+      "expected": [
+        0.5,
+        0
+      ],
+      "observed": [
+        0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Green screen faces target, rear casing faces away. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-4-0": {
+      "expected": [
+        1.0,
+        0
+      ],
+      "observed": [
+        1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Green screen faces target, rear casing faces away. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-directions-up-0": {
+      "expected": [
+        -1,
+        -1
+      ],
+      "observed": [
+        -1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Green screen faces target, rear casing faces away. strong upward tilt; Casing leans back and underside is visible."
+    },
+    "gaze-directions-up-1": {
+      "expected": [
+        -0.5,
+        -1
+      ],
+      "observed": [
+        -0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Green screen faces target, rear casing faces away. strong upward tilt; Casing leans back and underside is visible."
+    },
+    "gaze-directions-up-2": {
+      "expected": [
+        0,
+        -1
+      ],
+      "observed": [
+        0,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "centered front; Green screen faces target, rear casing faces away. strong upward tilt; Casing leans back and underside is visible."
+    },
+    "gaze-directions-up-3": {
+      "expected": [
+        0.5,
+        -1
+      ],
+      "observed": [
+        0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Green screen faces target, rear casing faces away. strong upward tilt; Casing leans back and underside is visible."
+    },
+    "gaze-directions-up-4": {
+      "expected": [
+        1,
+        -1
+      ],
+      "observed": [
+        1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Green screen faces target, rear casing faces away. strong upward tilt; Casing leans back and underside is visible."
+    },
+    "gaze-directions-up-mid-0": {
+      "expected": [
+        -1,
+        -0.5
+      ],
+      "observed": [
+        -1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Green screen faces target, rear casing faces away. slight upward tilt; Casing leans back and underside is visible."
+    },
+    "gaze-directions-up-mid-1": {
+      "expected": [
+        -0.5,
+        -0.5
+      ],
+      "observed": [
+        -0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Green screen faces target, rear casing faces away. slight upward tilt; Casing leans back and underside is visible."
+    },
+    "gaze-directions-up-mid-2": {
+      "expected": [
+        0,
+        -0.5
+      ],
+      "observed": [
+        0,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "centered front; Green screen faces target, rear casing faces away. slight upward tilt; Casing leans back and underside is visible."
+    },
+    "gaze-directions-up-mid-3": {
+      "expected": [
+        0.5,
+        -0.5
+      ],
+      "observed": [
+        0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Green screen faces target, rear casing faces away. slight upward tilt; Casing leans back and underside is visible."
+    },
+    "gaze-directions-up-mid-4": {
+      "expected": [
+        1,
+        -0.5
+      ],
+      "observed": [
+        1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Green screen faces target, rear casing faces away. slight upward tilt; Casing leans back and underside is visible."
+    },
+    "gaze-directions-down-mid-0": {
+      "expected": [
+        -1,
+        0.5
+      ],
+      "observed": [
+        -1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Green screen faces target, rear casing faces away. slight downward tilt; Top panel and handle exposed above screen."
+    },
+    "gaze-directions-down-mid-1": {
+      "expected": [
+        -0.5,
+        0.5
+      ],
+      "observed": [
+        -0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Green screen faces target, rear casing faces away. slight downward tilt; Top panel and handle exposed above screen."
+    },
+    "gaze-directions-down-mid-2": {
+      "expected": [
+        0,
+        0.5
+      ],
+      "observed": [
+        0,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "centered front; Green screen faces target, rear casing faces away. slight downward tilt; Top panel and handle exposed above screen."
+    },
+    "gaze-directions-down-mid-3": {
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "observed": [
+        0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Green screen faces target, rear casing faces away. slight downward tilt; Top panel and handle exposed above screen."
+    },
+    "gaze-directions-down-mid-4": {
+      "expected": [
+        1,
+        0.5
+      ],
+      "observed": [
+        1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Green screen faces target, rear casing faces away. slight downward tilt; Top panel and handle exposed above screen."
+    },
+    "gaze-directions-down-0": {
+      "expected": [
+        -1,
+        1
+      ],
+      "observed": [
+        -1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Green screen faces target, rear casing faces away. strong downward tilt; Top panel and handle exposed above screen."
+    },
+    "gaze-directions-down-1": {
+      "expected": [
+        -0.5,
+        1
+      ],
+      "observed": [
+        -0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Green screen faces target, rear casing faces away. strong downward tilt; Top panel and handle exposed above screen."
+    },
+    "gaze-directions-down-2": {
+      "expected": [
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "evidence": "centered front; Green screen faces target, rear casing faces away. strong downward tilt; Top panel and handle exposed above screen."
+    },
+    "gaze-directions-down-3": {
+      "expected": [
+        0.5,
+        1
+      ],
+      "observed": [
+        0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Green screen faces target, rear casing faces away. strong downward tilt; Top panel and handle exposed above screen."
+    },
+    "gaze-directions-down-4": {
+      "expected": [
+        1,
+        1
+      ],
+      "observed": [
+        1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Green screen faces target, rear casing faces away. strong downward tilt; Top panel and handle exposed above screen."
+    }
+  },
+  "runtimeEvidence": "Imported corrected pack or selected unchanged pack in local playground; 25 physical mouse target positions matched 25 displayed gaze labels at 1280x720."
+}

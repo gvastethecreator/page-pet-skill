@@ -1,0 +1,561 @@
+{
+  "basePack": "pano-full-v3",
+  "baseManifestSha256": "fef0b8760736a0becff04714a2c90ef702350673b2e54c8c557073904a54b5a0",
+  "baseAtlasSha256": "5a3a7fe41450cdfb67b54f0591d10d89de9acfffc65083bf81002899c8cb5670",
+  "baseReportSha256": "3b917aac84325ccd3c8c2f1dfc11c77b9726bb5a00e101419f2ab4c9c3bf5427",
+  "corrections": [
+    {
+      "id": "gaze-0-0",
+      "target": [
+        -1,
+        0
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 10,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        0,
+        614,
+        284,
+        923
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-1-0",
+      "target": [
+        -0.5,
+        0
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 11,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        284,
+        610,
+        593,
+        918
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-2-0",
+      "target": [
+        0,
+        0
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 12,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        593,
+        606,
+        890,
+        917
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-3-0",
+      "target": [
+        0.5,
+        0
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 13,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        890,
+        615,
+        1189,
+        920
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-4-0",
+      "target": [
+        1,
+        0
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 14,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        1189,
+        613,
+        1490,
+        923
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-directions-down-mid-0",
+      "target": [
+        -1,
+        0.5
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 15,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        0,
+        923,
+        284,
+        1226
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-directions-down-mid-1",
+      "target": [
+        -0.5,
+        0.5
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 16,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        284,
+        918,
+        593,
+        1220
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-directions-down-mid-2",
+      "target": [
+        0,
+        0.5
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 17,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        593,
+        917,
+        890,
+        1224
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-directions-down-mid-3",
+      "target": [
+        0.5,
+        0.5
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 18,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        890,
+        920,
+        1189,
+        1222
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-directions-down-mid-4",
+      "target": [
+        1,
+        0.5
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 19,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        1189,
+        923,
+        1490,
+        1230
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-directions-down-0",
+      "target": [
+        -1,
+        1
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 20,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        0,
+        1226,
+        284,
+        1540
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-directions-down-1",
+      "target": [
+        -0.5,
+        1
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 21,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        284,
+        1220,
+        593,
+        1540
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-directions-down-2",
+      "target": [
+        0,
+        1
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 22,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        593,
+        1224,
+        890,
+        1540
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-directions-down-3",
+      "target": [
+        0.5,
+        1
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 23,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        890,
+        1222,
+        1189,
+        1540
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-directions-down-4",
+      "target": [
+        1,
+        1
+      ],
+      "source": "pano-isolated.png",
+      "sourceSha256": "d144ebcb64b24e1ea86ef3393c32bf2145ba5435d6bbc17cdff355bdd9240f64",
+      "layoutSha256": "8e8fe742d3107fd9eb5816af9a71b6e15182ebbc711083c3a6c51ff9580801a0",
+      "sourceCell": 24,
+      "scale": 1.793103448275862,
+      "sourceBox": [
+        1189,
+        1230,
+        1490,
+        1540
+      ],
+      "nativeSource": "pano.png",
+      "nativeSourceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a",
+      "generationReference": "art-source/collection-2026-09-20/pano/reference.png",
+      "generationReferenceSha256": "caab5738dd95f554a3e19de08b82feb8b9915799835b731c42adce1f573ca54d"
+    },
+    {
+      "id": "gaze-directions-up-0",
+      "target": [
+        -1,
+        -1
+      ],
+      "source": "pano-up-isolated.png",
+      "sourceSha256": "2b71921255ad75e11e42ea6f92ff03721e8dd8cb861a8e9ea1854d0d77359731",
+      "layoutSha256": "31c618509a6d19c68f05e9f4812f34ccf4879b95e69f08585474bb1f654d4cd7",
+      "sourceCell": 0,
+      "scale": 1.1685393258426966,
+      "sourceBox": [
+        0,
+        0,
+        438,
+        429
+      ],
+      "nativeSource": "pano-up.png",
+      "nativeSourceSha256": "f138bd731599fbf2af23751898b919e36ecf633bf82d604dc45c8c03232a4e39",
+      "generationReference": "art-source/gaze-corrections-2026-09-20/pano.png",
+      "generationReferenceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a"
+    },
+    {
+      "id": "gaze-directions-up-1",
+      "target": [
+        -0.5,
+        -1
+      ],
+      "source": "pano-up-isolated.png",
+      "sourceSha256": "2b71921255ad75e11e42ea6f92ff03721e8dd8cb861a8e9ea1854d0d77359731",
+      "layoutSha256": "31c618509a6d19c68f05e9f4812f34ccf4879b95e69f08585474bb1f654d4cd7",
+      "sourceCell": 1,
+      "scale": 1.1685393258426966,
+      "sourceBox": [
+        438,
+        0,
+        884,
+        429
+      ],
+      "nativeSource": "pano-up.png",
+      "nativeSourceSha256": "f138bd731599fbf2af23751898b919e36ecf633bf82d604dc45c8c03232a4e39",
+      "generationReference": "art-source/gaze-corrections-2026-09-20/pano.png",
+      "generationReferenceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a"
+    },
+    {
+      "id": "gaze-directions-up-2",
+      "target": [
+        0,
+        -1
+      ],
+      "source": "pano-up-isolated.png",
+      "sourceSha256": "2b71921255ad75e11e42ea6f92ff03721e8dd8cb861a8e9ea1854d0d77359731",
+      "layoutSha256": "31c618509a6d19c68f05e9f4812f34ccf4879b95e69f08585474bb1f654d4cd7",
+      "sourceCell": 2,
+      "scale": 1.1685393258426966,
+      "sourceBox": [
+        884,
+        0,
+        1335,
+        435
+      ],
+      "nativeSource": "pano-up.png",
+      "nativeSourceSha256": "f138bd731599fbf2af23751898b919e36ecf633bf82d604dc45c8c03232a4e39",
+      "generationReference": "art-source/gaze-corrections-2026-09-20/pano.png",
+      "generationReferenceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a"
+    },
+    {
+      "id": "gaze-directions-up-3",
+      "target": [
+        0.5,
+        -1
+      ],
+      "source": "pano-up-isolated.png",
+      "sourceSha256": "2b71921255ad75e11e42ea6f92ff03721e8dd8cb861a8e9ea1854d0d77359731",
+      "layoutSha256": "31c618509a6d19c68f05e9f4812f34ccf4879b95e69f08585474bb1f654d4cd7",
+      "sourceCell": 3,
+      "scale": 1.1685393258426966,
+      "sourceBox": [
+        1335,
+        0,
+        1771,
+        425
+      ],
+      "nativeSource": "pano-up.png",
+      "nativeSourceSha256": "f138bd731599fbf2af23751898b919e36ecf633bf82d604dc45c8c03232a4e39",
+      "generationReference": "art-source/gaze-corrections-2026-09-20/pano.png",
+      "generationReferenceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a"
+    },
+    {
+      "id": "gaze-directions-up-4",
+      "target": [
+        1,
+        -1
+      ],
+      "source": "pano-up-isolated.png",
+      "sourceSha256": "2b71921255ad75e11e42ea6f92ff03721e8dd8cb861a8e9ea1854d0d77359731",
+      "layoutSha256": "31c618509a6d19c68f05e9f4812f34ccf4879b95e69f08585474bb1f654d4cd7",
+      "sourceCell": 4,
+      "scale": 1.1685393258426966,
+      "sourceBox": [
+        1771,
+        0,
+        2220,
+        425
+      ],
+      "nativeSource": "pano-up.png",
+      "nativeSourceSha256": "f138bd731599fbf2af23751898b919e36ecf633bf82d604dc45c8c03232a4e39",
+      "generationReference": "art-source/gaze-corrections-2026-09-20/pano.png",
+      "generationReferenceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a"
+    },
+    {
+      "id": "gaze-directions-up-mid-0",
+      "target": [
+        -1,
+        -0.5
+      ],
+      "source": "pano-up-isolated.png",
+      "sourceSha256": "2b71921255ad75e11e42ea6f92ff03721e8dd8cb861a8e9ea1854d0d77359731",
+      "layoutSha256": "31c618509a6d19c68f05e9f4812f34ccf4879b95e69f08585474bb1f654d4cd7",
+      "sourceCell": 5,
+      "scale": 1.1685393258426966,
+      "sourceBox": [
+        0,
+        429,
+        438,
+        860
+      ],
+      "nativeSource": "pano-up.png",
+      "nativeSourceSha256": "f138bd731599fbf2af23751898b919e36ecf633bf82d604dc45c8c03232a4e39",
+      "generationReference": "art-source/gaze-corrections-2026-09-20/pano.png",
+      "generationReferenceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a"
+    },
+    {
+      "id": "gaze-directions-up-mid-1",
+      "target": [
+        -0.5,
+        -0.5
+      ],
+      "source": "pano-up-isolated.png",
+      "sourceSha256": "2b71921255ad75e11e42ea6f92ff03721e8dd8cb861a8e9ea1854d0d77359731",
+      "layoutSha256": "31c618509a6d19c68f05e9f4812f34ccf4879b95e69f08585474bb1f654d4cd7",
+      "sourceCell": 6,
+      "scale": 1.1685393258426966,
+      "sourceBox": [
+        438,
+        429,
+        884,
+        860
+      ],
+      "nativeSource": "pano-up.png",
+      "nativeSourceSha256": "f138bd731599fbf2af23751898b919e36ecf633bf82d604dc45c8c03232a4e39",
+      "generationReference": "art-source/gaze-corrections-2026-09-20/pano.png",
+      "generationReferenceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a"
+    },
+    {
+      "id": "gaze-directions-up-mid-2",
+      "target": [
+        0,
+        -0.5
+      ],
+      "source": "pano-up-isolated.png",
+      "sourceSha256": "2b71921255ad75e11e42ea6f92ff03721e8dd8cb861a8e9ea1854d0d77359731",
+      "layoutSha256": "31c618509a6d19c68f05e9f4812f34ccf4879b95e69f08585474bb1f654d4cd7",
+      "sourceCell": 7,
+      "scale": 1.1685393258426966,
+      "sourceBox": [
+        884,
+        435,
+        1335,
+        860
+      ],
+      "nativeSource": "pano-up.png",
+      "nativeSourceSha256": "f138bd731599fbf2af23751898b919e36ecf633bf82d604dc45c8c03232a4e39",
+      "generationReference": "art-source/gaze-corrections-2026-09-20/pano.png",
+      "generationReferenceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a"
+    },
+    {
+      "id": "gaze-directions-up-mid-3",
+      "target": [
+        0.5,
+        -0.5
+      ],
+      "source": "pano-up-isolated.png",
+      "sourceSha256": "2b71921255ad75e11e42ea6f92ff03721e8dd8cb861a8e9ea1854d0d77359731",
+      "layoutSha256": "31c618509a6d19c68f05e9f4812f34ccf4879b95e69f08585474bb1f654d4cd7",
+      "sourceCell": 8,
+      "scale": 1.1685393258426966,
+      "sourceBox": [
+        1335,
+        425,
+        1771,
+        860
+      ],
+      "nativeSource": "pano-up.png",
+      "nativeSourceSha256": "f138bd731599fbf2af23751898b919e36ecf633bf82d604dc45c8c03232a4e39",
+      "generationReference": "art-source/gaze-corrections-2026-09-20/pano.png",
+      "generationReferenceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a"
+    },
+    {
+      "id": "gaze-directions-up-mid-4",
+      "target": [
+        1,
+        -0.5
+      ],
+      "source": "pano-up-isolated.png",
+      "sourceSha256": "2b71921255ad75e11e42ea6f92ff03721e8dd8cb861a8e9ea1854d0d77359731",
+      "layoutSha256": "31c618509a6d19c68f05e9f4812f34ccf4879b95e69f08585474bb1f654d4cd7",
+      "sourceCell": 9,
+      "scale": 1.1685393258426966,
+      "sourceBox": [
+        1771,
+        425,
+        2220,
+        860
+      ],
+      "nativeSource": "pano-up.png",
+      "nativeSourceSha256": "f138bd731599fbf2af23751898b919e36ecf633bf82d604dc45c8c03232a4e39",
+      "generationReference": "art-source/gaze-corrections-2026-09-20/pano.png",
+      "generationReferenceSha256": "f0562f29a54ca1dee91920d2bea8f70c7d01fa0cb06d02c964b7d10851d7a34a"
+    }
+  ],
+  "reactionPixels": "unchanged",
+  "outputAtlasSha256": "cc566653b05fa22a40dadd5b8ded9ab27d034e85d78ff9270b77492b9ef0cca1",
+  "correctionSourceRoot": "art-source/gaze-corrections-2026-09-20"
+}

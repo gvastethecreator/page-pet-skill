@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "c9b2ae5db7db807620fd7e514b5958269fcc5d068f012ee53d79fd0f831c35ff",
+    "sheets": {
+      "mascot.webp": "6edf9bf190a27438154253256c643fa077cc9816b32182a9de07f2fe1a2790de"
+    }
+  },
+  "reviewer": "Codex visual review, 2026-09-21; native source overlays and final sorted 5x5 contact",
+  "neighborContinuity": "pass",
+  "runtimeTracking": "pass",
+  "frames": {
+    "gaze-0-0": {
+      "expected": [
+        -1.0,
+        0
+      ],
+      "observed": [
+        -1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Peach screen and nose face target with casing on opposite side. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-1-0": {
+      "expected": [
+        0.5,
+        0
+      ],
+      "observed": [
+        0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Peach screen and nose face target with casing on opposite side. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-2-0": {
+      "expected": [
+        0.0,
+        0
+      ],
+      "observed": [
+        0.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "centered front; Peach screen and nose face target with casing on opposite side. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-3-0": {
+      "expected": [
+        -0.5,
+        0
+      ],
+      "observed": [
+        -0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Peach screen and nose face target with casing on opposite side. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-4-0": {
+      "expected": [
+        1.0,
+        0
+      ],
+      "observed": [
+        1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Peach screen and nose face target with casing on opposite side. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-directions-up-0": {
+      "expected": [
+        -1,
+        -1
+      ],
+      "observed": [
+        -1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Peach screen and nose face target with casing on opposite side. strong upward tilt; Screen tilts up and pupils attend upward."
+    },
+    "gaze-directions-up-1": {
+      "expected": [
+        0.5,
+        -1
+      ],
+      "observed": [
+        0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Peach screen and nose face target with casing on opposite side. strong upward tilt; Screen tilts up and pupils attend upward."
+    },
+    "gaze-directions-up-2": {
+      "expected": [
+        0,
+        -1
+      ],
+      "observed": [
+        0,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "centered front; Peach screen and nose face target with casing on opposite side. strong upward tilt; Screen tilts up and pupils attend upward."
+    },
+    "gaze-directions-up-3": {
+      "expected": [
+        -0.5,
+        -1
+      ],
+      "observed": [
+        -0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Peach screen and nose face target with casing on opposite side. strong upward tilt; Screen tilts up and pupils attend upward."
+    },
+    "gaze-directions-up-4": {
+      "expected": [
+        1,
+        -1
+      ],
+      "observed": [
+        1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Peach screen and nose face target with casing on opposite side. strong upward tilt; Screen tilts up and pupils attend upward."
+    },
+    "gaze-directions-up-mid-0": {
+      "expected": [
+        -1,
+        -0.5
+      ],
+      "observed": [
+        -1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Peach screen and nose face target with casing on opposite side. slight upward tilt; Screen tilts up and pupils attend upward."
+    },
+    "gaze-directions-up-mid-1": {
+      "expected": [
+        0.5,
+        -0.5
+      ],
+      "observed": [
+        0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Peach screen and nose face target with casing on opposite side. slight upward tilt; Screen tilts up and pupils attend upward."
+    },
+    "gaze-directions-up-mid-2": {
+      "expected": [
+        0,
+        -0.5
+      ],
+      "observed": [
+        0,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "centered front; Peach screen and nose face target with casing on opposite side. slight upward tilt; Screen tilts up and pupils attend upward."
+    },
+    "gaze-directions-up-mid-3": {
+      "expected": [
+        -0.5,
+        -0.5
+      ],
+      "observed": [
+        -0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Peach screen and nose face target with casing on opposite side. slight upward tilt; Screen tilts up and pupils attend upward."
+    },
+    "gaze-directions-up-mid-4": {
+      "expected": [
+        1,
+        -0.5
+      ],
+      "observed": [
+        1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Peach screen and nose face target with casing on opposite side. slight upward tilt; Screen tilts up and pupils attend upward."
+    },
+    "gaze-directions-down-mid-0": {
+      "expected": [
+        -1,
+        0.5
+      ],
+      "observed": [
+        -1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Peach screen and nose face target with casing on opposite side. slight downward tilt; Screen tilts down, top casing visible and pupils lowered."
+    },
+    "gaze-directions-down-mid-1": {
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "observed": [
+        0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Peach screen and nose face target with casing on opposite side. slight downward tilt; Screen tilts down, top casing visible and pupils lowered."
+    },
+    "gaze-directions-down-mid-2": {
+      "expected": [
+        0,
+        0.5
+      ],
+      "observed": [
+        0,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "centered front; Peach screen and nose face target with casing on opposite side. slight downward tilt; Screen tilts down, top casing visible and pupils lowered."
+    },
+    "gaze-directions-down-mid-3": {
+      "expected": [
+        -0.5,
+        0.5
+      ],
+      "observed": [
+        -0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Peach screen and nose face target with casing on opposite side. slight downward tilt; Screen tilts down, top casing visible and pupils lowered."
+    },
+    "gaze-directions-down-mid-4": {
+      "expected": [
+        1,
+        0.5
+      ],
+      "observed": [
+        1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Peach screen and nose face target with casing on opposite side. slight downward tilt; Screen tilts down, top casing visible and pupils lowered."
+    },
+    "gaze-directions-down-0": {
+      "expected": [
+        -1,
+        1
+      ],
+      "observed": [
+        -1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Peach screen and nose face target with casing on opposite side. strong downward tilt; Screen tilts down, top casing visible and pupils lowered."
+    },
+    "gaze-directions-down-1": {
+      "expected": [
+        0.5,
+        1
+      ],
+      "observed": [
+        0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Peach screen and nose face target with casing on opposite side. strong downward tilt; Screen tilts down, top casing visible and pupils lowered."
+    },
+    "gaze-directions-down-2": {
+      "expected": [
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "evidence": "centered front; Peach screen and nose face target with casing on opposite side. strong downward tilt; Screen tilts down, top casing visible and pupils lowered."
+    },
+    "gaze-directions-down-3": {
+      "expected": [
+        -0.5,
+        1
+      ],
+      "observed": [
+        -0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Peach screen and nose face target with casing on opposite side. strong downward tilt; Screen tilts down, top casing visible and pupils lowered."
+    },
+    "gaze-directions-down-4": {
+      "expected": [
+        1,
+        1
+      ],
+      "observed": [
+        1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Peach screen and nose face target with casing on opposite side. strong downward tilt; Screen tilts down, top casing visible and pupils lowered."
+    }
+  },
+  "runtimeEvidence": "Imported corrected pack or selected unchanged pack in local playground; 25 physical mouse target positions matched 25 displayed gaze labels at 1280x720."
+}

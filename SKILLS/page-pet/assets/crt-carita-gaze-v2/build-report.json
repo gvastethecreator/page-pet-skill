@@ -1,0 +1,121 @@
+{
+  "basePack": "crt-carita-full-v1",
+  "baseManifestSha256": "092f824b1713d718b200ac9a131c9ac254faae85837633cfc5321fb50c65c1f3",
+  "baseAtlasSha256": "3f60df31ab9fdd18c5b17a0dd4c15715b31b34cd2360d7c9a99773ee7d4951b6",
+  "baseReportSha256": "9437d6e83717ffc9cd6a7a82bad64a59786a90f3a00f5cdb272c79dbe82a0f04",
+  "corrections": [
+    {
+      "id": "gaze-1-0",
+      "previousTarget": [
+        -0.5,
+        0
+      ],
+      "target": [
+        0.5,
+        0
+      ]
+    },
+    {
+      "id": "gaze-3-0",
+      "previousTarget": [
+        0.5,
+        0
+      ],
+      "target": [
+        -0.5,
+        0
+      ]
+    },
+    {
+      "id": "gaze-directions-up-1",
+      "previousTarget": [
+        -0.5,
+        -1
+      ],
+      "target": [
+        0.5,
+        -1
+      ]
+    },
+    {
+      "id": "gaze-directions-up-3",
+      "previousTarget": [
+        0.5,
+        -1
+      ],
+      "target": [
+        -0.5,
+        -1
+      ]
+    },
+    {
+      "id": "gaze-directions-up-mid-1",
+      "previousTarget": [
+        -0.5,
+        -0.5
+      ],
+      "target": [
+        0.5,
+        -0.5
+      ]
+    },
+    {
+      "id": "gaze-directions-up-mid-3",
+      "previousTarget": [
+        0.5,
+        -0.5
+      ],
+      "target": [
+        -0.5,
+        -0.5
+      ]
+    },
+    {
+      "id": "gaze-directions-down-mid-1",
+      "previousTarget": [
+        -0.5,
+        0.5
+      ],
+      "target": [
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "gaze-directions-down-mid-3",
+      "previousTarget": [
+        0.5,
+        0.5
+      ],
+      "target": [
+        -0.5,
+        0.5
+      ]
+    },
+    {
+      "id": "gaze-directions-down-1",
+      "previousTarget": [
+        -0.5,
+        1
+      ],
+      "target": [
+        0.5,
+        1
+      ]
+    },
+    {
+      "id": "gaze-directions-down-3",
+      "previousTarget": [
+        0.5,
+        1
+      ],
+      "target": [
+        -0.5,
+        1
+      ]
+    }
+  ],
+  "reactionPixels": "unchanged",
+  "outputAtlasSha256": "3f60df31ab9fdd18c5b17a0dd4c15715b31b34cd2360d7c9a99773ee7d4951b6",
+  "correctionSourceRoot": "art-source/gaze-corrections-2026-09-20"
+}

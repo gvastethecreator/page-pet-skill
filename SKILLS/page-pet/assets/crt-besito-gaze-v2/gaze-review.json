@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "d64b85028a5086ba879bfdf1a030986c78688beeb9b31445c9eb1c08fcec6a20",
+    "sheets": {
+      "mascot.webp": "c2caac71d5c9a53db1bb6bfa088bda6ce35a4d4df3b9441fec98d33f4bfc967a"
+    }
+  },
+  "reviewer": "Codex visual review, 2026-09-21; native source overlays and final sorted 5x5 contact",
+  "neighborContinuity": "pass",
+  "runtimeTracking": "pass",
+  "frames": {
+    "gaze-0-0": {
+      "expected": [
+        -1.0,
+        0
+      ],
+      "observed": [
+        -1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Pink lips and front screen face target; rear casing opposite. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-1-0": {
+      "expected": [
+        -0.5,
+        0
+      ],
+      "observed": [
+        -0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Pink lips and front screen face target; rear casing opposite. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-2-0": {
+      "expected": [
+        0.0,
+        0
+      ],
+      "observed": [
+        0.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "centered front; Pink lips and front screen face target; rear casing opposite. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-3-0": {
+      "expected": [
+        0.5,
+        0
+      ],
+      "observed": [
+        0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Pink lips and front screen face target; rear casing opposite. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-4-0": {
+      "expected": [
+        1.0,
+        0
+      ],
+      "observed": [
+        1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Pink lips and front screen face target; rear casing opposite. level; face is level relative to the adjacent pitched rows."
+    },
+    "gaze-directions-up-0": {
+      "expected": [
+        -1,
+        -1
+      ],
+      "observed": [
+        -1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Pink lips and front screen face target; rear casing opposite. strong upward tilt; Screen tilts up exposing underside."
+    },
+    "gaze-directions-up-1": {
+      "expected": [
+        0.5,
+        -1
+      ],
+      "observed": [
+        0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Pink lips and front screen face target; rear casing opposite. strong upward tilt; Screen tilts up exposing underside."
+    },
+    "gaze-directions-up-2": {
+      "expected": [
+        0,
+        -1
+      ],
+      "observed": [
+        0,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "centered front; Pink lips and front screen face target; rear casing opposite. strong upward tilt; Screen tilts up exposing underside."
+    },
+    "gaze-directions-up-3": {
+      "expected": [
+        -0.5,
+        -1
+      ],
+      "observed": [
+        -0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Pink lips and front screen face target; rear casing opposite. strong upward tilt; Screen tilts up exposing underside."
+    },
+    "gaze-directions-up-4": {
+      "expected": [
+        1,
+        -1
+      ],
+      "observed": [
+        1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Pink lips and front screen face target; rear casing opposite. strong upward tilt; Screen tilts up exposing underside."
+    },
+    "gaze-directions-up-mid-0": {
+      "expected": [
+        -1,
+        -0.5
+      ],
+      "observed": [
+        -1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Pink lips and front screen face target; rear casing opposite. slight upward tilt; Screen tilts up exposing underside."
+    },
+    "gaze-directions-up-mid-1": {
+      "expected": [
+        0.5,
+        -0.5
+      ],
+      "observed": [
+        0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Pink lips and front screen face target; rear casing opposite. slight upward tilt; Screen tilts up exposing underside."
+    },
+    "gaze-directions-up-mid-2": {
+      "expected": [
+        0,
+        -0.5
+      ],
+      "observed": [
+        0,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "centered front; Pink lips and front screen face target; rear casing opposite. slight upward tilt; Screen tilts up exposing underside."
+    },
+    "gaze-directions-up-mid-3": {
+      "expected": [
+        -0.5,
+        -0.5
+      ],
+      "observed": [
+        -0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Pink lips and front screen face target; rear casing opposite. slight upward tilt; Screen tilts up exposing underside."
+    },
+    "gaze-directions-up-mid-4": {
+      "expected": [
+        1,
+        -0.5
+      ],
+      "observed": [
+        1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Pink lips and front screen face target; rear casing opposite. slight upward tilt; Screen tilts up exposing underside."
+    },
+    "gaze-directions-down-mid-0": {
+      "expected": [
+        -1,
+        0.5
+      ],
+      "observed": [
+        -1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Pink lips and front screen face target; rear casing opposite. slight downward tilt; Top casing exposed and screen tilts down."
+    },
+    "gaze-directions-down-mid-1": {
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "observed": [
+        0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Pink lips and front screen face target; rear casing opposite. slight downward tilt; Top casing exposed and screen tilts down."
+    },
+    "gaze-directions-down-mid-2": {
+      "expected": [
+        0,
+        0.5
+      ],
+      "observed": [
+        0,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "centered front; Pink lips and front screen face target; rear casing opposite. slight downward tilt; Top casing exposed and screen tilts down."
+    },
+    "gaze-directions-down-mid-3": {
+      "expected": [
+        -0.5,
+        0.5
+      ],
+      "observed": [
+        -0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Pink lips and front screen face target; rear casing opposite. slight downward tilt; Top casing exposed and screen tilts down."
+    },
+    "gaze-directions-down-mid-4": {
+      "expected": [
+        1,
+        0.5
+      ],
+      "observed": [
+        1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Pink lips and front screen face target; rear casing opposite. slight downward tilt; Top casing exposed and screen tilts down."
+    },
+    "gaze-directions-down-0": {
+      "expected": [
+        -1,
+        1
+      ],
+      "observed": [
+        -1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-left profile; Pink lips and front screen face target; rear casing opposite. strong downward tilt; Top casing exposed and screen tilts down."
+    },
+    "gaze-directions-down-1": {
+      "expected": [
+        0.5,
+        1
+      ],
+      "observed": [
+        0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-right three-quarter; Pink lips and front screen face target; rear casing opposite. strong downward tilt; Top casing exposed and screen tilts down."
+    },
+    "gaze-directions-down-2": {
+      "expected": [
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "evidence": "centered front; Pink lips and front screen face target; rear casing opposite. strong downward tilt; Top casing exposed and screen tilts down."
+    },
+    "gaze-directions-down-3": {
+      "expected": [
+        -0.5,
+        1
+      ],
+      "observed": [
+        -0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-left three-quarter; Pink lips and front screen face target; rear casing opposite. strong downward tilt; Top casing exposed and screen tilts down."
+    },
+    "gaze-directions-down-4": {
+      "expected": [
+        1,
+        1
+      ],
+      "observed": [
+        1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "screen-right profile; Pink lips and front screen face target; rear casing opposite. strong downward tilt; Top casing exposed and screen tilts down."
+    }
+  },
+  "runtimeEvidence": "Imported corrected pack or selected unchanged pack in local playground; 25 physical mouse target positions matched 25 displayed gaze labels at 1280x720."
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Page Pet — Skill Playground</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">p.</span>page pet<span class="edition">SKILL PLAYGROUND</span></a>
+    <div class="header-actions"><button id="open-workflow" class="button secondary">Flujo de la skill</button><button id="open-review" class="button secondary">Revisar pack</button><button id="open-integration" class="button secondary">Integrar ↗</button><button id="import-button" class="button secondary">＋ Importar</button></div>
+    <input id="import-files" type="file" accept=".json,.png,.webp,.avif" multiple hidden>
+  </header>
+  <main>
+    <section class="workbench" aria-label="Playground de mascotas">
+      <aside class="library panel">
+        <div class="panel-heading"><h2>Colección</h2><span id="collection-count" class="count">01</span></div>
+        <div id="collection" class="collection"></div>
+        <nav id="collection-pager" class="pose-pager" aria-label="Páginas de mascotas" hidden><button id="collection-prev" aria-label="Mascotas anteriores">←</button><span id="collection-page" aria-live="polite"></span><button id="collection-next" aria-label="Más mascotas">→</button></nav>
+    <section class="pose-section">
+      <div class="panel-heading"><h2>Poses</h2><span id="pose-count" hidden></span></div>
+      <div class="pose-tabs" role="group" aria-label="Tipo de pose"><button data-kind="gaze" class="active" aria-pressed="true">Miradas <span id="gaze-count">—</span></button><button data-kind="reaction" aria-pressed="false">Expresiones <span id="reaction-count">—</span></button></div>
+      <div id="poses" class="pose-gallery"></div>
+      <nav id="pose-pager" class="pose-pager" aria-label="Páginas de expresiones" hidden><button id="pose-prev" aria-label="Expresiones anteriores">←</button><span id="pose-page" aria-live="polite"></span><button id="pose-next" aria-label="Más expresiones">→</button></nav>
+    </section>
+
+
+      </aside>
+      <section class="stage-panel">
+        <div class="stage-toolbar"><div class="live-label"><i></i> ESCENA <span id="mode-label">Sigue tu cursor</span></div><button id="reset" class="icon-button" title="Restablecer ajustes" aria-label="Restablecer ajustes">↺</button></div>
+        <div id="stage" class="stage" data-surface="paper">
+          <div class="stage-corner top-left"></div><div class="stage-corner bottom-right"></div>
+          <div class="stage-top"><span id="stage-name">MOKLO / 001</span><span></span></div>
+          <div class="stage-watermark" aria-hidden="true"></div>
+          <div id="mascot-position"><page-pet id="mascot" size="260" draggable label="Moklo: pulsa para una reacción. Usa las flechas para moverlo."></page-pet><canvas id="neutral-overlay" aria-hidden="true" hidden></canvas><div id="anchor-guides" aria-hidden="true" hidden></div></div>
+          <div class="stage-hint"><span class="hint-dot"></span> Arrastra para mover</div>
+        </div>
+        <div class="stage-footer"><div class="surfaces" aria-label="Fondo de la escena"><button data-surface="paper" class="swatch paper active" aria-label="Fondo arcilla" aria-pressed="true"></button><button data-surface="lilac" class="swatch lilac" aria-label="Fondo lavanda" aria-pressed="false"></button><button data-surface="night" class="swatch night" aria-label="Fondo oscuro" aria-pressed="false"></button><button data-surface="alpha" class="swatch alpha" aria-label="Ver transparencia" aria-pressed="false"></button></div><span id="frame-status">Cargando creación…</span><button id="export-png" class="button small">Exportar PNG ↓</button></div>
+      </section>
+      <aside class="inspector panel">
+        <div class="panel-heading"><h2>Ajustes</h2><button id="live" class="text-button">En vivo ↗</button></div>
+        <div class="inspector-tabs" role="group" aria-label="Panel de ajustes"><button data-panel="character" class="active" aria-pressed="true">Carácter</button><button data-panel="motion" aria-pressed="false">Movimiento</button><button data-panel="scene" aria-pressed="false">Escena</button></div>
+        <div id="character-controls" class="inspector-content">
+          <div class="control-section"><div class="label-row"><label for="size">Tamaño</label><output id="size-value" for="size">260 px</output></div><input id="size" type="range" min="100" max="360" value="260" step="10"></div>
+          <div id="neck-control" class="control-section"><div class="label-row"><label for="neck">Altura del cuello</label><output id="neck-value" for="neck">0 px</output></div><input id="neck" type="range" min="-24" max="24" value="0" step="1"></div>
+          <div class="control-section"><div class="label-row"><label for="click-reaction">Al hacer clic</label></div><select id="click-reaction"><option value="cycle">Variar reacción</option><option value="off">Sin reacción</option></select></div>
+          <div id="body-control" class="control-section"><div class="label-row"><label for="body-pose">Postura del cuerpo</label></div><select id="body-pose"><option value="auto">Automática</option></select></div>
+          <div class="control-section"><div class="label-row"><label for="reaction-preview">Probar gesto</label></div><div class="preview-reaction"><select id="reaction-preview"></select><button id="try-reaction" class="icon-button" aria-label="Probar gesto">▷</button></div></div>
+        </div>
+        <div id="motion-controls" class="inspector-content" hidden>
+          <div class="control-section"><div class="label-row"><label for="motion-preset">Sensación</label></div><select id="motion-preset"><option value="soft">Suave</option><option value="jelly">Jelly</option><option value="elastic">Elástico</option><option value="custom" disabled>Personalizada</option></select></div>
+          <div class="motion-grid">
+            <div class="control-section"><div class="label-row"><label for="physics">Intensidad</label><output id="physics-value" for="physics">45 %</output></div><input id="physics" type="range" min="0" max="100" value="45" step="5" title="Intensidad de todo el movimiento. Cero lo desactiva."></div>
+            <div class="control-section"><div class="label-row"><label for="jelly">Jelly</label><output id="jelly-value" for="jelly">65 %</output></div><input id="jelly" type="range" min="0" max="100" value="65" step="5" title="Cuánto se estira y dobla al arrastrar."></div>
+            <div class="control-section"><div class="label-row"><label for="inertia">Inercia</label><output id="inertia-value" for="inertia">35 %</output></div><input id="inertia" type="range" min="0" max="100" value="35" step="5" title="Deslizamiento al soltar. Cero lo deja donde lo soltaste."></div>
+            <div class="control-section"><div class="label-row"><label for="bounce">Rebote</label><output id="bounce-value" for="bounce">40 %</output></div><input id="bounce" type="range" min="0" max="100" value="40" step="5" title="Rebote al soltar, tocar los bordes y terminar un gesto."></div>
+            <div class="control-section"><div class="label-row"><label for="weight">Peso</label><output id="weight-value" for="weight">45 %</output></div><input id="weight" type="range" min="0" max="100" value="45" step="5" title="Más peso da una respuesta más lenta y blanda."></div>
+            <div class="control-section"><div class="label-row"><label for="damping">Freno</label><output id="damping-value" for="damping">55 %</output></div><input id="damping" type="range" min="0" max="100" value="55" step="5" title="Cuánto tarda en dejar de oscilar y deslizarse."></div>
+            <div class="control-section"><div class="label-row"><label for="reactionMotion">Reacciones</label><output id="reactionMotion-value" for="reactionMotion">70 %</output></div><input id="reactionMotion" type="range" min="0" max="100" value="70" step="5" title="Movimiento de los gestos, independiente del arrastre."></div>
+            <div class="control-section"><div class="label-row"><label for="reactionSpeed">Ritmo</label><output id="reactionSpeed-value" for="reactionSpeed">100 %</output></div><input id="reactionSpeed" type="range" min="50" max="150" value="100" step="5" title="Velocidad de los gestos."></div>
+            <div class="control-section"><div class="label-row"><label for="clickResponse">Click local</label><output id="clickResponse-value" for="clickResponse">35 %</output></div><input id="clickResponse" type="range" min="0" max="100" value="35" step="5" title="La reacción nace donde pulsas, con un pequeño impulso según el punto. Cero usa el anclaje normal."></div>
+          </div>
+          <button id="try-motion" class="button motion-preview">Probar reacción</button>
+        </div>
+        <div id="scene-controls" class="inspector-content" hidden>
+          <div class="control-section"><div class="label-row"><label for="placement">Posición</label><span class="mini-label">15 + libre</span></div><select id="placement"><option value="free">Posición libre</option></select><div class="coordinates"><label>X <input id="position-x" type="range" min="0" max="100" value="50"></label><label>Y <input id="position-y" type="range" min="0" max="100" value="53"></label></div></div>
+          <div class="control-section switches"><label for="tracking">Seguir el cursor<input id="tracking" type="checkbox" role="switch" checked></label><label for="idle">Parpadeo y descanso<input id="idle" type="checkbox" role="switch" checked></label><label for="paused">Pausar movimiento<input id="paused" type="checkbox" role="switch"></label></div>
+          <div class="control-section switches"><label for="guides">Anclaje<input id="guides" type="checkbox" role="switch"></label><label for="onion">Pose neutra<input id="onion" type="checkbox" role="switch"></label></div>
+          <div id="layer-controls" class="control-section switches" hidden><label>Cuerpo<input id="show-body" type="checkbox" role="switch" checked></label><label>Cabeza<input id="show-head" type="checkbox" role="switch" checked></label></div>
+        </div>
+        <p id="motion-note" class="motion-note" hidden>Movimiento reducido: sin inercia ni deformación. Puedes arrastrar y elegir poses.</p>
+        <button id="export-settings" class="button primary">Guardar ajustes</button>
+      </aside>
+    </section>
+    <div id="notice" role="status" aria-live="polite"></div>
+  </main>
+  <dialog id="integration-dialog" aria-labelledby="integration-title">
+    <div class="panel-heading"><h2 id="integration-title">Llévalo a tu web</h2><button id="close-integration" class="icon-button" aria-label="Cerrar integración">×</button></div>
+    <p>Copia el runtime y el pack a tu proyecto.</p>
+    <div class="code-card"><pre id="embed-code"></pre><button id="copy-code" class="button primary">Copiar código</button></div>
+  </dialog>
+
+  <dialog id="workflow-dialog" aria-labelledby="workflow-title">
+    <div class="panel-heading"><h2 id="workflow-title">De referencia a mascota</h2><button id="close-workflow" class="icon-button" aria-label="Cerrar flujo">×</button></div>
+    <ol class="workflow-steps">
+      <li><strong>Fijar identidad</strong><span>Referencia, paleta y piloto de cuerpo completo.</span></li>
+      <li><strong>Generar</strong><span>5 tiras de miradas + 2 hojas de expresiones. Misma referencia.</span></li>
+      <li><strong>Nivelar y alinear</strong><span>Color por material, recortes revisados, escala y pies estables.</span></li>
+      <li><strong>Revisar aquí</strong><span>25 direcciones, 12 gestos, alfa, color y comparación con la pose neutra.</span></li>
+      <li><strong>Publicar e integrar</strong><span>Registro visual vigente antes de añadir al catálogo.</span></li>
+    </ol>
+    <p>El agente genera y prepara los archivos. Este playground permite importar, comparar y comprobar packs; no genera imágenes ni aprueba su calidad visual automáticamente.</p>
+    <div class="workflow-links"><a href="../SKILL.md" target="_blank">Skill ↗</a><a href="../references/color.md" target="_blank">Color ↗</a><a href="../references/troubleshooting.md" target="_blank">Correcciones del flujo ↗</a></div>
+  </dialog>
+  <dialog id="review-dialog" aria-labelledby="review-title">
+    <div class="panel-heading"><h2 id="review-title">Revisar pack</h2><button id="close-review" class="icon-button" aria-label="Cerrar revisión">×</button></div>
+    <div id="review-results" role="status" aria-live="polite"></div>
+    <p>Los controles técnicos no comprueban anatomía, miradas ni color. Importa también <code>gaze-review.json</code> para comprobar su vigencia. El nivelado de color se revisa con su comparación antes/después.</p>
+    <div class="review-actions"><button id="compare-neutral" class="button secondary">Comparar pose neutra</button><button id="download-review" class="button primary" disabled>Guardar diagnóstico</button></div>
+  </dialog>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+{
+  "basePack": "red-baron-full-v1",
+  "baseManifestSha256": "4bf1c5e30c043f765d8c1a4e865b2f99ceff728720b2f14115f2044f006f3d2b",
+  "baseAtlasSha256": "da7699f5e8d92dca180d948f5e0c41521583a1dd80bffc6420135b10450e37c6",
+  "baseReportSha256": "91412f471553b94a764e02ad766b20626eb4218cf433d6594cfa0352efe4e557",
+  "corrections": [
+    {
+      "id": "gaze-directions-down-0",
+      "target": [
+        -1,
+        1
+      ],
+      "source": "red-down-isolated.png",
+      "sourceSha256": "1771a6945bee4e773de21f0e70cfec7f5e45778eb51bb9d92cceb40e888b7fba",
+      "layoutSha256": "8d05ca83dda700d45928170bcc623a83930322614a6b17ad3e4e2d966dada512",
+      "sourceCell": 0,
+      "scale": 0.9719626168224299,
+      "sourceBox": [
+        0,
+        0,
+        480,
+        724
+      ],
+      "nativeSource": "red-down.png",
+      "nativeSourceSha256": "5edca414d940d254103a437adf855aa97ed91c59bdb93b5c9124268b87bd5557",
+      "generationReference": "assets/red-baron-full-v1/gaze-review.png",
+      "generationReferenceSha256": "668b7c7ce58a1ea0204f5f149db2f3f10c7b04a96569fa949de8464d0630dc5b"
+    },
+    {
+      "id": "gaze-directions-down-1",
+      "target": [
+        -0.5,
+        1
+      ],
+      "source": "red-down-isolated.png",
+      "sourceSha256": "1771a6945bee4e773de21f0e70cfec7f5e45778eb51bb9d92cceb40e888b7fba",
+      "layoutSha256": "8d05ca83dda700d45928170bcc623a83930322614a6b17ad3e4e2d966dada512",
+      "sourceCell": 1,
+      "scale": 0.9719626168224299,
+      "sourceBox": [
+        480,
+        0,
+        961,
+        724
+      ],
+      "nativeSource": "red-down.png",
+      "nativeSourceSha256": "5edca414d940d254103a437adf855aa97ed91c59bdb93b5c9124268b87bd5557",
+      "generationReference": "assets/red-baron-full-v1/gaze-review.png",
+      "generationReferenceSha256": "668b7c7ce58a1ea0204f5f149db2f3f10c7b04a96569fa949de8464d0630dc5b"
+    },
+    {
+      "id": "gaze-directions-down-2",
+      "target": [
+        0,
+        1
+      ],
+      "source": "red-down-isolated.png",
+      "sourceSha256": "1771a6945bee4e773de21f0e70cfec7f5e45778eb51bb9d92cceb40e888b7fba",
+      "layoutSha256": "8d05ca83dda700d45928170bcc623a83930322614a6b17ad3e4e2d966dada512",
+      "sourceCell": 2,
+      "scale": 0.9719626168224299,
+      "sourceBox": [
+        961,
+        0,
+        1454,
+        724
+      ],
+      "nativeSource": "red-down.png",
+      "nativeSourceSha256": "5edca414d940d254103a437adf855aa97ed91c59bdb93b5c9124268b87bd5557",
+      "generationReference": "assets/red-baron-full-v1/gaze-review.png",
+      "generationReferenceSha256": "668b7c7ce58a1ea0204f5f149db2f3f10c7b04a96569fa949de8464d0630dc5b"
+    },
+    {
+      "id": "gaze-directions-down-3",
+      "target": [
+        0.5,
+        1
+      ],
+      "source": "red-down-isolated.png",
+      "sourceSha256": "1771a6945bee4e773de21f0e70cfec7f5e45778eb51bb9d92cceb40e888b7fba",
+      "layoutSha256": "8d05ca83dda700d45928170bcc623a83930322614a6b17ad3e4e2d966dada512",
+      "sourceCell": 3,
+      "scale": 0.9719626168224299,
+      "sourceBox": [
+        1454,
+        0,
+        1935,
+        724
+      ],
+      "nativeSource": "red-down.png",
+      "nativeSourceSha256": "5edca414d940d254103a437adf855aa97ed91c59bdb93b5c9124268b87bd5557",
+      "generationReference": "assets/red-baron-full-v1/gaze-review.png",
+      "generationReferenceSha256": "668b7c7ce58a1ea0204f5f149db2f3f10c7b04a96569fa949de8464d0630dc5b"
+    },
+    {
+      "id": "gaze-directions-down-4",
+      "target": [
+        1,
+        1
+      ],
+      "source": "red-down-isolated.png",
+      "sourceSha256": "1771a6945bee4e773de21f0e70cfec7f5e45778eb51bb9d92cceb40e888b7fba",
+      "layoutSha256": "8d05ca83dda700d45928170bcc623a83930322614a6b17ad3e4e2d966dada512",
+      "sourceCell": 4,
+      "scale": 0.9719626168224299,
+      "sourceBox": [
+        1935,
+        0,
+        2400,
+        724
+      ],
+      "nativeSource": "red-down.png",
+      "nativeSourceSha256": "5edca414d940d254103a437adf855aa97ed91c59bdb93b5c9124268b87bd5557",
+      "generationReference": "assets/red-baron-full-v1/gaze-review.png",
+      "generationReferenceSha256": "668b7c7ce58a1ea0204f5f149db2f3f10c7b04a96569fa949de8464d0630dc5b"
+    }
+  ],
+  "reactionPixels": "unchanged",
+  "outputAtlasSha256": "73e4ce8cb113346fb7a64b1929c4acdcdc0536c51765df9a222dc72384aaa360",
+  "correctionSourceRoot": "art-source/gaze-corrections-2026-09-20"
+}

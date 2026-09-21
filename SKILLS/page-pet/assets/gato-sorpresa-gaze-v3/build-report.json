@@ -1,0 +1,561 @@
+{
+  "basePack": "gato-sorpresa-full-v1",
+  "baseManifestSha256": "8172a9a51299ea712be29462ec19e564fb7b0d08fec962a7eca70a05fa1723c7",
+  "baseAtlasSha256": "a02a7c371bb7f8805883b8e2947218a5f690543095dc7b93528d6e65a49013fe",
+  "baseReportSha256": "5182cd441ac34fa9000c210a413984b0b076c6dc8d1fa6972963af3ccb8dacd1",
+  "corrections": [
+    {
+      "id": "gaze-directions-up-0",
+      "target": [
+        -1,
+        -1
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 0,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        0,
+        0,
+        315,
+        309
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-up-1",
+      "target": [
+        -0.5,
+        -1
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 1,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        315,
+        0,
+        633,
+        311
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-up-2",
+      "target": [
+        0,
+        -1
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 2,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        633,
+        0,
+        954,
+        316
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-up-3",
+      "target": [
+        0.5,
+        -1
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 3,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        954,
+        0,
+        1268,
+        313
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-up-4",
+      "target": [
+        1,
+        -1
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 4,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        1268,
+        0,
+        1590,
+        311
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-up-mid-0",
+      "target": [
+        -1,
+        -0.5
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 5,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        0,
+        309,
+        315,
+        631
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-up-mid-1",
+      "target": [
+        -0.5,
+        -0.5
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 6,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        315,
+        311,
+        633,
+        630
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-up-mid-2",
+      "target": [
+        0,
+        -0.5
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 7,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        633,
+        316,
+        954,
+        635
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-up-mid-3",
+      "target": [
+        0.5,
+        -0.5
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 8,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        954,
+        313,
+        1268,
+        631
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-up-mid-4",
+      "target": [
+        1,
+        -0.5
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 9,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        1268,
+        311,
+        1590,
+        632
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-0-0",
+      "target": [
+        -1,
+        0
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 10,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        0,
+        631,
+        315,
+        956
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-1-0",
+      "target": [
+        -0.5,
+        0
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 11,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        315,
+        630,
+        633,
+        954
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-2-0",
+      "target": [
+        0,
+        0
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 12,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        633,
+        635,
+        954,
+        959
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-3-0",
+      "target": [
+        0.5,
+        0
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 13,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        954,
+        631,
+        1268,
+        956
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-4-0",
+      "target": [
+        1,
+        0
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 14,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        1268,
+        632,
+        1590,
+        958
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-down-mid-0",
+      "target": [
+        -1,
+        0.5
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 15,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        0,
+        956,
+        315,
+        1278
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-down-mid-1",
+      "target": [
+        -0.5,
+        0.5
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 16,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        315,
+        954,
+        633,
+        1280
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-down-mid-2",
+      "target": [
+        0,
+        0.5
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 17,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        633,
+        959,
+        954,
+        1283
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-down-mid-3",
+      "target": [
+        0.5,
+        0.5
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 18,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        954,
+        956,
+        1268,
+        1280
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-down-mid-4",
+      "target": [
+        1,
+        0.5
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 19,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        1268,
+        958,
+        1590,
+        1279
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-down-0",
+      "target": [
+        -1,
+        1
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 20,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        0,
+        1278,
+        315,
+        1595
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-down-1",
+      "target": [
+        -0.5,
+        1
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 21,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        315,
+        1280,
+        633,
+        1595
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-down-2",
+      "target": [
+        0,
+        1
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 22,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        633,
+        1283,
+        954,
+        1595
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-down-3",
+      "target": [
+        0.5,
+        1
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 23,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        954,
+        1280,
+        1268,
+        1595
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    },
+    {
+      "id": "gaze-directions-down-4",
+      "target": [
+        1,
+        1
+      ],
+      "source": "gato-isolated.png",
+      "sourceSha256": "a0b2ae491f228e0a375c11f511d8348e5bd2a9cc7143f1b988a1544028c223cf",
+      "layoutSha256": "cd48c9819321267599f3ce228ee4c1a577eeadd2bfe6f0c38a60562be1ccde29",
+      "sourceCell": 24,
+      "scale": 1.7627118644067796,
+      "sourceBox": [
+        1268,
+        1279,
+        1590,
+        1595
+      ],
+      "nativeSource": "gato.png",
+      "nativeSourceSha256": "b048c84d953e328647824d825adfaf93e50ebf2e66b5aea76483563305f077de",
+      "generationReference": "assets/gato-sorpresa-full-v1/alignment-contact.png",
+      "generationReferenceSha256": "e2423ef885521b068c70a4bb8c2c99e5d669cb664e68c5852f57821b022a0c2f"
+    }
+  ],
+  "reactionPixels": "unchanged",
+  "outputAtlasSha256": "4c2f0a309310858d5e5ae27cae96d86c87423efc9ecc62ca61597ffff15ba106",
+  "correctionSourceRoot": "art-source/gaze-corrections-2026-09-20"
+}

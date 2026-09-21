@@ -1,0 +1,21 @@
+{
+  "scope": [
+    "SKILLS/page-pet/scripts",
+    "SKILLS/page-pet/runtime",
+    "SKILLS/page-pet/playground",
+    "scripts"
+  ],
+  "exclude": [
+    "SKILLS/page-pet/runtime/vendor",
+    "SKILLS/page-pet/assets",
+    "SKILLS/page-pet/art-source",
+    "art-source"
+  ],
+  "inventory": "working-tree",
+  "boundaries": {
+    "SKILLS/page-pet/runtime": "Runtime",
+    "SKILLS/page-pet/playground": "Playground",
+    "SKILLS/page-pet/scripts": "Builders"
+  },
+  "flows": []
+}

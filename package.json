@@ -1,0 +1,22 @@
+{
+  "name": "page-pet-skill",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.21.0",
+  "description": "Transparent full-character page pets with gaze tracking, reactions, and a local playground.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "codex",
+    "skill",
+    "spritesheet",
+    "mascot",
+    "playground"
+  ],
+  "scripts": {
+    "validate": "node scripts/validate-skill-pack.mjs",
+    "check": "node scripts/validate-skill-pack.mjs"
+  }
+}
