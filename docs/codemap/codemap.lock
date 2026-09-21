@@ -1,0 +1,187 @@
+{
+  "schema_version": 2,
+  "source_commit": "6f4670974ceb306f603fd8b547199f52d9d238ca",
+  "working_tree_dirty": false,
+  "generated_at": "2026-09-21T06:39:44Z",
+  "generation_id": "020382d553b6cb987df2f9a1cad3a58e68629acf286891e9eac0ed2f6d501a6f",
+  "analysis": {
+    "version": "syntax-1",
+    "digest": "277e322054c030f72811f774ad4e959bcf8d1244bfb70c076e298cf824ccdc3c"
+  },
+  "inventory": {
+    "policy": {
+      "inventory": "working-tree",
+      "scope": [
+        "SKILLS/page-pet/playground",
+        "SKILLS/page-pet/runtime",
+        "SKILLS/page-pet/scripts",
+        "scripts"
+      ],
+      "exclude": [
+        ".agents",
+        ".cache",
+        ".git",
+        ".hg",
+        ".next",
+        ".nuxt",
+        ".obsidian",
+        ".scratch",
+        ".svn",
+        ".turbo",
+        ".venv",
+        ".vscode",
+        "SKILLS/page-pet/art-source",
+        "SKILLS/page-pet/assets",
+        "SKILLS/page-pet/runtime/vendor",
+        "__pycache__",
+        "art-source",
+        "build",
+        "coverage",
+        "dist",
+        "docs/codemap",
+        "generated",
+        "node_modules",
+        "out",
+        "target",
+        "vendor",
+        "venv"
+      ],
+      "config_digest": "1448a15cdc0aeeeea63b9734051000f64ac3366028eee874f2a0b8c312ed1c69"
+    },
+    "files": [
+      {
+        "path": "SKILLS/page-pet/playground/app.js",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "f0f888443c853e0e59adc4bfbf53d799122eab68bf67b9b9ef271a7d2cacc7fb",
+        "size": 26837
+      },
+      {
+        "path": "SKILLS/page-pet/playground/review.js",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "5efd93259c523238cf0ad57710b1374004ce1b92d7043efe7b9cf15d8fae2043",
+        "size": 4727
+      },
+      {
+        "path": "SKILLS/page-pet/runtime/manifest.js",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "df09078537e18a8d8fa379cb6cc2a8586130fd698688f00526a71ff54f61b7a4",
+        "size": 4031
+      },
+      {
+        "path": "SKILLS/page-pet/runtime/motion.js",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "99f97617397a5fceaf06081676324522a5d391d768bb8ed680ebd09e4d114880",
+        "size": 7743
+      },
+      {
+        "path": "SKILLS/page-pet/runtime/page-pet.js",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "aafbc2f35c03dc52ec2342511312bd4ad2c3363ad703b5df66b31fdb8f567bd6",
+        "size": 17763
+      },
+      {
+        "path": "SKILLS/page-pet/runtime/puppet.js",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "85b1bf9b41033c4f15b2112c95867be58877096350e8d3464ac8dd859c270e44",
+        "size": 1508
+      },
+      {
+        "path": "SKILLS/page-pet/scripts/build_layered_pack.py",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "ed87e4188bb6688fd46a9f1b448de41800affe16bf1cd3222705c8159650e818",
+        "size": 10485
+      },
+      {
+        "path": "SKILLS/page-pet/scripts/build_pack.py",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "957272f43e5bea7a79d1bc88c65d2e2b999a6a81f7579ad5031a3083dd987b24",
+        "size": 23201
+      },
+      {
+        "path": "SKILLS/page-pet/scripts/check_color_leveling.py",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "34b79c24e773afcffe9b7b9cbc1861c52597f5c0d19940e19cc37cafafd7b20d",
+        "size": 3173
+      },
+      {
+        "path": "SKILLS/page-pet/scripts/isolate_strip.py",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "a7a3e62a3308948d39980d4eebed11fe3507cc5053a863d1e2f4652fa0c1b0db",
+        "size": 2902
+      },
+      {
+        "path": "SKILLS/page-pet/scripts/level_colors.py",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "c772a78c6b23d6ca991966d52f350b99d224458a5fdabc7c4fb9bb0dd331d516",
+        "size": 10508
+      },
+      {
+        "path": "SKILLS/page-pet/scripts/prepare_four_pose_source.py",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "e4d370828707bf9c60fe892c49b9ae67aa52b85395d17650ebeef61f336cd64c",
+        "size": 4488
+      },
+      {
+        "path": "SKILLS/page-pet/scripts/prepare_layout.py",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "564244824ec601512531c9d02184bba2984023c495704a2c37909c87ed2218f1",
+        "size": 3937
+      },
+      {
+        "path": "SKILLS/page-pet/scripts/review_gaze.py",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "40e902141ad464481488b3614ab016dd07cbc25673e49d0a88d1d43a5c9dcd0d",
+        "size": 5980
+      },
+      {
+        "path": "SKILLS/page-pet/scripts/serve.py",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "6fdd753a2f924cacc05eb99083d41c9bb7083f2d4adf91f437373498e4f5fd68",
+        "size": 1074
+      },
+      {
+        "path": "SKILLS/page-pet/scripts/verify_master.py",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "42d3d420d77c59f58290fbf34f53153c5bfca262051e4c3c0f677aefa49958d8",
+        "size": 4483
+      },
+      {
+        "path": "package.json",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "a8000c82fb6f25b536f682b829f0b4757f4cdc5ecf85faa76ed9cf1bcb7fc569",
+        "size": 504
+      },
+      {
+        "path": "scripts/validate-skill-pack.mjs",
+        "origin": "tracked",
+        "state": "present",
+        "digest": "e4da6a31e45aeeb25e7fd3847f54992e058bfdd95935bb3c9bc19a087d7ea9ce",
+        "size": 2615
+      }
+    ],
+    "digest": "385f1d0d9f6898f7a5d231490bfa30a0b275027aeac0313cf283f351f787824c"
+  },
+  "source_digest": "ef81b674af9b72b1ac20a369ead7ab72c78447ce4cf9742881921deb18ede258",
+  "artifact_hashes": {
+    "codemap.json": "7083ba49b84bd980a8e8d01d11cc602b89a37767b7bc93b44276c579cf55cf1b",
+    "codemap.md": "94e7ef40215fcdecf1ee8f9e302275974dfae3c4f2e9fd33c196757040ee29c5",
+    "codemap.html": "70202d6802b62dd650b4caeaf15ccd173cc1c2a845b7aef81c0f6228b9221cad"
+  }
+}

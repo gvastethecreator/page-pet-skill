@@ -22,4 +22,6 @@ Python builders need Pillow. Masked color leveling needs NumPy. Connected-compon
 
 ## Navigate the source
 
-`docs/codemap/config.json` scopes the map to builders, runtime, and playground. After the first commit, generate `codemap.json`, `codemap.md`, `codemap.html`, and `codemap.lock` together with the `maintain-code-map` tool. Keep review/staging files ignored. The map is contributor documentation; it is not part of the installable skill or the product test gate. Static reachability does not prove runtime behavior.
+The generated [code map](docs/codemap/codemap.md) links modules and direct calls. Its [interactive view](docs/codemap/codemap.html) exposes the same source evidence. Static reachability does not prove runtime behavior.
+
+When module boundaries or dependencies change, refresh `codemap.json`, `codemap.md`, `codemap.html`, and `codemap.lock` together with the `maintain-code-map` tool. Keep review/staging files ignored. The map is contributor documentation; it is not part of the installable skill or the product test gate.
