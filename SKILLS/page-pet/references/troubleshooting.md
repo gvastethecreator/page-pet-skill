@@ -7,6 +7,8 @@ Use the row that matches the observed failure. Preserve the rejected source and 
 | Small skin/material color drift | Use the masked [color branch](color.md); keep a fixed neutral reference | Same material samples, reviewed masks, light/dark comparison and bound report |
 | Major palette, shape or material drift | Regenerate from the accepted identity; color leveling cannot fix anatomy | Original reference beside pilot and replacement |
 | Features borrowed from another mascot | One character per generation context; references and pilot hashes checked before each call | Reference contact and all source hashes |
+| Asymmetric eye, ear, prop or shoe changes side | Correct the anatomical near/far map before generating replacement sheets; do not mirror | Front and both profiles agree on feature attachment and occlusion; eyes keep their order in three-quarter views |
+| Preview appears to contain a glow or dark background | Inspect actual alpha and composite on light/dark backgrounds before editing | RGB in fully transparent pixels is not visible contamination; preserve valid sources |
 | Too few blocks, limbs or defining features | Reject the pilot before expanding; state the exact feature count | Identity checklist against the user's reference |
 | Whole pack generated at low native detail | Split into five gaze strips and two reaction sheets | Actual source dimensions, alpha and readable faces; atlas dimensions do not prove detail |
 | Same gaze repeated or sideways neutral pupils | Regenerate affected cells; check head and pupils separately | True 5x5 target grid, each cell described before accepting its label |

@@ -6,19 +6,30 @@
   <meta name="description" content="Page Pet collection: 23 transparent pets with gaze tracking and click reactions.">
   <meta name="color-scheme" content="dark">
   <title>Page Pet</title>
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon-180.png">
   <link rel="stylesheet" href="./site.css">
+  <script src="./accent.js"></script>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">p.</span>page pet</a>
+    <div class="brand"><button class="brand-mark" type="button" aria-label="Change accent color" title="Change accent color"><span class="brand-mark-icon" aria-hidden="true"></span></button><a class="brand-name" href="./">page pet</a><span class="sr-only" id="accent-status" role="status" aria-live="polite"></span></div>
     <nav aria-label="Primary">
       <a href="./playground/">Playground</a>
       <a href="https://github.com/gvastethecreator/page-pet-skill">GitHub</a>
     </nav>
   </header>
   <main>
-    <section class="stage" aria-label="Selected pet">
-      <page-pet id="pet" size="280" label="Moklo: click to react"></page-pet>
+    <section class="intro" aria-labelledby="intro-title">
+      <div><h1 id="intro-title">A little character for your page.</h1><p>Interactive pets. Transparent sprites. A skill to make them your own.</p></div>
+      <a class="button primary" href="./playground/">Open playground <span aria-hidden="true">↗</span></a>
+    </section>
+    <section class="stage" aria-label="Selected pet" aria-busy="true">
+      <div class="pet-preview">
+        <img id="pet-placeholder" class="pet-placeholder" src="./assets/moklo-single/thumb.webp" alt="" width="260" height="260">
+        <page-pet id="pet" size="260" label="Moklo: click to react"></page-pet>
+      </div>
       <p id="pet-name">Moklo</p>
       <p class="hint">Move to look. Click to react.</p>
     </section>
@@ -27,6 +38,7 @@
     </section>
   </main>
   <footer>
+    <span>Install the skill</span>
     <code>npx skills add gvastethecreator/page-pet-skill --skill page-pet</code>
   </footer>
   <script type="module" src="./runtime/page-pet.js"></script>

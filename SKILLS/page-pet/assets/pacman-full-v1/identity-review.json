@@ -1,0 +1,320 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "c77eaf015b1514ec40b9639a3b366255ba42f2b36065a22760287789b6d5efac",
+    "sheets": {
+      "mascot.webp": "d2d012153a484568cc0445d677b9960ae19dd35612a7e9070259d7baa3ad4593"
+    }
+  },
+  "referenceSha256": "eea9cccd334fe1206de3794170d0d9fe19fcbfb1aa99ecdd43aa2619eb82e05a",
+  "reviewer": "Codex visual and playground review 2026-09-23",
+  "referenceEvidence": "The reviewed reference and contact sheet show the same small yellow circular mascot, black wedge mouth, tired white eyes, two simple yellow shoes and thick black outline.",
+  "features": {
+    "mouthWedge": {
+      "side": "center",
+      "evidence": "The black wedge remains anchored to the face and changes foreshortening with yaw."
+    },
+    "pairedShoes": {
+      "side": "center",
+      "evidence": "The two small shoes keep a common floor line and occlude naturally in profile."
+    }
+  },
+  "frames": {
+    "gaze-0-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-1-0": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-2-0": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "gaze-3-0": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-4-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-up-strong-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-up-strong-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-up-strong-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "gaze-directions-up-strong-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-up-strong-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-up-slight-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-up-slight-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-up-slight-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "gaze-directions-up-slight-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-up-slight-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-down-slight-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-down-slight-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-down-slight-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "gaze-directions-down-slight-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-down-slight-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-down-strong-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-down-strong-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-down-strong-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "gaze-directions-down-strong-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "gaze-directions-down-strong-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge points with the head turn and keeps its black interior",
+        "pairedShoes": "near shoe leads while the far shoe occludes on the same baseline"
+      }
+    },
+    "laugh": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction laugh in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "surprised": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction surprised in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "wink": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction wink in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "kiss": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction kiss in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "blink": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction blink in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "sleep": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction sleep in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "annoyed": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction annoyed in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "sad": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction sad in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "think": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction think in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "wave": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction wave in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "celebrate": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction celebrate in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    },
+    "shy": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction shy in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "mouthWedge": "mouth wedge remains centered on the round face",
+        "pairedShoes": "paired shoes remain on the common floor line"
+      }
+    }
+  }
+}

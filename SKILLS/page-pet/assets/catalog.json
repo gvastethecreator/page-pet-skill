@@ -21,5 +21,10 @@
   "./cubo-amarillo-full-v2/manifest.json",
   "./carita-llorona-full-v3/manifest.json",
   "./bloque-gris-full-v2/manifest.json",
-  "./limo-ciclope-full-v2/manifest.json"
+  "./limo-ciclope-full-v2/manifest.json",
+  "./orco-full-v1/manifest.json",
+  "./pacman-full-v1/manifest.json",
+  "./influencer-full-v1/manifest.json",
+  "./ventanilla-full-v2/manifest.json",
+  "./goblin-full-v1/manifest.json"
 ]

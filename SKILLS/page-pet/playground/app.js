@@ -156,8 +156,23 @@ function collection() {
     meta.append(title); button.append(art, meta);
     button.addEventListener('click', () => selectPack(pack)); $('#collection').append(button);
   }
+  filterCollection();
   requestAnimationFrame(() => { revealActivePet(); syncCollectionScroll(); });
 }
+
+function filterCollection() {
+  const normalize = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const query = normalize($('#collection-search').value.trim());
+  let visible = 0;
+  for (const card of $('#collection').children) {
+    card.hidden = !normalize(card.title).includes(query);
+    if (!card.hidden) visible++;
+  }
+  $('#collection-count').textContent = query ? `${visible} / ${packs.length}` : String(packs.length);
+  $('#collection-empty').hidden = visible > 0;
+  syncCollectionScroll();
+}
+$('#collection-search').addEventListener('input', filterCollection);
 
 const loader = $('#loader');
 let loadSerial = 0;
@@ -375,7 +390,11 @@ mascot.addEventListener('page-pet-move', event => {
 });
 mascot.addEventListener('page-pet-frame', event => {
   updateMode();
-  $('#frame-status').textContent = selected?.manifest.layers ? `Body: ${event.detail.body} · ${event.detail.id}` : event.detail.id;
+  const frame = selected?.manifest.frames.find(frame => frame.id === event.detail.id);
+  const gaze = frame?.gaze;
+  const direction = gaze ? [gaze[1] < -.1 ? 'Up' : gaze[1] > .1 ? 'Down' : '', gaze[0] < -.1 ? 'left' : gaze[0] > .1 ? 'right' : ''].filter(Boolean).join(' · ') : '';
+  $('#frame-status').textContent = gaze ? direction || 'Looking ahead' : labels[event.detail.reaction || event.detail.id] || 'Reaction';
+  $('#frame-status').title = selected?.manifest.layers ? `Body: ${event.detail.body} · ${event.detail.id}` : event.detail.id;
   document.querySelectorAll('.pose-card').forEach(button => {
     const active = button.dataset.frame === event.detail.id || button.dataset.frame === event.detail.reaction;
     button.classList.toggle('active', active); button.setAttribute('aria-pressed', active);

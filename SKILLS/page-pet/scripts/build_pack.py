@@ -10,6 +10,18 @@ from prepare_layout import digest, grid
 from review_gaze import prepare as prepare_gaze_review
 
 
+def save_thumbnail(output, manifest):
+    """Derive the catalog thumbnail from the exact neutral atlas frame."""
+    neutral = next(frame for frame in manifest['frames'] if frame['id'] == manifest['neutral'])
+    x, y, width, height = neutral['rect']
+    sheet = Image.open(output / neutral['sheet']).convert('RGBA')
+    sprite = sheet.crop((x, y, x + width, y + height))
+    sprite.thumbnail((240, 240), Image.Resampling.LANCZOS)
+    thumb = Image.new('RGBA', (256, 256))
+    thumb.alpha_composite(sprite, ((256 - sprite.width) // 2, (256 - sprite.height) // 2))
+    thumb.save(output / 'thumb.webp', lossless=True, method=4)
+
+
 def body_metrics(cell):
     alpha = cell.getchannel('A')
     bounds = alpha.point(lambda a: 255 if a > 16 else 0).getbbox()
@@ -354,6 +366,7 @@ def main():
         'frames':{key:measures for key,_,_,measures,_ in compiled}}
     (args.out/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')
     (args.out/'build-report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
+    save_thumbnail(args.out, manifest)
     qa_images(compiled,target,args.size,args.out)
     prepare_gaze_review(args.out)
     print(f'Built {len(frames)} registered frames: {args.out.resolve()}')

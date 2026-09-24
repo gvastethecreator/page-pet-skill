@@ -1,0 +1,320 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "cfdb84a9f3b7b4f7517045bb4b9c68ed4ae54720de73cfd26ae5a4a4373ad5ae",
+    "sheets": {
+      "mascot.webp": "28d549c4f54ceb88a073aa6c5ff2294962597be58b9b1155f970c4dfb88f1944"
+    }
+  },
+  "referenceSha256": "8cdb0c4a2bdfdc29818dddd043a45bc46d678a0ef19c9234686296f5c74a70c0",
+  "reviewer": "Codex visual and playground review 2026-09-23",
+  "referenceEvidence": "The reviewed reference and contact sheet show the same compact blue-gray orc, heavy continuous brow, paired triangular ears, paired lower tusks, rounded belly, short arms and four-toed feet.",
+  "features": {
+    "heavyBrow": {
+      "side": "center",
+      "evidence": "The continuous dark brow remains centered over both eyes."
+    },
+    "pairedTusks": {
+      "side": "center",
+      "evidence": "Both lower tusks retain their paired spacing at the front and occlude naturally in profile."
+    }
+  },
+  "frames": {
+    "gaze-0-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-1-0": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-2-0": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "gaze-3-0": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-4-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-up-strong-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-up-strong-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-up-strong-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "gaze-directions-up-strong-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-up-strong-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-up-slight-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-up-slight-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-up-slight-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "gaze-directions-up-slight-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-up-slight-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-down-slight-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-down-slight-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-down-slight-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "gaze-directions-down-slight-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-down-slight-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-down-strong-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-down-strong-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-down-strong-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "gaze-directions-down-strong-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "gaze-directions-down-strong-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "brow follows the head turn and foreshortens without splitting identity",
+        "pairedTusks": "tusks foreshorten and the far tusk occludes naturally"
+      }
+    },
+    "laugh": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction laugh in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "surprised": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction surprised in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "wink": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction wink in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "kiss": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction kiss in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "blink": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction blink in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "sleep": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction sleep in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "annoyed": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction annoyed in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "sad": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction sad in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "think": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction think in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "wave": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction wave in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "celebrate": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction celebrate in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    },
+    "shy": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction shy in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "heavyBrow": "heavy brow stays centered over the eye pair",
+        "pairedTusks": "paired tusks retain their front spacing"
+      }
+    }
+  }
+}

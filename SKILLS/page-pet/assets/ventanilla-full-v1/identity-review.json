@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "269a78e80c860654fbc458dc7070cbd767446905becc48c9b2077d7910d373bf",
+    "sheets": {
+      "mascot.webp": "d7b405e04f2de951626714556fda548636e64ddce8bc681f0e9254c858bea253"
+    }
+  },
+  "referenceSha256": "aa23f52dba5826583754ff73317302a6961b216d232b77c3fc40441ebddda8f1",
+  "reviewer": "",
+  "referenceEvidence": "",
+  "features": {},
+  "frames": {
+    "gaze-0-0": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-1-0": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-2-0": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-3-0": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-4-0": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-up-strong-0": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-up-strong-1": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-up-strong-2": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-up-strong-3": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-up-strong-4": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-up-slight-0": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-up-slight-1": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-up-slight-2": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-up-slight-3": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-up-slight-4": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-down-slight-0": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-down-slight-1": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-down-slight-2": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-down-slight-3": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-down-slight-4": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-down-strong-0": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-down-strong-1": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-down-strong-2": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-down-strong-3": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "gaze-directions-down-strong-4": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "laugh": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "surprised": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "wink": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "kiss": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "blink": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "sleep": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "annoyed": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "sad": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "think": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "wave": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "celebrate": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    },
+    "shy": {
+      "status": "pending",
+      "evidence": "",
+      "features": {}
+    }
+  }
+}

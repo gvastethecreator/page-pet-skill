@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Google Sans";
+  src: url('./fonts/google-sans-flex-latin.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 1 1000;
+  font-stretch: 25% 151%;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: dark;
+  --bg: color-mix(in srgb, #161718 92%, var(--accent));
+  --panel: color-mix(in srgb, #202223 96%, var(--accent));
+  --raised: color-mix(in srgb, #2a2c2e 95%, var(--accent));
+  --hover: color-mix(in srgb, #343739 94%, var(--accent));
+  --line: #424648;
+  --control-line: #73797c;
+  --text: #f4f0e8;
+  --muted: #afb3b5;
+  --accent: #ff9b73;
+  --accent-hover: #ffb08d;
+  --accent-ink: #29170f;
+  --selection: color-mix(in srgb, var(--accent) 14%, var(--panel));
+  --shadow: #0005;
+  --backdrop: #101112cc;
+  --stage-clay: #b99787;
+  --stage-clay-ink: #33272b;
+  --stage-lilac: #a69bbb;
+  --stage-lilac-ink: #302938;
+  --stage-night: #303334;
+  --stage-night-ink: #d6d9d8;
+  --stage-alpha: #b4b6b5;
+  --stage-alpha-tile: #999d9b;
+  --stage-alpha-ink: #252928;
+  --grid-dark: #33272b16;
+  --grid-light: #d6d9d815;
+  --font-ui: "Google Sans", "Segoe UI", sans-serif;
+  font-family: var(--font-ui);
+  color: var(--text);
+  background: var(--bg);
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, input, select { font: inherit; color: inherit; }
+button, select { cursor: pointer; }
+[hidden] { display: none !important; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; font-size: 24px; font-weight: 650; letter-spacing: -.8px; }
+.brand-mark { position: relative; display: grid; place-items: center; flex: none; width: 46px; height: 46px; padding: 0; border: 0; border-radius: 14px; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+.brand-mark-icon { display: block; width: 39px; height: 39px; background: currentColor; transform: translate(3.5px, -2px); -webkit-mask: url('./brand-icon.png') center / contain no-repeat; mask: url('./brand-icon.png') center / contain no-repeat; }
+.brand-mark::after { content: ''; position: absolute; inset: -3px; border: 1px solid var(--accent); border-radius: inherit; opacity: 0; pointer-events: none; }
+.brand-mark.is-animating { animation: page-pet-logo-pop 560ms cubic-bezier(.2,.8,.2,1) both; }
+.brand-mark.is-animating::after { animation: page-pet-logo-ring 560ms ease-out both; }
+.brand-mark:active { scale: .94; }
+.brand-name { color: var(--text); text-decoration: none; }
+.brand-name:hover { color: var(--accent); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+.accent-changing :is(body,.site-header,.topbar,.library,.stage,.brand-mark,.brand-name,.button,.text-button,nav a,.roster-grid button,.stage-tools .button,.swatch,.pose-tabs button,.inspector-tabs button,.pose-card,.collection-card,input[type=range],input[role=switch],.workflow-links a,:focus-visible) { transition-property: color, background-color, border-color, outline-color, box-shadow, accent-color, fill, stroke; transition-duration: 280ms; transition-timing-function: cubic-bezier(.2,0,0,1); }
+@keyframes page-pet-logo-pop {
+  0% { transform: scale(1) rotate(0); box-shadow: 0 0 0 0 color-mix(in srgb,var(--accent) 0%,transparent); }
+  30% { transform: scale(1.2) rotate(-9deg); box-shadow: 0 0 0 6px color-mix(in srgb,var(--accent) 24%,transparent); }
+  62% { transform: scale(.94) rotate(5deg); box-shadow: 0 0 0 1px color-mix(in srgb,var(--accent) 12%,transparent); }
+  100% { transform: scale(1) rotate(0); box-shadow: 0 0 0 0 transparent; }
+}
+@keyframes page-pet-logo-ring {
+  0% { transform: scale(.8); opacity: .7; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+.button { display: inline-flex; align-items: center; justify-content: center; min-height: 38px; gap: 8px; border: 1px solid var(--line); border-radius: 9px; background: var(--raised); color: var(--text); padding: 8px 14px; font-size: 14px; font-weight: 550; text-decoration: none; transition: background-color 160ms, border-color 160ms; }
+.button:hover { background: var(--hover); border-color: var(--control-line); }
+.button.primary { background: var(--accent); border-color: transparent; color: var(--accent-ink); }
+.button.primary:hover { background: var(--accent-hover); }
+.button.secondary { background: transparent; }
+.button.secondary:hover { background: var(--raised); }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .brand-mark:active { scale: 1; }
+}

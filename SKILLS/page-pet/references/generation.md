@@ -10,6 +10,22 @@ Generate a small pilot with neutral and neighboring directions first. Inspect th
 
 Keep foot position, apparent height, character-specific colors, materials and lighting stable within and across generations. Check that no feature, prop, palette or texture from another character appears. The color of a preview background can mislead: measure PNG alpha and view sprites on light and dark backgrounds. Compare opaque samples of each material to the neutral. For small drift, run the [masked leveling branch](color.md) before layouts and packing. The builder's `--color-limit` sampler only checks Moklo's ivory torso; it neither corrects colors nor approves other palettes.
 
+## Lock asymmetric features
+
+Before any prompt, list each unique feature and its anatomical side from the frontal reference: unequal ears/eyes, a single fang, stamp, phone, crown tilt, cape attachment, differently colored shoes. Keep that table with the source records. Screen-left and anatomical-left are not interchangeable.
+
+| View | Side nearest the camera | Required evidence |
+|---|---|---|
+| Front | Both | Character's right is screen-left; character's left is screen-right |
+| Facing screen-left (negative gaze x) | Character's left | Features originally on screen-right become near-side features |
+| Facing screen-right (positive gaze x) | Character's right | Features originally on screen-left become near-side features |
+
+In a three-quarter face, the two eyes keep their anatomical order; they do not exchange identities. The far eye becomes smaller or hidden as yaw increases. A prop stays in its original hand. An ear can move across the image through perspective, but its attachment and overlap must remain physically consistent. Do not infer correctness from its screen x-coordinate alone. Check the same side assignment again in every pitch row and reaction.
+
+For example, a phone held at screen-right in the frontal reference is in the character's left hand: it is near-side when the character faces screen-left. A large eye at screen-left in that reference is the character's right eye: it is near-side when facing screen-right. Reject a prompt that asks for the opposite before running generation.
+
+Keep accepted source sheets immutable. Assemble the atlas from their reviewed pixels through the crop/registration scripts. Image-generation references are guidance, not pixel reuse. Generate only missing or failed groups in new sheets; never use mirrored copies to fill missing views. If a long strip repeatedly loses orientation, use a compact multi-pose sheet and map its reviewed crops explicitly rather than generating isolated frames or repeating the same failed layout.
+
 ## Budget actual source pixels
 
 Ask for a large transparent source sheet, then read the returned PNG dimensions. If a requested 4096px sheet arrives at about 1254px, reduce cells per generation instead of enlarging it and claiming extra detail. Leave real transparent gutters between complete silhouettes, including protruding hands and lips. Use multiple high-detail source strips and assemble them into one large runtime atlas.
@@ -33,9 +49,15 @@ Reaction sheets contain complete characters too. Draw actual expressions and ges
 - If correct poses are mislabeled, remap their coordinates without mirroring or redrawing their pixels. If a direction is missing, repeated or ambiguous, regenerate the affected cells from the accepted character. Inspect them again; never relabel a wrong pose merely to reach 25.
 - For every frame record `observed`, `status` and visible `evidence` in `gaze-review.json`. Record the reviewer and neighbor-continuity result. Never generate these observations by copying `expected` without visually inspecting the frame. Fail ambiguous frames. Import draft files through the playground and move the physical pointer to all 25 target positions; record `runtimeTracking` only after the selected frame matches each target and its drawing agrees.
 
+Publication also requires `identity-review.json`, created pending by `prepare`. It binds the reference hash, manifest and atlas. Fill `reviewer` and `referenceEvidence` from the actual neutral reference. In `features`, record each asymmetric landmark as `{ "side": "left|right|center", "evidence": "visible reference detail" }` using anatomical sides. For **all 37 frames**, including reactions, fill `status`, visible `evidence`, and a `features` observation for every named landmark. Describe visible attachment, near/far overlap or justified occlusion; do not write only "correct". Use an empty feature map only for a genuinely symmetric design and explain that conclusion in `referenceEvidence`.
+
+Review difficult crops beside the neutral at native size, then scrub both turn directions at display size. A hidden feature must disappear behind the correct surface and return on the same side; it must not teleport, duplicate, change hand or reappear as its counterpart. Reject ambiguous depth instead of guessing from two-dimensional x ordering. `check` validates identity records when present; `publish` always requires them. Existing gaze-only approvals do not qualify for new publication. These checks enforce recorded review coverage, not automatic visual correctness.
+
 Run `python <skill-dir>/scripts/review_gaze.py check <pack>`, then `python <skill-dir>/scripts/review_gaze.py publish <pack> --catalog <skill-dir>/assets/catalog.json`. Use this command instead of editing the catalog directly. Publication requires exactly 25 gaze views and 12 reactions with complete-character sprites; pilots remain drafts. It rejects missing/failed observations, incomplete 5x5 coverage, duplicate pixels and stale manifest/atlas hashes. It cannot detect a dishonest or mistaken visual approval. Any pixel, rectangle or gaze mapping change requires a fresh visual review; do not refresh hashes to reuse old approval. `prepare` preserves an existing record, so explicitly archive a stale record before starting its replacement.
 
 Keep rejected source rows outside the accepted mapping. Remap only correctly drawn poses; regenerate missing, repeated, or reversed directions.
+
+When the correct profiles and intermediate turns exist in different reviewed sheets, use `scripts/assemble_reviewed_strip.py --recipe <source>/accepted.recipe.json --out <source>/level.png`. Each recipe pose names a source, its reviewed layout and a cell. The script verifies both source and layout hashes, extracts only those accepted pixels, aligns their baselines and writes an assembly record. Inspect the assembled strip and prepare a fresh layout before building. This is allowed source preservation; do not use it to hide a missing direction or combine incompatible identities.
 
 ## Cut, pack and preview
 

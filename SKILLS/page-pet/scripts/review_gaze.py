@@ -45,7 +45,44 @@ def prepare(pack):
                   'frames': {f['id']: {'expected': f['gaze'], 'observed': None,
                       'status': 'pending', 'evidence': ''} for f in frames}}
         target.write_text(json.dumps(record, indent=2)+'\n', encoding='utf-8')
+    identity_target = pack / 'identity-review.json'
+    if not identity_target.exists():
+        report = json.loads((pack / 'build-report.json').read_text(encoding='utf-8'))
+        identity = {'version': 1, 'binding': binding(pack, manifest),
+                    'referenceSha256': report.get('referenceSha256'), 'reviewer': '',
+                    'referenceEvidence': '', 'features': {},
+                    'frames': {f['id']: {'status': 'pending', 'evidence': '',
+                                        'features': {}} for f in manifest['frames']}}
+        identity_target.write_text(json.dumps(identity, indent=2)+'\n', encoding='utf-8')
     print(f"Review every cell of {pack / 'gaze-review.png'}; pending entries are NOT approval.")
+
+
+def check_identity(pack, manifest):
+    review = json.loads((pack / 'identity-review.json').read_text(encoding='utf-8'))
+    report = json.loads((pack / 'build-report.json').read_text(encoding='utf-8'))
+    if review.get('version') != 1 or review.get('binding') != binding(pack, manifest):
+        raise ValueError('Stale identity review: inspect the current atlas and mapping')
+    reference = report.get('referenceSha256')
+    if not reference or review.get('referenceSha256') != reference:
+        raise ValueError('Identity review must use the build reference hash')
+    if not str(review.get('reviewer', '')).strip() or not str(review.get('referenceEvidence', '')).strip():
+        raise ValueError('Record the identity reviewer and visible reference landmarks')
+    features = review.get('features')
+    if not isinstance(features, dict):
+        raise ValueError('Identity features must map names to anatomical sides and evidence')
+    for name, feature in features.items():
+        if (not isinstance(feature, dict) or feature.get('side') not in ['left', 'right', 'center']
+                or not str(feature.get('evidence', '')).strip()):
+            raise ValueError(f'Unresolved anatomical feature: {name}')
+    if set(review.get('frames', {})) != {f['id'] for f in manifest['frames']}:
+        raise ValueError('Identity review must cover every gaze AND reaction frame')
+    for frame in manifest['frames']:
+        entry = review['frames'][frame['id']]
+        observed = entry.get('features', {})
+        if (entry.get('status') != 'pass' or not str(entry.get('evidence', '')).strip()
+                or not isinstance(observed, dict) or set(observed) != set(features)
+                or any(not isinstance(v, str) or not v.strip() for v in observed.values())):
+            raise ValueError(f"Unresolved identity or near/far occlusion: {frame['id']}")
 
 
 def check(pack, publication=False):
@@ -78,6 +115,8 @@ def check(pack, publication=False):
         if pixel_hash in pixels:
             raise ValueError('Exact duplicate gaze art cannot establish distinct directions')
         pixels.add(pixel_hash)
+    if publication or (pack / 'identity-review.json').exists():
+        check_identity(pack, manifest)
     print(f"{manifest['name']}: {len(frames)} gaze review entries valid (record validation, not automatic vision)")
 
 

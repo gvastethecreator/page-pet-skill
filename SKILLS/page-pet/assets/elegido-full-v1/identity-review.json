@@ -1,0 +1,361 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "a631ca2fab4c538fa930e07eaa8c6f897be55a4a50a90976b2ce285b98b653f1",
+    "sheets": {
+      "mascot.webp": "8e38da64ef45d54b9c05e5b4bd13aea19f68a62db857ab52d6bb0b9ec87aae7f"
+    }
+  },
+  "referenceSha256": "aef96cbd4d908f6896ee262616a589dbd190a116d26340e82691bf67e20ca56f",
+  "reviewer": "Codex visual and playground review 2026-09-23",
+  "referenceEvidence": "The reviewed reference and contact sheet preserve the yellow crowned body, white paper crown, purple cape, anatomical-left cream boot and anatomical-right brown boot.",
+  "features": {
+    "creamBoot": {
+      "side": "left",
+      "evidence": "At the front it stays screen-right and becomes the near boot in left-facing views."
+    },
+    "brownBoot": {
+      "side": "right",
+      "evidence": "At the front it stays screen-left and becomes the near boot in right-facing views."
+    },
+    "crownAttachment": {
+      "side": "center",
+      "evidence": "The paper crown remains attached to the same top plane and rotates with the body."
+    }
+  },
+  "frames": {
+    "gaze-0-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature is the near, more visible landmark",
+        "brownBoot": "anatomical-right feature stays on the far side and occludes naturally",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-1-0": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature is the near, more visible landmark",
+        "brownBoot": "anatomical-right feature stays on the far side and occludes naturally",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-2-0": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "gaze-3-0": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature stays on the far side and occludes naturally",
+        "brownBoot": "anatomical-right feature is the near, more visible landmark",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-4-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature stays on the far side and occludes naturally",
+        "brownBoot": "anatomical-right feature is the near, more visible landmark",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-up-strong-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature is the near, more visible landmark",
+        "brownBoot": "anatomical-right feature stays on the far side and occludes naturally",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-up-strong-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature is the near, more visible landmark",
+        "brownBoot": "anatomical-right feature stays on the far side and occludes naturally",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-up-strong-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "gaze-directions-up-strong-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature stays on the far side and occludes naturally",
+        "brownBoot": "anatomical-right feature is the near, more visible landmark",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-up-strong-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature stays on the far side and occludes naturally",
+        "brownBoot": "anatomical-right feature is the near, more visible landmark",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-up-slight-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature is the near, more visible landmark",
+        "brownBoot": "anatomical-right feature stays on the far side and occludes naturally",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-up-slight-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature is the near, more visible landmark",
+        "brownBoot": "anatomical-right feature stays on the far side and occludes naturally",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-up-slight-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "gaze-directions-up-slight-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature stays on the far side and occludes naturally",
+        "brownBoot": "anatomical-right feature is the near, more visible landmark",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-up-slight-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature stays on the far side and occludes naturally",
+        "brownBoot": "anatomical-right feature is the near, more visible landmark",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-down-slight-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature is the near, more visible landmark",
+        "brownBoot": "anatomical-right feature stays on the far side and occludes naturally",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-down-slight-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature is the near, more visible landmark",
+        "brownBoot": "anatomical-right feature stays on the far side and occludes naturally",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-down-slight-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "gaze-directions-down-slight-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature stays on the far side and occludes naturally",
+        "brownBoot": "anatomical-right feature is the near, more visible landmark",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-down-slight-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature stays on the far side and occludes naturally",
+        "brownBoot": "anatomical-right feature is the near, more visible landmark",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-down-strong-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature is the near, more visible landmark",
+        "brownBoot": "anatomical-right feature stays on the far side and occludes naturally",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-down-strong-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature is the near, more visible landmark",
+        "brownBoot": "anatomical-right feature stays on the far side and occludes naturally",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-down-strong-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "gaze-directions-down-strong-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature stays on the far side and occludes naturally",
+        "brownBoot": "anatomical-right feature is the near, more visible landmark",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "gaze-directions-down-strong-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "anatomical-left feature stays on the far side and occludes naturally",
+        "brownBoot": "anatomical-right feature is the near, more visible landmark",
+        "crownAttachment": "crown follows the same head/body yaw without detaching or mirroring"
+      }
+    },
+    "laugh": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction laugh in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "surprised": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction surprised in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "wink": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction wink in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "kiss": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction kiss in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "blink": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction blink in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "sleep": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction sleep in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "annoyed": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction annoyed in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "sad": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction sad in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "think": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction think in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "wave": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction wave in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "celebrate": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction celebrate in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    },
+    "shy": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction shy in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "creamBoot": "cream boot remains on screen-right",
+        "brownBoot": "brown boot remains on screen-left",
+        "crownAttachment": "crown stays attached to the centered top plane"
+      }
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "269a78e80c860654fbc458dc7070cbd767446905becc48c9b2077d7910d373bf",
+    "sheets": {
+      "mascot.webp": "d7b405e04f2de951626714556fda548636e64ddce8bc681f0e9254c858bea253"
+    }
+  },
+  "reviewer": "",
+  "neighborContinuity": "pending",
+  "runtimeTracking": "pending",
+  "frames": {
+    "gaze-0-0": {
+      "expected": [
+        -1.0,
+        0
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-1-0": {
+      "expected": [
+        -0.5,
+        0
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-2-0": {
+      "expected": [
+        0.0,
+        0
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-3-0": {
+      "expected": [
+        0.5,
+        0
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-4-0": {
+      "expected": [
+        1.0,
+        0
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-up-strong-0": {
+      "expected": [
+        -1,
+        -1
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-up-strong-1": {
+      "expected": [
+        -0.5,
+        -1
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-up-strong-2": {
+      "expected": [
+        0,
+        -1
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-up-strong-3": {
+      "expected": [
+        0.5,
+        -1
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-up-strong-4": {
+      "expected": [
+        1,
+        -1
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-up-slight-0": {
+      "expected": [
+        -1,
+        -0.5
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-up-slight-1": {
+      "expected": [
+        -0.5,
+        -0.5
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-up-slight-2": {
+      "expected": [
+        0,
+        -0.5
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-up-slight-3": {
+      "expected": [
+        0.5,
+        -0.5
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-up-slight-4": {
+      "expected": [
+        1,
+        -0.5
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-down-slight-0": {
+      "expected": [
+        -1,
+        0.5
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-down-slight-1": {
+      "expected": [
+        -0.5,
+        0.5
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-down-slight-2": {
+      "expected": [
+        0,
+        0.5
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-down-slight-3": {
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-down-slight-4": {
+      "expected": [
+        1,
+        0.5
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-down-strong-0": {
+      "expected": [
+        -1,
+        1
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-down-strong-1": {
+      "expected": [
+        -0.5,
+        1
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-down-strong-2": {
+      "expected": [
+        0,
+        1
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-down-strong-3": {
+      "expected": [
+        0.5,
+        1
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    },
+    "gaze-directions-down-strong-4": {
+      "expected": [
+        1,
+        1
+      ],
+      "observed": null,
+      "status": "pending",
+      "evidence": ""
+    }
+  }
+}

@@ -4,18 +4,22 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="color-scheme" content="dark">
   <title>Page Pet — Skill Playground</title>
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon-180.png">
   <link rel="stylesheet" href="./style.css">
+  <script src="../accent.js"></script>
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="../"><span class="brand-mark" aria-hidden="true">p.</span>page pet<span class="edition">SKILL PLAYGROUND</span></a>
-    <div class="header-actions"><button id="open-workflow" class="button secondary">Skill flow</button><button id="open-review" class="button secondary">Review pack</button><button id="open-integration" class="button secondary">Embed</button><button id="import-button" class="button secondary">Import</button></div>
+    <div class="brand"><button class="brand-mark" type="button" aria-label="Change accent color" title="Change accent color"><span class="brand-mark-icon" aria-hidden="true"></span></button><a class="brand-name" href="../">page pet</a><span class="edition">Skill playground</span><span class="sr-only" id="accent-status" role="status" aria-live="polite"></span></div>
+    <div class="header-actions"><button id="open-workflow" class="button secondary">Help</button><button id="open-review" class="button secondary">Review pack</button><button id="open-integration" class="button secondary">Embed</button><button id="import-button" class="button secondary">Import</button></div>
     <input id="import-files" type="file" accept=".json,.png,.webp,.avif" multiple hidden>
   </header>
   <main class="studio">
     <section class="workbench" aria-label="Pet playground">
       <section class="stage-panel">
-        <div class="stage-toolbar"><div class="live-label"><i></i> SCENE <span id="mode-label">Follows pointer</span></div><div class="stage-tools"><button id="open-poses" class="button secondary" type="button" aria-expanded="false" aria-controls="pose-panel">Poses</button><button id="open-settings" class="button secondary" type="button" aria-expanded="false" aria-controls="settings-panel">Settings</button><button id="reset" class="icon-button" title="Reset settings" aria-label="Reset settings">↺</button></div></div>
+        <div class="stage-toolbar"><div class="live-label"><i></i> Scene <span id="mode-label">Follows pointer</span></div><div class="stage-tools"><button id="open-poses" class="button secondary" type="button" aria-expanded="false" aria-controls="pose-panel">Poses</button><button id="open-settings" class="button secondary" type="button" aria-expanded="false" aria-controls="settings-panel">Settings</button><button id="reset" class="icon-button" title="Reset settings" aria-label="Reset settings">↺</button></div></div>
         <div id="stage" class="stage" data-surface="paper">
           <div class="stage-corner top-left"></div><div class="stage-corner bottom-right"></div>
           <div class="stage-top"><span id="stage-name">MOKLO / 001</span><span></span></div>
@@ -28,11 +32,12 @@
           <div id="mascot-position"><page-pet id="mascot" size="260" draggable label="Moklo: click to react. Use the arrow keys to move it."></page-pet><canvas id="neutral-overlay" aria-hidden="true" hidden></canvas><div id="anchor-guides" aria-hidden="true" hidden></div></div>
           <div class="stage-hint"><span class="hint-dot"></span> Drag to move</div>
         </div>
-        <div class="stage-footer"><div class="surfaces" aria-label="Scene background"><button data-surface="paper" class="swatch paper active" aria-label="Clay background" aria-pressed="true"></button><button data-surface="lilac" class="swatch lilac" aria-label="Lavender background" aria-pressed="false"></button><button data-surface="night" class="swatch night" aria-label="Dark background" aria-pressed="false"></button><button data-surface="alpha" class="swatch alpha" aria-label="Show transparency" aria-pressed="false"></button></div><span id="frame-status">Loading…</span><button id="export-png" class="button small">Export PNG</button></div>
+        <div class="stage-footer"><div class="surfaces" aria-label="Scene background"><button data-surface="paper" class="swatch paper active" title="Accent background" aria-label="Accent background" aria-pressed="true"></button><button data-surface="lilac" class="swatch lilac" title="Complementary background" aria-label="Complementary background" aria-pressed="false"></button><button data-surface="night" class="swatch night" title="Dark background" aria-label="Dark background" aria-pressed="false"></button><button data-surface="alpha" class="swatch alpha" title="Show transparency" aria-label="Show transparency" aria-pressed="false"></button></div><span id="frame-status">Loading…</span><button id="export-png" class="button primary small">Export PNG</button></div>
       </section>
       <aside class="library panel">
-        <div class="panel-heading"><h2>Collection</h2><div class="heading-actions"><span id="collection-count" class="count">01</span><nav id="collection-pager" class="strip-pager" aria-label="More pets in the collection" hidden><button id="collection-prev" type="button" aria-label="Previous pets">←</button><button id="collection-next" type="button" aria-label="More pets">→</button></nav></div></div>
+        <div class="panel-heading"><h2>Collection</h2><div class="heading-actions"><input id="collection-search" class="collection-search" type="search" placeholder="Find a pet…" aria-label="Find a pet" aria-controls="collection"><span id="collection-count" class="count">01</span><nav id="collection-pager" class="strip-pager" aria-label="More pets in the collection" hidden><button id="collection-prev" type="button" aria-label="Previous pets">←</button><button id="collection-next" type="button" aria-label="More pets">→</button></nav></div></div>
         <div id="collection" class="collection" aria-label="Collection"></div>
+        <p id="collection-empty" class="collection-empty" role="status" hidden>No pets found. Try another name.</p>
       </aside>
       <section id="pose-panel" class="pose-section">
         <div class="panel-heading"><h2>Poses</h2><div class="heading-actions"><span id="pose-count" hidden></span><button id="close-poses" class="icon-button close-button" type="button" aria-label="Close poses">×</button></div></div>
@@ -72,7 +77,7 @@
           <div id="layer-controls" class="control-section switches" hidden><label>Body<input id="show-body" type="checkbox" role="switch" checked></label><label>Head<input id="show-head" type="checkbox" role="switch" checked></label></div>
         </div>
         <p id="motion-note" class="motion-note" hidden>Reduced motion: no inertia or stretch. You can still drag and choose poses.</p>
-        <button id="export-settings" class="button primary">Save settings</button>
+        <button id="export-settings" class="button">Save settings</button>
       </aside>
     </section>
     <div id="notice" role="status" aria-live="polite"></div>

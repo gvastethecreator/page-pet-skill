@@ -1,0 +1,320 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "269a78e80c860654fbc458dc7070cbd767446905becc48c9b2077d7910d373bf",
+    "sheets": {
+      "mascot.webp": "d3a734bacbc42002debc01437f8942c937c8346b46538cfd69e37f641ac4cee3"
+    }
+  },
+  "referenceSha256": "aa23f52dba5826583754ff73317302a6961b216d232b77c3fc40441ebddda8f1",
+  "reviewer": "Codex visual and playground review 2026-09-23",
+  "referenceEvidence": "The reviewed reference and corrected contact sheet preserve the cream folded-paper body, anatomical-right forehead flap, anatomical-left red stamp, tiny eyes, straight mouth and short legs.",
+  "features": {
+    "foreheadFlap": {
+      "side": "right",
+      "evidence": "At the front the large flap is screen-left and becomes the near fold in right-facing views."
+    },
+    "redStamp": {
+      "side": "left",
+      "evidence": "At the front the stamp is screen-right and remains visible on the near side in left-facing views, including strong down."
+    }
+  },
+  "frames": {
+    "gaze-0-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature stays on the far side and occludes naturally",
+        "redStamp": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-1-0": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature stays on the far side and occludes naturally",
+        "redStamp": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-2-0": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "gaze-3-0": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature is the near, more visible landmark",
+        "redStamp": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-4-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature is the near, more visible landmark",
+        "redStamp": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-up-strong-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature stays on the far side and occludes naturally",
+        "redStamp": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-up-strong-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature stays on the far side and occludes naturally",
+        "redStamp": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-up-strong-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "gaze-directions-up-strong-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature is the near, more visible landmark",
+        "redStamp": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-up-strong-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature is the near, more visible landmark",
+        "redStamp": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-up-slight-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature stays on the far side and occludes naturally",
+        "redStamp": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-up-slight-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature stays on the far side and occludes naturally",
+        "redStamp": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-up-slight-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "gaze-directions-up-slight-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature is the near, more visible landmark",
+        "redStamp": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-up-slight-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature is the near, more visible landmark",
+        "redStamp": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-down-slight-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature stays on the far side and occludes naturally",
+        "redStamp": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-down-slight-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature stays on the far side and occludes naturally",
+        "redStamp": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-down-slight-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "gaze-directions-down-slight-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature is the near, more visible landmark",
+        "redStamp": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-down-slight-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature is the near, more visible landmark",
+        "redStamp": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-down-strong-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature stays on the far side and occludes naturally",
+        "redStamp": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-down-strong-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature stays on the far side and occludes naturally",
+        "redStamp": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-down-strong-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "gaze-directions-down-strong-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature is the near, more visible landmark",
+        "redStamp": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-down-strong-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "anatomical-right feature is the near, more visible landmark",
+        "redStamp": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "laugh": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction laugh in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "surprised": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction surprised in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "wink": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction wink in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "kiss": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction kiss in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "blink": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction blink in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "sleep": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction sleep in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "annoyed": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction annoyed in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "sad": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction sad in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "think": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction think in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "wave": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction wave in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "celebrate": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction celebrate in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    },
+    "shy": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction shy in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "foreheadFlap": "forehead flap remains on screen-left",
+        "redStamp": "red stamp remains on screen-right"
+      }
+    }
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "6cef55f9e4e9f56ca39b3cedfeb11573a3dbbb0f0df23a0eb25dae2fea8295c1",
+    "sheets": {
+      "mascot.webp": "d66adb19df5dfb08b4c98d614a0b25aeb383b534fa5183bf0cd6e2164d7b0b6f"
+    }
+  },
+  "referenceSha256": "ea474f57d7d982dee86a03a4b823d18304d98aa9f5dc5050510fe000a7cdeade",
+  "reviewer": "Codex visual and playground review 2026-09-23",
+  "referenceEvidence": "The reviewed reference and contact sheet preserve the lavender ring body, black face, large sleepy anatomical-right eye, small round anatomical-left eye, anatomical-left phone, purple hand and black feet.",
+  "features": {
+    "largeSleepyEye": {
+      "side": "right",
+      "evidence": "At the front it stays on screen-left and becomes the near dominant eye in right-facing views."
+    },
+    "smallRoundEye": {
+      "side": "left",
+      "evidence": "At the front it stays on screen-right and becomes the near eye in left-facing views."
+    },
+    "phone": {
+      "side": "left",
+      "evidence": "The phone stays on anatomical left: screen-right at the front and near the camera when facing screen-left."
+    }
+  },
+  "frames": {
+    "gaze-0-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature stays on the far side and occludes naturally",
+        "smallRoundEye": "anatomical-left feature is the near, more visible landmark",
+        "phone": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-1-0": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature stays on the far side and occludes naturally",
+        "smallRoundEye": "anatomical-left feature is the near, more visible landmark",
+        "phone": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-2-0": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "gaze-3-0": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature is the near, more visible landmark",
+        "smallRoundEye": "anatomical-left feature stays on the far side and occludes naturally",
+        "phone": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-4-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature is the near, more visible landmark",
+        "smallRoundEye": "anatomical-left feature stays on the far side and occludes naturally",
+        "phone": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-up-strong-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature stays on the far side and occludes naturally",
+        "smallRoundEye": "anatomical-left feature is the near, more visible landmark",
+        "phone": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-up-strong-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature stays on the far side and occludes naturally",
+        "smallRoundEye": "anatomical-left feature is the near, more visible landmark",
+        "phone": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-up-strong-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "gaze-directions-up-strong-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature is the near, more visible landmark",
+        "smallRoundEye": "anatomical-left feature stays on the far side and occludes naturally",
+        "phone": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-up-strong-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature is the near, more visible landmark",
+        "smallRoundEye": "anatomical-left feature stays on the far side and occludes naturally",
+        "phone": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-up-slight-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature stays on the far side and occludes naturally",
+        "smallRoundEye": "anatomical-left feature is the near, more visible landmark",
+        "phone": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-up-slight-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature stays on the far side and occludes naturally",
+        "smallRoundEye": "anatomical-left feature is the near, more visible landmark",
+        "phone": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-up-slight-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "gaze-directions-up-slight-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature is the near, more visible landmark",
+        "smallRoundEye": "anatomical-left feature stays on the far side and occludes naturally",
+        "phone": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-up-slight-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature is the near, more visible landmark",
+        "smallRoundEye": "anatomical-left feature stays on the far side and occludes naturally",
+        "phone": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-down-slight-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature stays on the far side and occludes naturally",
+        "smallRoundEye": "anatomical-left feature is the near, more visible landmark",
+        "phone": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-down-slight-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature stays on the far side and occludes naturally",
+        "smallRoundEye": "anatomical-left feature is the near, more visible landmark",
+        "phone": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-down-slight-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "gaze-directions-down-slight-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature is the near, more visible landmark",
+        "smallRoundEye": "anatomical-left feature stays on the far side and occludes naturally",
+        "phone": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-down-slight-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature is the near, more visible landmark",
+        "smallRoundEye": "anatomical-left feature stays on the far side and occludes naturally",
+        "phone": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-down-strong-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature stays on the far side and occludes naturally",
+        "smallRoundEye": "anatomical-left feature is the near, more visible landmark",
+        "phone": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-down-strong-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature stays on the far side and occludes naturally",
+        "smallRoundEye": "anatomical-left feature is the near, more visible landmark",
+        "phone": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-down-strong-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "gaze-directions-down-strong-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature is the near, more visible landmark",
+        "smallRoundEye": "anatomical-left feature stays on the far side and occludes naturally",
+        "phone": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-down-strong-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "anatomical-right feature is the near, more visible landmark",
+        "smallRoundEye": "anatomical-left feature stays on the far side and occludes naturally",
+        "phone": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "laugh": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction laugh in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "surprised": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction surprised in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "wink": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction wink in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "kiss": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction kiss in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "blink": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction blink in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "sleep": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction sleep in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "annoyed": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction annoyed in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "sad": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction sad in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "think": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction think in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "wave": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction wave in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "celebrate": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction celebrate in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    },
+    "shy": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction shy in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "largeSleepyEye": "large sleepy eye remains on screen-left",
+        "smallRoundEye": "small round eye remains on screen-right",
+        "phone": "phone remains on screen-right"
+      }
+    }
+  }
+}

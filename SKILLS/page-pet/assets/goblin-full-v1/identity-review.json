@@ -1,0 +1,361 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "7f3b9cc80fee59b28203aaf0482e4a44699acc2bef449c0d7f15cad54edc8a0c",
+    "sheets": {
+      "mascot.webp": "4cb771d344eac26df50e02a6b5a98f37d13bd12a692174b687e45d9414fbd454"
+    }
+  },
+  "referenceSha256": "5ea65cd5fec4ec53b8e2d9fcc84864073ac30b842d4335fff36b73e40f85ae25",
+  "reviewer": "Codex visual and playground review 2026-09-23",
+  "referenceEvidence": "The reviewed reference and contact sheet preserve the small green goblin, anatomical-left tall upright ear, anatomical-right short drooping ear, anatomical-left single fang, narrow body, long arms and flat feet.",
+  "features": {
+    "tallEar": {
+      "side": "left",
+      "evidence": "At the front the tall ear is screen-right and becomes the near dominant ear in left-facing views."
+    },
+    "droopingEar": {
+      "side": "right",
+      "evidence": "At the front the drooping ear is screen-left and becomes the near ear in right-facing views."
+    },
+    "singleFang": {
+      "side": "left",
+      "evidence": "At the front the fang is screen-right, stays near in left-facing views and hides naturally at full right profile."
+    }
+  },
+  "frames": {
+    "gaze-0-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature is the near, more visible landmark",
+        "droopingEar": "anatomical-right feature stays on the far side and occludes naturally",
+        "singleFang": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-1-0": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature is the near, more visible landmark",
+        "droopingEar": "anatomical-right feature stays on the far side and occludes naturally",
+        "singleFang": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-2-0": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "gaze-3-0": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature stays on the far side and occludes naturally",
+        "droopingEar": "anatomical-right feature is the near, more visible landmark",
+        "singleFang": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-4-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature stays on the far side and occludes naturally",
+        "droopingEar": "anatomical-right feature is the near, more visible landmark",
+        "singleFang": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-up-strong-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature is the near, more visible landmark",
+        "droopingEar": "anatomical-right feature stays on the far side and occludes naturally",
+        "singleFang": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-up-strong-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature is the near, more visible landmark",
+        "droopingEar": "anatomical-right feature stays on the far side and occludes naturally",
+        "singleFang": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-up-strong-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "gaze-directions-up-strong-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature stays on the far side and occludes naturally",
+        "droopingEar": "anatomical-right feature is the near, more visible landmark",
+        "singleFang": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-up-strong-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature stays on the far side and occludes naturally",
+        "droopingEar": "anatomical-right feature is the near, more visible landmark",
+        "singleFang": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-up-slight-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature is the near, more visible landmark",
+        "droopingEar": "anatomical-right feature stays on the far side and occludes naturally",
+        "singleFang": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-up-slight-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature is the near, more visible landmark",
+        "droopingEar": "anatomical-right feature stays on the far side and occludes naturally",
+        "singleFang": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-up-slight-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "gaze-directions-up-slight-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature stays on the far side and occludes naturally",
+        "droopingEar": "anatomical-right feature is the near, more visible landmark",
+        "singleFang": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-up-slight-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature stays on the far side and occludes naturally",
+        "droopingEar": "anatomical-right feature is the near, more visible landmark",
+        "singleFang": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-down-slight-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature is the near, more visible landmark",
+        "droopingEar": "anatomical-right feature stays on the far side and occludes naturally",
+        "singleFang": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-down-slight-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature is the near, more visible landmark",
+        "droopingEar": "anatomical-right feature stays on the far side and occludes naturally",
+        "singleFang": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-down-slight-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "gaze-directions-down-slight-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature stays on the far side and occludes naturally",
+        "droopingEar": "anatomical-right feature is the near, more visible landmark",
+        "singleFang": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-down-slight-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature stays on the far side and occludes naturally",
+        "droopingEar": "anatomical-right feature is the near, more visible landmark",
+        "singleFang": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-down-strong-0": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-left profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature is the near, more visible landmark",
+        "droopingEar": "anatomical-right feature stays on the far side and occludes naturally",
+        "singleFang": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-down-strong-1": {
+      "status": "pass",
+      "evidence": "Reviewed screen-left three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature is the near, more visible landmark",
+        "droopingEar": "anatomical-right feature stays on the far side and occludes naturally",
+        "singleFang": "anatomical-left feature is the near, more visible landmark"
+      }
+    },
+    "gaze-directions-down-strong-2": {
+      "status": "pass",
+      "evidence": "Reviewed front view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "gaze-directions-down-strong-3": {
+      "status": "pass",
+      "evidence": "Reviewed screen-right three-quarter view in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature stays on the far side and occludes naturally",
+        "droopingEar": "anatomical-right feature is the near, more visible landmark",
+        "singleFang": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "gaze-directions-down-strong-4": {
+      "status": "pass",
+      "evidence": "Reviewed full screen-right profile in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "anatomical-left feature stays on the far side and occludes naturally",
+        "droopingEar": "anatomical-right feature is the near, more visible landmark",
+        "singleFang": "anatomical-left feature stays on the far side and occludes naturally"
+      }
+    },
+    "laugh": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction laugh in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "surprised": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction surprised in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "wink": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction wink in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "kiss": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction kiss in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "blink": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction blink in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "sleep": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction sleep in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "annoyed": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction annoyed in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "sad": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction sad in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "think": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction think in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "wave": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction wave in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "celebrate": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction celebrate in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    },
+    "shy": {
+      "status": "pass",
+      "evidence": "Reviewed front reaction shy in the current contact sheet; silhouette, color blocks, floor anchor and named landmarks match the reference.",
+      "features": {
+        "tallEar": "tall ear remains on screen-right",
+        "droopingEar": "drooping ear remains on screen-left",
+        "singleFang": "single fang remains on screen-right"
+      }
+    }
+  }
+}

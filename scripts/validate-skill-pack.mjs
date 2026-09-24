@@ -24,7 +24,12 @@ const required = [
   "SKILLS/page-pet/assets/catalog.json",
   "SKILLS/page-pet/runtime/page-pet.js",
   "SKILLS/page-pet/index.html",
+  "SKILLS/page-pet/brand-icon.png",
+  "SKILLS/page-pet/favicon.ico",
+  "SKILLS/page-pet/favicon-32.png",
+  "SKILLS/page-pet/favicon-180.png",
   "SKILLS/page-pet/site.css",
+  "SKILLS/page-pet/accent.js",
   "SKILLS/page-pet/site.js",
   "SKILLS/page-pet/playground/index.html",
   "SKILLS/page-pet/references/generation.md",
@@ -58,6 +63,7 @@ const py = spawnSync("python", ["-m", "py_compile", ...pythonFiles], { stdio: "i
 if (py.status !== 0) fail("python compile failed");
 
 const jsFiles = [
+  path.join(skill, "accent.js"),
   path.join(skill, "runtime", "page-pet.js"),
   path.join(skill, "runtime", "manifest.js"),
   path.join(skill, "runtime", "motion.js"),

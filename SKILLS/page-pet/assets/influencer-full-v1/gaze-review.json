@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "binding": {
+    "manifest": "6cef55f9e4e9f56ca39b3cedfeb11573a3dbbb0f0df23a0eb25dae2fea8295c1",
+    "sheets": {
+      "mascot.webp": "d66adb19df5dfb08b4c98d614a0b25aeb383b534fa5183bf0cd6e2164d7b0b6f"
+    }
+  },
+  "reviewer": "Codex visual and playground review 2026-09-23",
+  "neighborContinuity": "pass",
+  "runtimeTracking": "pass",
+  "frames": {
+    "gaze-0-0": {
+      "expected": [
+        -1.0,
+        0
+      ],
+      "observed": [
+        -1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Observed full screen-left profile with level pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-1-0": {
+      "expected": [
+        -0.5,
+        0
+      ],
+      "observed": [
+        -0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Observed screen-left three-quarter view with level pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-2-0": {
+      "expected": [
+        0.0,
+        0
+      ],
+      "observed": [
+        0.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Observed front view with level pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-3-0": {
+      "expected": [
+        0.5,
+        0
+      ],
+      "observed": [
+        0.5,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Observed screen-right three-quarter view with level pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-4-0": {
+      "expected": [
+        1.0,
+        0
+      ],
+      "observed": [
+        1.0,
+        0
+      ],
+      "status": "pass",
+      "evidence": "Observed full screen-right profile with level pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-up-strong-0": {
+      "expected": [
+        -1,
+        -1
+      ],
+      "observed": [
+        -1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Observed full screen-left profile with strong upward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-up-strong-1": {
+      "expected": [
+        -0.5,
+        -1
+      ],
+      "observed": [
+        -0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Observed screen-left three-quarter view with strong upward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-up-strong-2": {
+      "expected": [
+        0,
+        -1
+      ],
+      "observed": [
+        0,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Observed front view with strong upward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-up-strong-3": {
+      "expected": [
+        0.5,
+        -1
+      ],
+      "observed": [
+        0.5,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Observed screen-right three-quarter view with strong upward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-up-strong-4": {
+      "expected": [
+        1,
+        -1
+      ],
+      "observed": [
+        1,
+        -1
+      ],
+      "status": "pass",
+      "evidence": "Observed full screen-right profile with strong upward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-up-slight-0": {
+      "expected": [
+        -1,
+        -0.5
+      ],
+      "observed": [
+        -1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Observed full screen-left profile with slight upward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-up-slight-1": {
+      "expected": [
+        -0.5,
+        -0.5
+      ],
+      "observed": [
+        -0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Observed screen-left three-quarter view with slight upward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-up-slight-2": {
+      "expected": [
+        0,
+        -0.5
+      ],
+      "observed": [
+        0,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Observed front view with slight upward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-up-slight-3": {
+      "expected": [
+        0.5,
+        -0.5
+      ],
+      "observed": [
+        0.5,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Observed screen-right three-quarter view with slight upward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-up-slight-4": {
+      "expected": [
+        1,
+        -0.5
+      ],
+      "observed": [
+        1,
+        -0.5
+      ],
+      "status": "pass",
+      "evidence": "Observed full screen-right profile with slight upward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-down-slight-0": {
+      "expected": [
+        -1,
+        0.5
+      ],
+      "observed": [
+        -1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Observed full screen-left profile with slight downward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-down-slight-1": {
+      "expected": [
+        -0.5,
+        0.5
+      ],
+      "observed": [
+        -0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Observed screen-left three-quarter view with slight downward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-down-slight-2": {
+      "expected": [
+        0,
+        0.5
+      ],
+      "observed": [
+        0,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Observed front view with slight downward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-down-slight-3": {
+      "expected": [
+        0.5,
+        0.5
+      ],
+      "observed": [
+        0.5,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Observed screen-right three-quarter view with slight downward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-down-slight-4": {
+      "expected": [
+        1,
+        0.5
+      ],
+      "observed": [
+        1,
+        0.5
+      ],
+      "status": "pass",
+      "evidence": "Observed full screen-right profile with slight downward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-down-strong-0": {
+      "expected": [
+        -1,
+        1
+      ],
+      "observed": [
+        -1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Observed full screen-left profile with strong downward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-down-strong-1": {
+      "expected": [
+        -0.5,
+        1
+      ],
+      "observed": [
+        -0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Observed screen-left three-quarter view with strong downward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-down-strong-2": {
+      "expected": [
+        0,
+        1
+      ],
+      "observed": [
+        0,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Observed front view with strong downward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-down-strong-3": {
+      "expected": [
+        0.5,
+        1
+      ],
+      "observed": [
+        0.5,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Observed screen-right three-quarter view with strong downward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    },
+    "gaze-directions-down-strong-4": {
+      "expected": [
+        1,
+        1
+      ],
+      "observed": [
+        1,
+        1
+      ],
+      "status": "pass",
+      "evidence": "Observed full screen-right profile with strong downward pitch; the unequal eyes and phone establish yaw, and their eye line establishes pitch. The real playground pointer selected this exact frame in the 5x5 traversal."
+    }
+  }
+}
